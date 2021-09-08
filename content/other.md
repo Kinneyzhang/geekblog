@@ -1,3 +1,6 @@
+---
+comment: false
+---
 ### 1. [Moments](/moments) - 记录及时的思考
 
 ### 2. [Plans](/plans) - 记录计划安排

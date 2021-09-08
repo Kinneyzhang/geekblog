@@ -2,6 +2,9 @@
 comment: false
 ---
 
+[Moments](/moments) · [Plans](/plans) · Success · [Habits](/habits)
+
+---
 > **Success - 成功日记**
 
 # 2021-08

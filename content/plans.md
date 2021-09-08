@@ -1,6 +1,10 @@
 ---
 comment: false
 ---
+
+[Moments](/moments) · Plans · [Success](/success) · [Habits](/habits)
+
+---
 > **Plans - 记录计划安排**
 
 # 编程学习

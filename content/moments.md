@@ -2,6 +2,9 @@
 comment: false
 ---
 
+Moments · [Plans](/plans) · [Success](/success) · [Habits](/habits)
+
+---
 > **Moments - 记录及时的思考**
 
 # 2021-08-29 12:10:03

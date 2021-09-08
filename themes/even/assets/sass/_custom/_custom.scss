@@ -1,0 +1,36 @@
+// ==============================
+// Custom style
+// ==============================
+// You can override the variables in _variables.scss to customize the style
+
+@import '_common/normalize';
+
+$global-headings: (
+  h1: 26px,
+  h2: 23px,
+  h3: 20px,
+  h4: 16px,
+  h5: 14px,
+  h6: 14px
+) !default;
+
+.post-content h1{
+    border-bottom: 1.6px solid #eee;
+}
+.post-content h2{
+    border-bottom: 1.6px dashed #eee;
+}
+.post-content h3{
+    border-bottom: 1.4px dotted #eee;
+}
+.post-content h4{
+    border-bottom: 1.0px dotted #eee;
+}
+.post-content h5{
+    border-bottom: 0.8px dotted #eee;
+}
+.post-content h6{
+    border-bottom: 0.5px dotted #eee;
+}
+
+$global-font-color: #111;

@@ -11,9 +11,9 @@ tags: ["数据结构", "算法", "C语言"]
 当我决定用C系统的学习算法的时候，我终于想明白：对于数据结构和算法的实现，很多时候，并不存在所谓的最合理的规范，更多的是不同的思路和代码风格。在保证逻辑没有错误和遗漏的情况下，任何一种实现方法都是可以的。个人偏好形成风格，把握算法本质和实现的功能才是最重要的。在没有了这种心理负担后，我发现自己愈发能够看清数据结构和算法的本质，敲起代码来也顺畅了许多。
 
 
-<a id="orgd038f83"></a>
+<a id="org2ebfc61"></a>
 
-# 数据结构和算法概述
+# 概述
 
 我一直觉得，在学习具体内容前，对一块知识有个整体的认识是很有必要的。首先要了解的概率是 **数据结构** 。数据结构主要分为 逻辑结构 和 物理结构 。逻辑结构指 数据对象中数据元素的相互关系；物理结构指 数据逻辑结构在计算机中的存储方式。
 
@@ -26,9 +26,9 @@ tags: ["数据结构", "算法", "C语言"]
 用哪种程序语言实现都可以，并不影响概念的理解。我选择C，因为C在高级语言中更接近计算机底层，即你可以在使用C的过程中感知到内存的分配和释放。
 
 
-<a id="orga332937"></a>
+<a id="orgffe9bf5"></a>
 
-# 链表、队列和栈
+# 单链表
 
 第一篇，总结一下基础的数据结构：链表、队列和栈。链表、队列和栈都是线性的链式存储结构。我们可以把队列和栈理解为特殊的链表，因此核心的算法实现只有链表。
 
@@ -78,4 +78,98 @@ tags: ["数据结构", "算法", "C语言"]
     void updateByNth(LinkedList* list, int nth, void* newData);
     void updateByData(LinkedList* list, COMPARE compare, void* data, void* newData);
 
-开头定义了两个函数指针，用于数据比较和打印。注释了"main"的是核心方法，其余方法都可以通过复用这些核心方法来实现。
+开头定义了两个函数指针，用于数据比较和链表打印。注释了"main"的是核心方法，其余方法都可以通过复用这些核心方法来实现。
+
+
+<a id="orgfba2876"></a>
+
+# 注意点
+
+裸敲一遍链表代码经常会遇到很多bug。有bug不代表你对这个数据结构的原理和操作不熟悉，但能够说明缺少些代码实现的经验，这些经验就是在不断的敲代码和调试bug中积累的。所以，不要怕遇到bug，每一个bug都是进步的机会。下面我总结了自己的经验，和你分享：
+
+-   每个节点(Node)的数据和指针都要被赋值：这一点尤其是在双向链表的实现中，由于每个节点都有前驱和后继指针，在节点操作的过程中容易遗漏。
+
+-   边界条件考虑：链表算法实现最容易犯的错误是对头尾节点的考虑不全面。有的实现中会额外增加一个头部的哨兵节点来排除一些边界情况。我的实现中就用了最原始的链表结构，因此要考虑边界情况。其实总结起来也并不复杂：如果链表的头尾节点发生了变化，需要更新链表的头尾指针。
+    
+    一个典型的例子是删除节点的操作，我借此来讲解如何分析：
+    
+    首先我们简单的思考一下，可以得出结论：
+    
+    1.  删除头节点，需要更新头指针；删除尾节点，需要更新尾指针；删除中间节点，不需要更新链表的头尾指针。
+    2.  删除头节点，不需要更新相关节点的next指针；删除中间节点和尾节点都需要更新前一个节点的next指针，单链表需要遍历才能拿的这个前驱节点。
+    3.  只有一个节点，且删除的就是该节点时，头尾指针要置空。
+    
+    综合上面的考虑，合并一下逻辑，代码可以分为两块：删除的就是头节点 和 删除的是非头节点。其中删除头节点又分为 只有一个节点 和 多个节点的情况；删除非头节点分为：删除的是 中间节点 和 尾节点 两种情况。代码如下：
+    
+        void* deleteNode(LinkedList* list, Node* node) {
+          if (node != NULL) {
+            Node* curr = list->head;
+            if (curr == node) {
+              if (curr->next == NULL) {
+                list->head = list->tail = NULL;
+              } else {
+                list->head = curr->next;
+              }
+            } else {
+              while (curr != NULL && curr->next != node) {
+                curr = curr->next;
+              }
+              if (curr != NULL) {
+                if (node == list->tail) {
+                  list->tail = curr;
+                }
+                curr->next = node->next;
+              }
+            }
+            void* data = node->data;
+            free(node);
+            return data;
+          }
+          return NULL;
+        }
+    
+    同时，删除节点的最后要释放掉内存。
+
+-   插入节点时，避免丢失剩余节点：实现插入节点时，新手容易犯的错误就是提前断开链表节点的next指针，导致丢失了后面的节点。解决方法是：先将要插入的节点的next指针指到链表上，再将链表上的节点的next指向插入的节点。
+
+
+<a id="org01f3287"></a>
+
+# 队列和栈
+
+队列和栈的结构与链表一致，只是数据操作的方式有特殊的规定。因此可以复用链表的方法。
+
+队列：先进先出。入队列相当于从链尾插入一个节点，出队列相当于从链头删除一个节点。
+栈：后进先出。入栈相当于从链尾插入一个节点，出栈相当于从链尾删除一个节点。
+
+队列和链表的结构、方法定义如下：
+
+    // 队列
+    #include "linkedlist.h"
+    typedef LinkedList Queue;
+    
+    void initQueue (Queue* queue);
+    bool isQueueEmpty (Queue* queue);
+    int queueLength (Queue* queue);
+    void enqueue (Queue* queue, void* data);
+    void* dequeue (Queue* queue);
+    void printQueue (Queue* queue, PRINT print);
+    
+    // 栈
+    #include "linkedlist.h"
+    typedef LinkedList Stack;
+    
+    void initStack (Stack* stack);
+    bool isStackEmpty (Stack* stack);
+    int stackLength (Stack* stack);
+    void push (Stack* stack, void* data);
+    void* pop (Stack* stack);
+    void* peek (Stack* stack);
+    void printStack (Stack* stack, PRINT print);
+
+
+<a id="org8822a14"></a>
+
+# 完整代码
+
+链表、队列和栈所有代码实现查看 [Github](https://github.com/Kinneyzhang/LangC/tree/main/C-Algorithm/LinkedList) 。

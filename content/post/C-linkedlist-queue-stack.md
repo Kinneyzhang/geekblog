@@ -1,5 +1,5 @@
 ---
-title: "C算法|链表、队列和栈"
+title: "C算法: 链表、队列和栈"
 date: 2022-04-08
 draft: false
 categories: ["数据结构与算法"]

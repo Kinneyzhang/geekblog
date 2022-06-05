@@ -14,8 +14,11 @@ toc: true
 - [Pp-html](https://github.com/Kinneyzhang/pp-html) - A html template language in Emacs-Lisp.
 
 # 友链
-- [Spaceack’s Blog](https://spaceack.com/): 博客用于生活，计算机技术的积累与分享。 有所积累，有所遗忘，有所成长。
+| 博客                                     | 描述                                                                  |
+|:-----------------------------------------|:----------------------------------------------------------------------|
+| [Spaceack’s Blog](https://spaceack.com/) | 博客用于生活，计算机技术的积累与分享。 有所积累，有所遗忘，有所成长。 |
 
+<br>
 如需添加友链，请在本页面底部留言，留言格式：
 
     名称：戈楷旎

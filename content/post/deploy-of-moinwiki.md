@@ -8,7 +8,7 @@ tags: ["moin", "wiki", "部署"]
 
 MoinMoin 是一个基于Python环境的wiki引擎程序。本篇主要简单记录部署流程和遇到的坑。
 
-## 概念介绍
+# 概念介绍
 
 部署之前先来了解几个概念：
 
@@ -22,7 +22,7 @@ MoinMoin 是一个基于Python环境的wiki引擎程序。本篇主要简单记�
 
 因此部署 moinwiki，我们需要做的就是安装和配置好 nginx 和 uwsgi。如何安装就不介绍了，主要贴一下两者的配置。
 
-## moinwiki 目录结构
+# moinwiki 目录结构
 
 moin源码下载后来后，我们需要重新组织一下需要用到的文件的目录结构，然后改变相关文件中变量路径，保证和实际的路径一致。
 
@@ -43,7 +43,7 @@ moin源码下载后来后，我们需要重新组织一下需要用到的文件�
 - mywiki/moin.wsgi
 - mywiki/htdocs
 
-## moinwiki 配置
+# moinwiki 配置
 
 接下来修改 wikiconfig.py 的配置：必须要设置的变量有 `data_dir`, `data_underlay_dir`, 通过这两个变量找到 data 和 underlay 目录的路径。其余变量根据需求设置，每个变量配置中都有详细的解释。
 
@@ -53,7 +53,7 @@ moin源码下载后来后，我们需要重新组织一下需要用到的文件�
 
 事实上，你可以以任意的结构组织 moinwiki 的目录，只需要在 `wikiconfig.py` 和 `moin_wsgi.py` 中配置好对应的路径，确保外围的 `uwsgi.ini` 文件可以找到 `moin_wsgi.py`，`moin_wsgi.py` 可以找到 `wikiconfig.py`。
 
-## uWSGI 配置
+# uWSGI 配置
 在 mywiki 目录中创建 `uwsgi.ini` 文件 和 `uwsgi`目录。`uwsgi.ini`文件是uwsgi的配置文件，`uwsgi`文件夹用来存放uwsgi相关的等文件，比如日志等。
 
 
@@ -72,7 +72,7 @@ moin源码下载后来后，我们需要重新组织一下需要用到的文件�
     pidfile = %(chdir)/uwsgi/uwsgi.pid
     die-on-term
 
-## Nginx 配置
+# Nginx 配置
 
 建议在 nginx/conf.d 目录中单独建立 moin.conf 文件，该文件会自动被包含在 nginx 的主配置文件 nginx/nginx.conf 中
 
@@ -101,7 +101,7 @@ moin源码下载后来后，我们需要重新组织一下需要用到的文件�
       }
     }
 
-## 运行
+# 运行
 1. 运行uwsgi: `sudo uwsgi -d --ini uwsgi.ini`
 2. 运行nginx: `sudo systemctl start nginx`
 3. 停止uwsgi: `sudo pkill -f uwsgi -9`
@@ -111,7 +111,7 @@ moin源码下载后来后，我们需要重新组织一下需要用到的文件�
 
 每次修改了配置，需要重启 uwsgi 和 nginx。
 
-## 总结
+# 总结
 1. 官方文档：https://moinmo.in/ 。
 2. 遇到问题，多看日志。本例中，uwsgi的日志是 `/path/to/mywiki/uwsgi/uwsgi.log`；nginx的日志是 `/var/log/nginx/moin.error_log`。
 3. 日志中出现权限问题，除了是文件本身权限问题，检查一下相关目录是否已经创建。比如本例中的 `/run/uwsgi/`, `/path/to/mywiki/uwsgi`等，请务必检查已经创建。

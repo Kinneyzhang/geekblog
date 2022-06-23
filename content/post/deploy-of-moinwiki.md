@@ -1,5 +1,5 @@
 ---
-title: "MoinWiki部署总结"
+title: "MoinWiki 部署总结"
 date: 2022-06-23
 draft: false
 categories: ["技术总结"]

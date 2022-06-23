@@ -56,53 +56,50 @@ moin源码下载后来后，我们需要重新组织一下需要用到的文件�
 ## uWSGI 配置
 在 mywiki 目录中创建 `uwsgi.ini` 文件 和 `uwsgi`目录。`uwsgi.ini`文件是uwsgi的配置文件，`uwsgi`文件夹用来存放uwsgi相关的等文件，比如日志等。
 
-```text
-[uwsgi]
-chmod-socket = 660
-chdir = /path/to/mywiki # moinwiki 实例目录，修改实际使用的路径
-wsgi-file = moin_wsgi.py # moinwiki和wsgi 通信的文件
-master
-workers = 3
-socket = /run/uwsgi/moin.sock # 和nginx中的配置一致
-plugins = python
-max-requests = 200
-harakiri = 30
-daemonize = %(chdir)/uwsgi/uwsgi.log
-stats = %(chdir)/uwsgi/uwsgi.status
-pidfile = %(chdir)/uwsgi/uwsgi.pid
-die-on-term
-```
+
+    [uwsgi]
+    chmod-socket = 660
+    chdir = /path/to/mywiki # moinwiki 实例目录，修改实际使用的路径
+    wsgi-file = moin_wsgi.py # moinwiki和wsgi 通信的文件
+    master
+    workers = 3
+    socket = /run/uwsgi/moin.sock # 和nginx中的配置一致
+    plugins = python
+    max-requests = 200
+    harakiri = 30
+    daemonize = %(chdir)/uwsgi/uwsgi.log
+    stats = %(chdir)/uwsgi/uwsgi.status
+    pidfile = %(chdir)/uwsgi/uwsgi.pid
+    die-on-term
 
 ## Nginx 配置
 
 建议在 nginx/conf.d 目录中单独建立 moin.conf 文件，该文件会自动被包含在 nginx 的主配置文件 nginx/nginx.conf 中
 
-`
-upstream moin {
-  server unix:/run/uwsgi/moin.sock; # 文件目录不存在时需要手动创建
-}
+    upstream moin {
+      server unix:/run/uwsgi/moin.sock; # 文件目录不存在时需要手动创建
+    }
 
-server {
-  listen 8088;  # 修改为实际使用的端口
-  server_name 10.19.33.136;  # 修改为实际使用的服务器IP或域名
+    server {
+      listen 8088;  # 修改为实际使用的端口
+      server_name 10.19.33.136;  # 修改为实际使用的服务器IP或域名
 
-  access_log /var/log/nginx/moin.access_log main;
-  error_log /var/log/nginx/moin.error_log info; # 错误日志，对于问题调试很有帮助
+      access_log /var/log/nginx/moin.access_log main;
+      error_log /var/log/nginx/moin.error_log info; # 错误日志，对于问题调试很有帮助
 
-  location / {
-    include uwsgi_params;
-    uwsgi_pass moin;
-  }
+      location / {
+        include uwsgi_params;
+        uwsgi_pass moin;
+      }
 
-  location ~ ^/moin_static[0-9]+/(.*) {
-    alias /path/to/mywiki/htdocs/$1; # /path/to/修改为实际目录
-  }
+      location ~ ^/moin_static[0-9]+/(.*) {
+        alias /path/to/mywiki/htdocs/$1; # /path/to/修改为实际目录
+      }
 
-  location /favicon.ico {
-    alias /path/to/mywiki/htdocs/favicon.ico; # /path/to/修改为实际目录
-  }
-}
-`
+      location /favicon.ico {
+        alias /path/to/mywiki/htdocs/favicon.ico; # /path/to/修改为实际目录
+      }
+    }
 
 ## 运行
 1. 运行uwsgi: `sudo uwsgi -d --ini uwsgi.ini`

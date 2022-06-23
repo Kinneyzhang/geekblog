@@ -12,11 +12,11 @@ MoinMoin 是一个基于Python环境的wiki引擎程序。本篇主要简单记�
 
 部署之前先来了解几个概念：
 
-- WSGI: 全称是 Python Web Server Gateway Interface（Python Web服务器网关接口），它为python web应用 和 web服务器之间的通信提供了标准接口。本质是一个通信协议。WSGI 对 Python 的意义就如同 Servlets 对 Java。
+- **WSGI**: 全称是 Python Web Server Gateway Interface（Python Web服务器网关接口），它为python web应用 和 web服务器之间的通信提供了标准接口。本质是一个通信协议。WSGI 对 Python 的意义就如同 Servlets 对 Java。
   
-- uWSGI: uWSGI是一个是实现了WSGI协议的web服务器。
+- **uWSGI**: uWSGI是一个是实现了WSGI协议的web服务器。
 
-- nginx: Nginx是一个开源的高性能的HTTP和反向代理web服务器，支持负载均衡、高并发和高效处理静态文件。
+- **nginx**: Nginx是一个开源的高性能的HTTP和反向代理web服务器，支持负载均衡、高并发和高效处理静态文件。
   
 一个典型的python应用的部署方式是：http 请求发送到 nginx服务器，如果请求的是静态资源，nginx可以直接读取返回资源；如果是动态资源，就转交给 uWSGI服务器，uwsgi 和 python应用通信后返回资源给uwsgi，再返回给nginx，最后由nginx返回给浏览器。
 

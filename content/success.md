@@ -17,7 +17,7 @@ comment: false
 3. 健身房跑步半小时。
 4. 晚上没有加班，太累了，回去睡了一觉。
 5. 醒来后学习南大操作系统课：并发编程的理解和互斥算法。
-6. To be honest, it's about ten, maybe more times that I woke up to check if received replies from someone in WeChat and everytime I got none. I must be insane to do such a stupid and foolish thing... A man with rational mind won't do that and I won't do this any more.
+6. To be honest, it's about ten, maybe more times that I woke up to check if received replies from someone in WeChat and everytime I got none. I must be insane to do such a stupid and foolish thing... A man with rational mind won't do that and I won't do this any more!
 ## 2022-06-21 Tue
 1. 5点半起床，做午饭、看书。
 2. 看英文书遇到生词打开手机去查，感觉还是很不方便的。考虑是否需要买个字典笔。

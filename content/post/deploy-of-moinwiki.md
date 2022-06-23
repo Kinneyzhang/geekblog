@@ -56,7 +56,7 @@ moin源码下载后来后，我们需要重新组织一下需要用到的文件�
 ## uWSGI 配置
 在 mywiki 目录中创建 `uwsgi.ini` 文件 和 `uwsgi`目录。`uwsgi.ini`文件是uwsgi的配置文件，`uwsgi`文件夹用来存放uwsgi相关的等文件，比如日志等。
 
-```
+```text
 [uwsgi]
 chmod-socket = 660
 chdir = /path/to/mywiki # moinwiki 实例目录，修改实际使用的路径

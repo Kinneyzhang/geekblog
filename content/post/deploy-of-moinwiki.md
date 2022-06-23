@@ -77,7 +77,7 @@ die-on-term
 
 建议在 nginx/conf.d 目录中单独建立 moin.conf 文件，该文件会自动被包含在 nginx 的主配置文件 nginx/nginx.conf 中
 
-```
+```text
 upstream moin {
   server unix:/run/uwsgi/moin.sock; # 文件目录不存在时需要手动创建
 }

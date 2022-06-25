@@ -35,20 +35,26 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 #   url = "/"
 
 [[menu.main]]
+  name = "记录"
+  weight = 5
+  identifier = "other"
+  url = "/success/"
+  
+[[menu.main]]
   name = "归档"
   weight = 10
   identifier = "archives"
   url = "/post/"
-[[menu.main]]
-  name = "分类"
-  weight = 20
-  identifier = "categories"
-  url = "/categories/"
-[[menu.main]]
-  name = "标签"
-  weight = 30
-  identifier = "tags"
-  url = "/tags/"
+# [[menu.main]]
+#   name = "分类"
+#   weight = 20
+#   identifier = "categories"
+#   url = "/categories/"
+# [[menu.main]]
+#   name = "标签"
+#   weight = 30
+#   identifier = "tags"
+#   url = "/tags/"
 [[menu.main]]
   name = "关于"
   weight = 40
@@ -59,11 +65,6 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 #   weight = 45
 #   identifier = "para"
 #   url = "/para/project/"
-[[menu.main]]
-  name = "记录"
-  weight = 50
-  identifier = "other"
-  url = "/success/"
 # [[menu.main]]
 #   name = "Moments"
 #   weight = 50

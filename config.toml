@@ -60,10 +60,10 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 #   identifier = "para"
 #   url = "/para/project/"
 [[menu.main]]
-  name = "其他"
+  name = "记录"
   weight = 50
   identifier = "other"
-  url = "/moments/"
+  url = "/success/"
 # [[menu.main]]
 #   name = "Moments"
 #   weight = 50

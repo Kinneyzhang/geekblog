@@ -39,16 +39,16 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   weight = 10
   identifier = "archives"
   url = "/post/"
-[[menu.main]]
-  name = "分类"
-  weight = 20
-  identifier = "categories"
-  url = "/categories/"
-[[menu.main]]
-  name = "标签"
-  weight = 30
-  identifier = "tags"
-  url = "/tags/"
+# [[menu.main]]
+#   name = "分类"
+#   weight = 20
+#   identifier = "categories"
+#   url = "/categories/"
+# [[menu.main]]
+#   name = "标签"
+#   weight = 30
+#   identifier = "tags"
+#   url = "/tags/"
 [[menu.main]]
   name = "关于"
   weight = 40
@@ -91,8 +91,8 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
   logoTitle = "Happy Hacking"        # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["Emacs", "Elisp", "hacker"]
-  description = "Hugo theme even example site."
+  keywords = ["Emacs", "CS", "hacker", "everything"]
+  description = "记录技术和生活"
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
   archivePaginate = 50

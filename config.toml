@@ -60,11 +60,11 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   weight = 40
   identifier = "about"
   url = "/about/"
-# [[menu.main]]
-#   name = "PARA"
-#   weight = 45
-#   identifier = "para"
-#   url = "/para/project/"
+[[menu.main]]
+  name = "视频"
+  weight = 45
+  identifier = "video"
+  url = "/videos/"
 # [[menu.main]]
 #   name = "Moments"
 #   weight = 50

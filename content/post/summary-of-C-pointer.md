@@ -105,17 +105,17 @@ tags: ["指针","C语言"]
 
 *几种指针的定义：*
 
-1. 指向常量的指针：
+- 指向常量的指针：
 
         const int a = 2;
         const int *ptr = &a; // 等价：int const *ptr = &a;
 
-2. 指向非常量的常量指针：
+- 指向非常量的常量指针：
 
         int a = 2;
         int *const ptr = &a;
 
-3. 指向常量的常量指针：
+- 指向常量的常量指针：
 
         const int a = 2;
         const int *const ptr = &a;

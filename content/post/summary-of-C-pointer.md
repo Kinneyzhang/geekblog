@@ -108,7 +108,7 @@ tags: ["指针","C语言"]
 1. 指向常量的指针：
 
         const int a = 2;
-        const int *ptr = &a; (int const *ptr = &a;)
+        const int *ptr = &a; // 等价：int const *ptr = &a;
 
 2. 指向非常量的常量指针：
 

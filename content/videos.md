@@ -26,9 +26,12 @@ comment: false
 那些愉悦我、感动我、激励我的歌曲和MV。
 
 # RAM WIRE - 尽管我们的手中空无一物
+
 <div class="iframe-container">
-  <iframe src="//player.bilibili.com/player.html?aid=4240754&bvid=BV1gs411z7Mc&cid=6854979&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+  <iframe src="//player.bilibili.com/player.html?aid=4421123&bvid=BV1ds411z7Av&cid=7162065&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </div>
+
+<!-- <iframe src="//player.bilibili.com/player.html?aid=4240754&bvid=BV1gs411z7Mc&cid=6854979&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe> -->
 
 # 未闻花名 ED - Secret Base
 <div class="iframe-container">

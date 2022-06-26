@@ -39,7 +39,6 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   weight = 5
   identifier = "other"
   url = "/success/"
-  
 [[menu.main]]
   name = "归档"
   weight = 10
@@ -65,21 +64,6 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   weight = 45
   identifier = "video"
   url = "/videos/"
-# [[menu.main]]
-#   name = "Moments"
-#   weight = 50
-#   identifier = "moments"
-#   url = "/moments/"
-# [[menu.main]]
-#   name = "Plans"
-#   weight = 60
-#   identifier = "plans"
-#   url = "/plans/"
-# [[menu.main]]
-#   name = "Success"
-#   weight = 70
-#   identifier = "success"
-#   url = "/success/"
 
 [params]
   version = "4.x"           # Used to give a friendly message when you have an incompatible update

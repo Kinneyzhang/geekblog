@@ -10,47 +10,6 @@ tags: ["排序", "算法", "C语言"]
 
 # 算法实现
 
-## 插入排序
-
-    #include <stdlib.h>
-    #include <stdio.h>
-
-    void insertSort (int a[], int size) {
-      for (int i=1; i<size; i++) {
-        int t = a[i];
-        for (int j=i-1; j>=0; j--) {
-          if (t > a[j])
-            break;
-          else {
-            a[j+1] = a[j];
-            a[j] = t;
-          }
-        }
-      }
-    }
-
-    int main () {
-      /* int a[8] = {4, 2, 5, 7, 1, 3, 9, 0}; */
-      int a[8] = {9, 8, 7, 6, 5, 4, 3, 2};
-      int size = 8;
-
-      printf("Before sort: ");
-      for (int i=0; i<size; i++) {
-        printf("%d ", a[i]);
-      }
-      
-      printf("\n");
-
-      insertSort(a, size);
-      printf("After sort:  ");
-      for (int i=0; i<size; i++) {
-        printf("%d ", a[i]);
-      }
-
-      printf("\n");
-    }
-
-
 ## 选择排序
 
     #include <stdlib.h>
@@ -91,7 +50,45 @@ tags: ["排序", "算法", "C语言"]
       printf("\n");
     }
 
+## 插入排序
 
+    #include <stdlib.h>
+    #include <stdio.h>
+
+    void insertSort (int a[], int size) {
+      for (int i=1; i<size; i++) {
+        int t = a[i];
+        for (int j=i-1; j>=0; j--) {
+          if (t > a[j])
+            break;
+          else {
+            a[j+1] = a[j];
+            a[j] = t;
+          }
+        }
+      }
+    }
+
+    int main () {
+      /* int a[8] = {4, 2, 5, 7, 1, 3, 9, 0}; */
+      int a[8] = {9, 8, 7, 6, 5, 4, 3, 2};
+      int size = 8;
+
+      printf("Before sort: ");
+      for (int i=0; i<size; i++) {
+        printf("%d ", a[i]);
+      }
+      
+      printf("\n");
+
+      insertSort(a, size);
+      printf("After sort:  ");
+      for (int i=0; i<size; i++) {
+        printf("%d ", a[i]);
+      }
+
+      printf("\n");
+    }
 
 ## 冒泡排序
 

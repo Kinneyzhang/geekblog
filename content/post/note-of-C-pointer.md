@@ -1,7 +1,7 @@
 ---
 title: "《深入理解C指针》笔记"
 date: 2022-04-20
-draft: false
+draft: true
 categories: ["技术笔记"]
 tags: ["指针","C语言","笔记"]
 ---

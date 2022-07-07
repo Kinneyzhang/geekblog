@@ -5,7 +5,7 @@ comment: false
 <style>
 .gk-img {
   border: 1px solid #aaa; 
-  padding: .5em;
+  padding: .3em;
 }
 .gk-container1 {
   display:inline;

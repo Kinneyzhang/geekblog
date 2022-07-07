@@ -30,12 +30,12 @@ comment: false
 .gk-container2 {
   <!-- column-count: 0; -->
   <!-- column-gap: 0; -->
-  padding-left: 1em;
+  padding-left: .8em;
   padding-right: 1em;
   <!-- text-align: center; -->
 }
 .gk-img {
-  margin: .5em 1em 0 1em;
+  margin: .5em 1em 0 .5em;
   border: 1px solid #aaa;
   border-radius: .2em;
   padding: .2em;

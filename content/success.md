@@ -16,11 +16,15 @@ comment: false
 .gk-container2 {
   column-count: 2;
   column-gap: 10px;
+  padding-left: 1em;
+  padding-right: 1em;
 }}
 @media screen and (max-width: 400px) {
 .gk-container2 {
   column-count: 0;
   column-gap: 10px;
+  padding-left: 1em;
+  padding-right: 1em;
   //column-rule: 1px dotted #999;
 }}
 </style>

@@ -30,7 +30,7 @@ comment: false
 3. 健身房跑步半小时。
 4. 算法学习，解决 mergeSort 的 bug。
 
-![](https://s3.bmp.ovh/imgs/2022/07/07/9514c48e27067a32.jpg)
+<img src = 'https://s3.bmp.ovh/imgs/2022/07/07/9514c48e27067a32.jpg' />
 
 ## 2022-07-04 Mon
 1. 错单分发代码开发。

@@ -19,6 +19,7 @@ comment: false
   column-gap: .5em;
   column-rule: 1px dotted #999;
   padding-left: 1em;
+  padding-right: 1em;
 }}
 @media screen and (max-width: 800px) {
 .gk-container2 {

@@ -17,8 +17,8 @@ comment: false
   padding-right: 1em;
   text-align: center;
 }
-.gk-container2 img {
-  margin: 0 .3em 0 0;
+.gk-img {
+  margin: 0 .2em 0 0;
   border: 1px solid #aaa;
   border-radius: .2em;
   padding: .3em;
@@ -38,7 +38,7 @@ comment: false
   margin: .3em 1em 0 1em;
   border: 1px solid #aaa;
   border-radius: .2em;
-  padding: .3em;
+  padding: .2em;
   display: inline;
   width: 100%;
 }}

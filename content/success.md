@@ -24,7 +24,7 @@ comment: false
   display: inline;
   width: 45%;
 }
-.gk-container2 .gk-img:first-child {
+.gk-container2 .gk-img:nth-child(1) {
   margin: 0 .3em 0 1em;
   border: 1px solid #aaa;
   border-radius: .2em;

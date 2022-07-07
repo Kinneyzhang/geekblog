@@ -13,8 +13,8 @@ comment: false
 .gk-container2 {
   <!-- column-count: 2; -->
   <!-- column-gap: .5em; -->
-  padding-left: 2em;
-  padding-right: 1em;
+  <!-- padding-left: 2em; -->
+  <!-- padding-right: 1em; -->
   text-align: center;
 }
 .gk-container2 img {
@@ -24,15 +24,15 @@ comment: false
   padding: .3em;
   display: inline;
   width: 45%;
-}
-}
+}}
 
 @media screen and (max-width: 600px) {
 .gk-container2 {
   <!-- column-count: 0; -->
   <!-- column-gap: 0; -->
-  padding-left: 1.5em;
-  padding-right: 1em;
+  <!-- padding-left: 1.5em; -->
+  <!-- padding-right: 1em; -->
+  text-align: center;
 }
 .gk-img {
   margin: .3em 1em 0 1em;

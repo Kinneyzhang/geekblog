@@ -39,7 +39,7 @@ comment: false
   border: 1px solid #aaa;
   border-radius: .2em;
   padding: .2em;
-  display: inline;
+  <!-- display: inline; -->
   width: 100%;
 }}
 </style>

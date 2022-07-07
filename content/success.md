@@ -16,6 +16,7 @@ comment: false
 .gk-container2 {
   column-count: 2;
   column-gap: 10px;
+  column-rule: 1px dotted #999;
   padding-left: 1em;
   padding-right: 1em;
 }}
@@ -25,7 +26,6 @@ comment: false
   column-gap: 10px;
   padding-left: 1em;
   padding-right: 1em;
-  column-rule: 1px dotted #999;
 }}
 </style>
 

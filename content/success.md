@@ -17,7 +17,15 @@ comment: false
   padding-right: 1em;
 }
 .gk-img {
-  margin: 0 .3em 0 0em;
+  margin: 0 .3em 0 0;
+  border: 1px solid #aaa;
+  border-radius: .2em;
+  padding: .3em;
+  display: inline;
+  width: 45%;
+}
+.gk-container2 .gk-img:first-child {
+  margin: 0 .3em 0 1em;
   border: 1px solid #aaa;
   border-radius: .2em;
   padding: .3em;

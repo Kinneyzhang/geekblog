@@ -52,8 +52,8 @@ comment: false
 5. 睡前练了一会儿尤克里里。
 ## 2022-07-05 Tue
 <div class="gk-container2">
-<img class="gk-img" src='https://s3.bmp.ovh/imgs/2022/07/07/9514c48e27067a32.jpg' width="100%" />
-<img class="gk-img" src = 'https://s3.bmp.ovh/imgs/2022/07/07/056461ffbe8864a4.jpg' />
+<img class="gk-img" src='https://s3.bmp.ovh/imgs/2022/07/07/9514c48e27067a32.jpg' />
+<img class="gk-img" src='https://s3.bmp.ovh/imgs/2022/07/07/056461ffbe8864a4.jpg' />
 </div>
 
 1. 中午做了顿饭：黑米鸡蛋炒饭，白瓜炒豆角，蟠桃。

@@ -20,7 +20,7 @@ comment: false
   border: 1px solid #aaa; 
   padding: .3em;
   display: inline;
-  width: 50%;
+  width: 45%;
 }}
 
 @media screen and (max-width: 1000px) {
@@ -62,8 +62,8 @@ comment: false
 5. 睡前练了一会儿尤克里里。
 ## 2022-07-05 Tue
 <div class="gk-container2">
-<img class="gk-img" src="https://s1.imagehub.cc/images/2022/07/07/220705.jpg" alt="午餐1" border="0" width="80%">
-<img class="gk-img" src="https://s1.imagehub.cc/images/2022/07/07/2207052.jpg" alt="午餐2" border="0" width="80%">
+<img class="gk-img" src="https://s1.imagehub.cc/images/2022/07/07/220705.jpg" alt="午餐1">
+<img class="gk-img" src="https://s1.imagehub.cc/images/2022/07/07/2207052.jpg" alt="午餐2">
 </div>
 
 1. 中午做了顿饭：黑米鸡蛋炒饭，白瓜炒豆角，蟠桃。

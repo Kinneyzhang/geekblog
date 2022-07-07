@@ -2,7 +2,7 @@
 comment: false
 ---
 
-<style>
+<style type="text/css">
 .gk-container1 {
   display:inline;
   padding-left: 1em;

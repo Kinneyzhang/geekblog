@@ -3,30 +3,38 @@ comment: false
 ---
 
 <style>
-.gk-img {
-  border: 1px solid #aaa; 
-  padding: .3em;
-  display: inline;
-}
 .gk-container1 {
   display:inline;
   padding-left: 1em;
   padding-right: 1em;
 }
+
 @media screen and (min-width: 1000px) {
 .gk-container2 {
-  column-count: 2;
-  column-gap: .5em;
-  // column-rule: 1px dotted #999;
+  <!-- column-count: 2; -->
+  <!-- column-gap: .5em; -->
   padding-left: 1em;
   padding-right: 1em;
+}
+.gk-img {
+  border: 1px solid #aaa; 
+  padding: .3em;
+  display: inline;
+  width: 50%;
 }}
+
 @media screen and (max-width: 1000px) {
 .gk-container2 {
-  column-count: 0;
-  column-gap: 0;
+  <!-- column-count: 0; -->
+  <!-- column-gap: 0; -->
   padding-left: 1em;
   padding-right: 1em;
+}
+.gk-img {
+  border: 1px solid #aaa; 
+  padding: .3em;
+  display: inline;
+  width: 100%;
 }}
 </style>
 

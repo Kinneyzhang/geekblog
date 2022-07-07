@@ -16,7 +16,7 @@ comment: false
   padding-left: 2em;
   padding-right: 1em;
 }
-.gk-container2 .gk-img:not(:first-child) {
+.gk-container2 img:not(:first-child) {
   margin: 0 .3em 0 0;
   border: 1px solid #aaa;
   border-radius: .2em;
@@ -24,6 +24,15 @@ comment: false
   display: inline;
   width: 45%;
 }
+
+<!-- .gk-container2 .gk-img:nth-of-type(1) { -->
+<!--   margin: 0 .3em 0 1em; -->
+<!--   border: 1px solid #aaa; -->
+<!--   border-radius: .2em; -->
+<!--   padding: .3em; -->
+<!--   display: inline; -->
+<!--   width: 45%; -->
+<!-- } -->
 
 }
 

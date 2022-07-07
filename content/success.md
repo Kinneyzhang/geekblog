@@ -15,15 +15,15 @@ comment: false
 @media screen and (min-width: 1000px) {
 .gk-container2 {
   column-count: 2;
-  column-gap: 1em;
+  column-gap: .5em;
   column-rule: 1px dotted #999;
   padding-left: 1em;
   padding-right: 1em;
 }}
 @media screen and (max-width: 1000px) {
 .gk-container2 {
-  column-count: 0;
-  column-gap: 0;
+  <!-- column-count: 0; -->
+  <!-- column-gap: 0; -->
   padding-left: 1em;
   padding-right: 1em;
 }}

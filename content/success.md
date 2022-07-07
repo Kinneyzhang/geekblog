@@ -20,7 +20,7 @@ comment: false
   padding-left: 1em;
   padding-right: 1em;
 }}
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
 .gk-container2 {
   column-count: 0;
   column-gap: 1em;

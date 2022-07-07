@@ -5,6 +5,8 @@ comment: false
 <style>
 .gk-container1 {
   display:inline;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 @media screen and (min-width: 1000px) {
 .gk-container2 {
@@ -47,7 +49,7 @@ comment: false
 5. 睡前练了一会儿尤克里里。
 ## 2022-07-05 Tue
 <div class="gk-container1">
-&emsp;<img class="gk-img" src='https://s3.bmp.ovh/imgs/2022/07/07/9514c48e27067a32.jpg' width="50%" />
+<img class="gk-img" src='https://s3.bmp.ovh/imgs/2022/07/07/9514c48e27067a32.jpg' width="50%" />
 </div>
 
 1. 中午做了顿饭：黑米鸡蛋炒饭，白瓜炒豆角，蟠桃。

@@ -24,14 +24,7 @@ comment: false
   display: inline;
   width: 45%;
 }
-.gk-container2 .gk-img:nth-of-type(1) {
-  margin: 0 .3em 0 1em;
-  border: 1px solid #aaa;
-  border-radius: .2em;
-  padding: .3em;
-  display: inline;
-  width: 45%;
-}
+
 }
 
 @media screen and (max-width: 600px) {

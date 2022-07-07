@@ -33,7 +33,8 @@ comment: false
 }
 .gk-img {
   margin: 0 .3em 0 .3em;
-  border: 1px solid #aaa; 
+  border: 1px solid #aaa;
+  border-radius: .1em;
   padding: .3em;
   display: inline;
   width: 100%;

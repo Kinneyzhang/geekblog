@@ -17,7 +17,8 @@ comment: false
   padding-right: 1em;
 }
 .gk-img {
-  border: 1px solid #aaa; 
+  margin: 0 .3em 0 .3em;
+  border: 1px solid #aaa;
   padding: .3em;
   display: inline;
   width: 45%;
@@ -31,6 +32,7 @@ comment: false
   padding-right: 1em;
 }
 .gk-img {
+  margin: 0 .3em 0 .3em;
   border: 1px solid #aaa; 
   padding: .3em;
   display: inline;

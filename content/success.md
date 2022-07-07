@@ -3,6 +3,10 @@ comment: false
 ---
 
 <style>
+.gk-img {
+  border: 1px solid #ccc; 
+  padding: 2px;
+}
 .gk-container1 {
   display:inline;
   padding-left: 1em;
@@ -19,10 +23,6 @@ comment: false
   column-gap: 10px;
   //column-rule: 1px dotted #999;
 }}
-.gk-img {
-  border:1px solid #ccc; 
-  padding:1.5px;
-}
 </style>
 
 **[随想](/moments) · 日志 · <!-- [计划](/plans) ·  -->[书签](/bookmarks)**

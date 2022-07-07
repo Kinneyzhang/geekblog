@@ -53,7 +53,7 @@ comment: false
 4. 算法学习，解决 mergeSort 的 bug。
 
 <div class="gk-container">
-<img class="gk-img" src='https://s3.bmp.ovh/imgs/2022/07/07/9514c48e27067a32.jpg' width="60%" />
+<img class="gk-img" src='https://s3.bmp.ovh/imgs/2022/07/07/9514c48e27067a32.jpg' width="100%" />
 </div>
 
 ## 2022-07-04 Mon

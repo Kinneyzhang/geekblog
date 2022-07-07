@@ -16,7 +16,7 @@ comment: false
   padding-left: 2em;
   padding-right: 1em;
 }
-.gk-img {
+.gk-container2 .gk-img {
   margin: 0 .3em 0 0;
   border: 1px solid #aaa;
   border-radius: .2em;

@@ -13,7 +13,7 @@ comment: false
 .gk-container2 {
   <!-- column-count: 2; -->
   <!-- column-gap: .5em; -->
-  padding-left: 1.3em;
+  padding-left: 2em;
   padding-right: 1em;
 }
 .gk-img {

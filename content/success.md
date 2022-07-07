@@ -3,6 +3,21 @@ comment: false
 ---
 
 <style>
+.gk-container {
+  column-count: 2;
+  column-gap: 20px;
+}
+@media screen and (min-width: 1000px) {
+.gk-container2 {
+  column-count: 2;
+  column-gap: 10px;
+}}
+@media screen and (max-width: 400px) {
+.gk-container2 {
+  column-count: 0;
+  column-gap: 10px;
+  //column-rule: 1px dotted #999;
+}}
 .gk-img {
   border:1px solid #ccc; 
   padding:1.5px;
@@ -37,7 +52,9 @@ comment: false
 3. 健身房跑步半小时。
 4. 算法学习，解决 mergeSort 的 bug。
 
+<div class="gk-container">
 <img class="gk-img" src='https://s3.bmp.ovh/imgs/2022/07/07/9514c48e27067a32.jpg' width="60%" />
+</div>
 
 ## 2022-07-04 Mon
 1. 错单分发代码开发。

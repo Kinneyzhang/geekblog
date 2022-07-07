@@ -57,6 +57,8 @@ comment: false
 1. 以后每天记录一下前一天晚上睡觉和当天早上起床的时间。
 2. 自己练习尤克里里渐入佳境，但不能只是自己一个人练，还要对照视频多听多观察，然后不断的改进。等简单的曲子没有问题了，找一首自己喜欢的曲子练习。
 3. 早上到公司看《college writing skills with readings》。
+4. 健身房跑步半小时。
+5. leetcode刷题和算法学习。
 
 <div class="gk-container2">
 <img class="gk-img" src="https://s1.imagehub.cc/images/2022/07/07/2207071.jpg">

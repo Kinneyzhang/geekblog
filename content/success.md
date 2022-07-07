@@ -30,7 +30,7 @@ comment: false
 .gk-container2 {
   <!-- column-count: 0; -->
   <!-- column-gap: 0; -->
-  padding-left: .8em;
+  padding-left: .7em;
   padding-right: 1em;
   <!-- text-align: center; -->
 }

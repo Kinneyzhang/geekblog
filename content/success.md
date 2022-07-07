@@ -3,9 +3,7 @@ comment: false
 ---
 
 <style>
-.gk-container {
-  column-count: 2;
-  column-gap: 20px;
+.gk-container1 {
 }
 @media screen and (min-width: 1000px) {
 .gk-container2 {
@@ -47,8 +45,8 @@ comment: false
 4. 不要在一件事情上花太多的时间，长时间做一件事情会有疲惫感，这种感觉不利用持续的推进。把时间分散开可以做更多的事情。
 5. 睡前练了一会儿尤克里里。
 ## 2022-07-05 Tue
-<div class="gk-container">
-&emsp;<img class="gk-img" src='https://s3.bmp.ovh/imgs/2022/07/07/9514c48e27067a32.jpg' width="100%" />
+<div class="gk-container1">
+&emsp;&emsp;<img class="gk-img" src='https://s3.bmp.ovh/imgs/2022/07/07/9514c48e27067a32.jpg' width="100%" />
 </div>
 
 1. 中午做了顿饭：黑米鸡蛋炒饭，白瓜炒豆角，蟠桃。

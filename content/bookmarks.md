@@ -5,7 +5,7 @@ comment: false
 **[随想](/moments) · [日志](/success) · <!-- [计划](/plans) ·  -->书签**
 
 ---
-<!-- > **Bookmarks - 书签收藏** -->
+> **Bookmarks - 书签收藏**
 
 **[Emacs](#emacs) / [Toturial](#toturial) / [Solution](#solution) / [Article](#article) / [Utility](#utility) / [Blog](#blog)**
 

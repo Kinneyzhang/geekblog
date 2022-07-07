@@ -37,7 +37,7 @@ comment: false
 &emsp;Score: 6
 1. 以后每天记录一下前一天晚上睡觉和当天早上起床的时间。
 2. 自己练习尤克里里渐入佳境，但不能只是自己一个人练，还要对照视频多听多观察，然后不断的改进。等简单的曲子没有问题了，找一首自己喜欢的曲子练习。
-3. 早上到公司看《college writing skills with readings》。
+   3. 早上到公司看《college writing skills with readings》。
 ## 2022-07-06 Wed
 1. 错单通用方法模型分析。
 2. leetcode刷题：1-两数之和、2-两数相加。

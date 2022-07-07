@@ -9,7 +9,7 @@ comment: false
   padding-right: 1em;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
 .gk-container2 {
   <!-- column-count: 2; -->
   <!-- column-gap: .5em; -->
@@ -24,7 +24,7 @@ comment: false
   width: 45%;
 }}
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
 .gk-container2 {
   <!-- column-count: 0; -->
   <!-- column-gap: 0; -->

@@ -53,10 +53,10 @@ comment: false
 4. 不要在一件事情上花太多的时间，长时间做一件事情会有疲惫感，这种感觉不利用持续的推进。把时间分散开可以做更多的事情。
 5. 睡前练了一会儿尤克里里。
 ## 2022-07-05 Tue
-<div class="gk-container2">
+<!-- <div class="gk-container2"> -->
 <img class="gk-img" src="https://s1.imagehub.cc/images/2022/07/07/220705.jpg" alt="220705.jpg" border="0">
 <img class="gk-img" src="https://s1.imagehub.cc/images/2022/07/07/2207052.jpg" alt="2207052.jpg" border="0">
-</div>
+<!-- </div> -->
 
 1. 中午做了顿饭：黑米鸡蛋炒饭，白瓜炒豆角，蟠桃。
 2. 错单通用方法设计思考。

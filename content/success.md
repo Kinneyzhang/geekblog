@@ -19,7 +19,7 @@ comment: false
 .gk-img {
   margin: 0 .5em 0 .5em;
   border: 1px solid #aaa;
-  border-radius: .5em;
+  border-radius: .2em;
   padding: .3em;
   display: inline;
   width: 45%;
@@ -35,7 +35,7 @@ comment: false
 .gk-img {
   margin: 0 .5em 0 .5em;
   border: 1px solid #aaa;
-  border-radius: .5em;
+  border-radius: .2em;
   padding: .3em;
   display: inline;
   width: 100%;

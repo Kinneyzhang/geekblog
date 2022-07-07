@@ -16,7 +16,7 @@ comment: false
   padding-left: 2em;
   padding-right: 1em;
 }
-.gk-container2 .gk-img:nth-child(1) {
+.gk-container2 .gk-img:nth-of-type(1) {
   margin: 0 .3em 0 1em;
   border: 1px solid #aaa;
   border-radius: .2em;

@@ -33,7 +33,7 @@ comment: false
   padding-right: 1em;
 }
 .gk-img {
-  margin: .3em .3em 0 1em;
+  margin: .3em 1em 0 1em;
   border: 1px solid #aaa;
   border-radius: .2em;
   padding: .3em;

@@ -31,7 +31,7 @@ comment: false
   <!-- column-count: 0; -->
   <!-- column-gap: 0; -->
   padding-left: 1em;
-  padding-right: 1em;
+  padding-right: 1.5em;
   text-align: center;
 }
 .gk-img {

@@ -17,7 +17,7 @@ comment: false
   padding-right: 1em;
 }
 .gk-img {
-  margin: 0 .3em 0 .3em;
+  margin: 0 .3em 0 0;
   border: 1px solid #aaa;
   border-radius: .2em;
   padding: .3em;
@@ -33,7 +33,7 @@ comment: false
   padding-right: 1em;
 }
 .gk-img {
-  margin: 0 .3em 0 .3em;
+  margin: 0 .3em 0 0;
   border: 1px solid #aaa;
   border-radius: .2em;
   padding: .3em;

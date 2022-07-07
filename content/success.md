@@ -13,8 +13,8 @@ comment: false
 .gk-container2 {
   <!-- column-count: 2; -->
   <!-- column-gap: .5em; -->
-  <!-- padding-left: 2em; -->
-  <!-- padding-right: 1em; -->
+  padding-left: 1em;
+  padding-right: 1em;
   text-align: center;
 }
 .gk-container2 img {

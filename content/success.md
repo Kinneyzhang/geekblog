@@ -6,7 +6,7 @@ comment: false
 .gk-img {
   border: 1px solid #aaa; 
   padding: .3em;
-  display: inline;
+  display: inline-block;
 }
 .gk-container1 {
   display:inline;

@@ -48,8 +48,9 @@ comment: false
 5. 睡前练了一会儿尤克里里。
 ## 2022-07-05 Tue
 <div class="gk-container">
-<img class="gk-img" src='https://s3.bmp.ovh/imgs/2022/07/07/9514c48e27067a32.jpg' width="100%" />
+&emsp;<img class="gk-img" src='https://s3.bmp.ovh/imgs/2022/07/07/9514c48e27067a32.jpg' width="100%" />
 </div>
+
 1. 中午做了顿饭：黑米鸡蛋炒饭，白瓜炒豆角，蟠桃。
 2. 错单通用方法设计思考。
 3. 健身房跑步半小时。

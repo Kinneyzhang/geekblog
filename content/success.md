@@ -15,7 +15,7 @@ comment: false
 @media screen and (min-width: 1000px) {
 .gk-container2 {
   column-count: 2;
-  column-gap: 10px;
+  column-gap: 1em;
   column-rule: 1px dotted #999;
   padding-left: 1em;
   padding-right: 1em;
@@ -23,7 +23,7 @@ comment: false
 @media screen and (max-width: 400px) {
 .gk-container2 {
   column-count: 0;
-  column-gap: 10px;
+  column-gap: 1em;
   padding-left: 1em;
   padding-right: 1em;
 }}

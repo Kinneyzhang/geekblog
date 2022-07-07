@@ -53,12 +53,13 @@ comment: false
 ## 2022-07-05 Tue
 <div class="gk-container2">
 <img class="gk-img" src='https://s3.bmp.ovh/imgs/2022/07/07/9514c48e27067a32.jpg' width="100%" />
+<img class="gk-img" src = 'https://s3.bmp.ovh/imgs/2022/07/07/056461ffbe8864a4.jpg' />
+</div>
 
 1. 中午做了顿饭：黑米鸡蛋炒饭，白瓜炒豆角，蟠桃。
 2. 错单通用方法设计思考。
 3. 健身房跑步半小时。
 4. 算法学习，解决 mergeSort 的 bug。
-</div>
 
 ## 2022-07-04 Mon
 1. 错单分发代码开发。

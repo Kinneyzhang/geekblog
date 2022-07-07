@@ -16,6 +16,14 @@ comment: false
   padding-left: 2em;
   padding-right: 1em;
 }
+.gk-container2 .gk-img:nth-child(1) {
+  margin: 0 .3em 0 1em;
+  border: 1px solid #aaa;
+  border-radius: .2em;
+  padding: .3em;
+  display: inline;
+  width: 45%;
+}
 .gk-container2 .gk-img {
   margin: 0 .3em 0 0;
   border: 1px solid #aaa;
@@ -24,14 +32,7 @@ comment: false
   display: inline;
   width: 45%;
 }
-.gk-container2 .gk-img:nth-child(1) {
-  margin: 0 .3em 0 1em;
-  border: 1px solid #aaa;
-  border-radius: .2em;
-  padding: .3em;
-  display: inline;
-  width: 45%;
-}}
+}
 
 @media screen and (max-width: 600px) {
 .gk-container2 {

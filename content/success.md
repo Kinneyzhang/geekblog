@@ -2,6 +2,13 @@
 comment: false
 ---
 
+<style>
+.gk-img {
+  border:1px solid #ccc; 
+  padding:1.5px;
+}
+</style>
+
 **[随想](/moments) · 日志 · <!-- [计划](/plans) ·  -->[书签](/bookmarks)**
 
 ---
@@ -30,7 +37,7 @@ comment: false
 3. 健身房跑步半小时。
 4. 算法学习，解决 mergeSort 的 bug。
 
-<center><img src='https://s3.bmp.ovh/imgs/2022/07/07/9514c48e27067a32.jpg' height="60%" /></center>
+<center><img class="gk-img" src='https://s3.bmp.ovh/imgs/2022/07/07/9514c48e27067a32.jpg' width="60%" /></center>
 
 ## 2022-07-04 Mon
 1. 错单分发代码开发。

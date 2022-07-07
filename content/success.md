@@ -32,7 +32,7 @@ comment: false
   <!-- column-gap: 0; -->
   padding-left: .6em;
   <!-- padding-right: 1.5em; -->
-  text-align: center;
+  <!-- text-align: center; -->
 }
 .gk-img {
   margin: .5em 1.5em 0 1em;

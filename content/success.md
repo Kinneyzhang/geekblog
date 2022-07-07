@@ -4,8 +4,8 @@ comment: false
 
 <style>
 .gk-img {
-  border: 1px solid #ccc; 
-  padding: 2px;
+  border: 1px solid #aaa; 
+  padding: 1em;
 }
 .gk-container1 {
   display:inline;

@@ -15,6 +15,7 @@ comment: false
   <!-- column-gap: .5em; -->
   padding-left: 2em;
   padding-right: 1em;
+  text-align: center;
 }
 .gk-container2 img {
   margin: 0 .3em 0 0;

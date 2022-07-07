@@ -35,7 +35,7 @@ comment: false
   <!-- text-align: center; -->
 }
 .gk-img {
-  margin: .5em 1.5em 0 1em;
+  margin: .5em 0em 0 1em;
   border: 1px solid #aaa;
   border-radius: .2em;
   padding: .2em;

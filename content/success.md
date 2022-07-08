@@ -57,8 +57,8 @@ comment: false
 ## 2022-07-08 Fri
 
 <div class="gk-container2">
-<img class="gk-img" src="https://www.imagehub.cc/image/G1ivGr">
-<img class="gk-img" src="https://www.imagehub.cc/image/G1ikKF">
+<img class="gk-img" src="https://s1.imagehub.cc/images/2022/07/08/2207081.jpg">
+<img class="gk-img" src="https://s1.imagehub.cc/images/2022/07/08/2207082.jpg">
 </div>
 
 ## 2022-07-07 Thu

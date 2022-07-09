@@ -56,7 +56,7 @@ comment: false
 # 2022-07
 ## 2022-07-08 Fri
 
-1. 研究 cJSON 代码。
+1. 研究 [cJSON](https://github.com/DaveGamble/cJSON) 代码。
 2. leetcode刷题：完善 `addTwoNumbers`。
 3. 买了好多菜，准备明天做一锅炖菜，哈哈哈。
 4. 洗完澡没有拖拉，直接睡觉了，棒！

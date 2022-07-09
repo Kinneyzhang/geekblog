@@ -57,8 +57,8 @@ comment: false
 ## 2022-07-08 Fri
 
 1. 研究 cJSON 代码。
-2. leetcode刷题。
-3. 买了好多菜，准备明天做一锅炖菜。
+2. leetcode刷题：完善 `addTwoNumbers`。
+3. 买了好多菜，准备明天做一锅炖菜，哈哈哈。
 4. 洗完澡没有拖拉，直接睡觉了，棒！
 
 <div class="gk-container2">

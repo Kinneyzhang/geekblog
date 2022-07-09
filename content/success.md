@@ -56,6 +56,10 @@ comment: false
 # 2022-07
 ## 2022-07-08 Fri
 
+1. leetcode刷题。
+2. 买了好多菜，准备明天做一锅炖菜。
+3. 研究 cJSON 代码。
+
 <div class="gk-container2">
 <img class="gk-img" src="https://s1.imagehub.cc/images/2022/07/08/2207081.jpg">
 <img class="gk-img" src="https://s1.imagehub.cc/images/2022/07/08/2207082.jpg">

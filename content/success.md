@@ -70,6 +70,11 @@ comment: false
 2. 看 RNG 比赛。
 3. 做了一锅炖菜。
 
+<div class="gk-container2">
+<img class="gk-img" src="https://s1.imagehub.cc/images/2022/07/11/220709-1.jpg">
+<img class="gk-img" src="https://s1.imagehub.cc/images/2022/07/11/220709-2.jpg">
+</div>
+
 ## 2022-07-08 Fri
 
 1. 研究 [cJSON](https://github.com/DaveGamble/cJSON) 代码。

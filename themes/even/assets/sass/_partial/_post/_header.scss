@@ -1,46 +1,47 @@
 .post-header {
-  margin-bottom: 20px;
+    margin-bottom: .6em;
 
-  .post-title {
-    margin: 0;
-    font-size: $post-title-font-size;
-    font-weight: $post-title-font-weight;
-    font-family: $global-serif-font-family;
-  }
-
-  .post-link {
-    @include underline-from-center;
-  }
-
-  .post-meta {
-    font-size: 14px;
-    color: $post-meta-font-color;
-
-    .post-time {
-      font-size: 15px;
+    .post-title {
+        margin: 0;
+        font-size: $post-title-font-size;
+        font-weight: $post-title-font-weight;
+        font-family: $global-serif-font-family;
     }
 
-    .post-category {
-      display: inline;
+    .post-link {
+        @include underline-from-center;
+    }
 
-      a {
-        color: inherit;
+    .post-meta {
+        font-size: 14px;
+        margin-top: .4em;
+        color: $post-meta-font-color;
 
-        &::before {
-          content: '·';
+        .post-time {
+            font-size: 15px;
         }
 
-        &:hover {
-          color: $theme-color;
+        .post-category {
+            display: inline;
+
+            a {
+                color: inherit;
+
+                &::before {
+                    content: '·';
+                }
+
+                &:hover {
+                    color: $theme-color;
+                }
+            }
         }
-      }
-    }
 
-    .more-meta {
-      &::before {
-        content: '·';
-      }
-    }
+        .more-meta {
+            &::before {
+                content: '·';
+            }
+        }
 
-  }
+    }
 }

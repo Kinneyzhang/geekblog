@@ -12,7 +12,16 @@ $global-headings: (
   h4: 16px,
   h5: 14px,
   h6: 14px
-) !default;
+);
+
+// Font family of the site.
+$global-font-family: Chancery;
+    // sans-serif, 'Source Sans Pro', 'Helvetica Neue', Arial;
+
+// Serif font family of the site.
+$global-serif-font-family: Chancery;
+
+    // Microsoft Yahei, serif, Athelas, STHeiti;
 
 .post-content h1{
     border-bottom: 1.6px solid #eee;

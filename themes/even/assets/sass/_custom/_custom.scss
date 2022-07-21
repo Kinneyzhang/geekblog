@@ -5,6 +5,16 @@
 
 @import '_common/normalize';
 
+@font-face {
+    font-family: 'SourceHanSansSC';
+    src: url('../fonts/sourcehan/SourceHanSansSC-VF.ttf');
+}
+
+@font-face {
+    font-family: 'SourceHanSerifSC';
+    src: url('../fonts/sourcehan/SourceHanSerifSC-VF.ttf');
+}
+
 $global-headings: (
   h1: 26px,
   h2: 23px,

@@ -92,6 +92,20 @@ $header-padding: 20px 20px !default;
   font-display: swap;
 }
 
+@font-face {
+    font-family: 'SourceHanSansSC';
+    src: url('../fonts/sourcehan/SourceHanSansSC-VF.ttf');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SourceHanSerifSC';
+    src: url('../fonts/sourcehan/SourceHanSerifSC-VF.ttf');
+    font-style: normal;
+    font-display: swap;
+}
+
 // Font size of the logo.
 $logo-font-size: 48px !default;
 

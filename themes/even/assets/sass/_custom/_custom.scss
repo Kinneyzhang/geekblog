@@ -5,22 +5,6 @@
 
 @import '_common/normalize';
 
-@font-face {
-    font-family: 'SourceHanSansSC';
-    src: url('../fonts/sourcehan/SourceHanSansSC-VF.ttf');
-    font-weight: lighter;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SourceHanSerifSC';
-    src: url('../fonts/sourcehan/SourceHanSerifSC-VF.ttf');
-    font-weight: lighter;
-    font-style: normal;
-    font-display: swap;
-}
-
 $global-headings: (
   h1: 26px,
   h2: 23px,
@@ -31,10 +15,10 @@ $global-headings: (
 );
 
 // Font family of the site.
-$global-font-family: SourceHanSerifSC, sans-serif, 'Source Sans Pro', 'Helvetica Neue', Arial;
+$global-font-family: 'SourceHanSerifSC', sans-serif, 'Source Sans Pro', 'Helvetica Neue', Arial;
 
 // Serif font family of the site.
-$global-serif-font-family: SourceHanSerifSC, Microsoft Yahei, serif, Athelas, STHeiti;
+$global-serif-font-family: 'SourceHanSerifSC', Microsoft Yahei, serif, Athelas, STHeiti;
 
 .post-content h1{
     border-bottom: 1.6px solid #eee;

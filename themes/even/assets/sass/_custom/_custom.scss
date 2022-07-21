@@ -8,11 +8,17 @@
 @font-face {
     font-family: 'SourceHanSansSC';
     src: url('../fonts/sourcehan/SourceHanSansSC-VF.ttf');
+    font-weight: lighter;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'SourceHanSerifSC';
     src: url('../fonts/sourcehan/SourceHanSerifSC-VF.ttf');
+    font-weight: lighter;
+    font-style: normal;
+    font-display: swap;
 }
 
 $global-headings: (

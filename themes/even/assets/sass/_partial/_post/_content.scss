@@ -8,8 +8,7 @@
     @for $i from 1 through 6 {
         h#{$i} {
             font-weight: 400;
-            font-family: SourceHanSerifSC;
-            // $global-serif-font-family
+            font-family: $post-content-font-family;
 
             .anchor {
                 float: left;

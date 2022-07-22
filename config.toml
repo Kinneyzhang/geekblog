@@ -1,7 +1,7 @@
 baseURL = "https://geekinney.com/"
 languageCode = "en"
 defaultContentLanguage = "zh-cn"                             # en / zh-cn / ... (This field determines which i18n file to use)
-title = "Happy Hacking!"
+title = "戈楷旎"
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
@@ -75,7 +75,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   gitRepo = ""
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Happy Hacking"        # default: the title value    # 默认值: 上面设置的title值
+  logoTitle = ""
   keywords = ["Emacs", "CS", "hacker", "everything"]
   description = "记录技术和生活"
 

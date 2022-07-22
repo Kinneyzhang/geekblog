@@ -9,25 +9,6 @@ type: post
 layout: article
 comment: false
 ---
-<style>
-@media screen and (min-width: 600px) {
- .gk-img {
-  border:1px solid #ccc; 
-  padding: .2em;
-  border-radius: .2em;
-  width: 100%;
-}}
-
-@media screen and (max-width: 600px) {
-  .gk-img {
-  border:1px solid #ccc; 
-  padding: .2em;
-  border-radius: .2em;
-  width: 100%;
-}}
-</style>
-
-<img class="gk-img" src="/image/storytelling.jpg" width="100%"/>
 
 这是一个简短的总结，目的是理清当下自己的千头万绪。<!--more-->
 

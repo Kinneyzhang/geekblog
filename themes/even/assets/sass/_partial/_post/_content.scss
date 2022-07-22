@@ -4,11 +4,15 @@
 
 .post-content {
     word-wrap: break-word;
+    font-weight: $post-content-font-weight;
+    font-family: $post-content-font-family;
+    color: $post-content-font-color;
 
     @for $i from 1 through 6 {
         h#{$i} {
-            font-weight: 400;
-            font-family: $post-content-font-family;
+            font-weight: $post-head-font-weight;
+            font-family: $post-head-font-family;
+            color: $global-font-color;
 
             .anchor {
                 float: left;

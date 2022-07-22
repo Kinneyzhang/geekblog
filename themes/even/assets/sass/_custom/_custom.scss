@@ -15,12 +15,22 @@ $global-headings: (
 );
 
 // Font family of the site.
-$global-font-family:  'Noto Serif SC', 'Source Sans Pro', 'Helvetica Neue', Arial;
+$global-font-family:
+    'Noto Serif SC', Serif, 'Source Sans Pro', 'Helvetica Neue', Arial;
 
 // Serif font family of the site.
-$global-serif-font-family: 'Noto Serif SC',  Microsoft Yahei, serif, Athelas, STHeiti;
+$global-serif-font-family:
+    'Noto Serif SC', Serif, Microsoft Yahei, serif, Athelas, STHeiti;
+
+$post-title-font-family: chancery, 'Noto Serif SC', serif;
+$post-title-font-weight: 400;
+
+$post-head-font-family: chancery, 'Noto Serif SC', serif;
+$post-head-font-weight: 300;
 
 $post-content-font-family: 'Noto Serif SC', serif;
+$post-content-font-weight: 200;
+$post-content-font-color: #000;
 
 .post-content h1{
     border-bottom: 1.6px solid #eee;
@@ -43,4 +53,4 @@ $post-content-font-family: 'Noto Serif SC', serif;
 
 $global-font-color: #111;
 
-$post-meta-font-color: #444;
+$post-meta-font-color: #666;

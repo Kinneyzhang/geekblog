@@ -1,7 +1,7 @@
 ---
 title: "C-Algorithm: 基本排序算法"
 date: 2022-06-27
-draft: false
+draft: true
 categories: ["数据结构与算法"]
 tags: ["排序", "算法", "C语言"]
 comment: false

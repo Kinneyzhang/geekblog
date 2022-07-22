@@ -22,7 +22,7 @@ toc: false
 }
 
 .gk-img {
-  margin: 0 .2em 0 0;
+  <!-- margin: 0 .2em 0 0; -->
   border: 1px solid #aaa;
   border-radius: .2em;
   padding: .2em;

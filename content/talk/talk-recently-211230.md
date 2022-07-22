@@ -11,9 +11,12 @@ layout: article
 <style>
 .gk-img {
   border:1px solid #ccc; 
-  padding:1.5px;
+  padding: .2em;
+  border-radius: .2em;
+  width: 100%;
 }
 </style>
+
 <img class="gk-img" src="/image/storytelling.jpg" width="100%"/>
 
 这是一个简短的总结，目的是理清当下自己的千头万绪。<!--more-->

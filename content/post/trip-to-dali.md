@@ -25,7 +25,7 @@ toc: false
   margin: 0 .2em 0 0;
   border: 1px solid #aaa;
   border-radius: .2em;
-  padding: .3em;
+  padding: .2em;
   display: inline;
   width: 47%;
 }}
@@ -49,7 +49,8 @@ toc: false
 
 .gk-img1 {
   border:1px solid #ccc; 
-  padding:1.5px;
+  padding: .2em;
+  border-radius: .2em;
 }
 </style>
 

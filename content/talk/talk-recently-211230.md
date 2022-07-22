@@ -9,12 +9,21 @@ type: post
 layout: article
 ---
 <style>
-.gk-img {
+@media screen and (min-width: 600px) {
+ .gk-img {
   border:1px solid #ccc; 
   padding: .2em;
   border-radius: .2em;
   width: 100%;
-}
+}}
+
+@media screen and (max-width: 600px) {
+  .gk-img {
+  border:1px solid #ccc; 
+  padding: .2em;
+  border-radius: .2em;
+  width: 100%;
+}}
 </style>
 
 <img class="gk-img" src="/image/storytelling.jpg" width="100%"/>

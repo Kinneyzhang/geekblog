@@ -5,6 +5,22 @@
 
 @import '_common/normalize';
 
+@media screen and (min-width: 600px) {
+ .gk-img {
+  border:1px solid #ccc; 
+  padding: .2em;
+  border-radius: .2em;
+  width: 100%;
+}}
+
+@media screen and (max-width: 600px) {
+  .gk-img {
+  border:1px solid #ccc; 
+  padding: .2em;
+  border-radius: .2em;
+  width: 100%;
+}}
+
 $global-headings: (
   h1: 26px,
   h2: 23px,
@@ -29,7 +45,7 @@ $post-head-font-family: chancery, 'Noto Serif SC', serif;
 $post-head-font-weight: 400;
 
 $post-content-font-family: 'Noto Serif SC', serif;
-$post-content-font-weight: 300;
+$post-content-font-weight: 250;
 $post-content-font-color: #000;
 
 $global-body-width: 850px;

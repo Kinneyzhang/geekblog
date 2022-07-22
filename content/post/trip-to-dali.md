@@ -27,7 +27,7 @@ toc: false
   border-radius: .2em;
   padding: .2em;
   display: inline;
-  width: 47%;
+  width: 45%;
 }}
 
 @media screen and (max-width: 600px) {

@@ -4,6 +4,7 @@ date: 2021-10-29
 draft: true
 categories: ["技术文档"]
 tags: ["ledger", "翻译"]
+comment: false
 ---
 
 # 2 Ledger 教程

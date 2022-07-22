@@ -4,6 +4,7 @@ date: 2019-03-05
 draft: false
 categories: ["读书破万卷"]
 tags: ["子弹笔记", "bujo", "读书笔记"]
+comment: false
 ---
 
 # 理论

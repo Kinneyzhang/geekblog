@@ -4,6 +4,7 @@ date: 2021-10-17
 draft: true
 categories: ["技术文档"]
 tags: ["Meteor", "翻译"]
+comment: false
 ---
 
 # 核心

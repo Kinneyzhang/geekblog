@@ -4,6 +4,7 @@ date: 2020-08-04
 draft: false
 categories: ["Happy Hacking Emacs"]
 tags: ["elisp", "习惯"]
+comment: false
 ---
 
 想要培养一些好的习惯，想要不那么费力的变得更自律。

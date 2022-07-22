@@ -4,6 +4,7 @@ date: 2019-10-20
 draft: false
 categories: ["读书破万卷"]
 tgas: ["GTD", "读书笔记"]
+comment: false
 ---
 
 # 收集阶段：归拢材料

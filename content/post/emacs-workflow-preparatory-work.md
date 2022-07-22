@@ -3,6 +3,7 @@ title: Emacs Workflow - 准备工作
 date: 2020-06-25
 draft: false
 categories: ["Happy Hacking Emacs"]
+comment: false
 ---
 
 众所周知，emacs以学习曲线陡峭著称，所以在开始介绍workflow前，得做些准备工作。这篇文章主要介绍emacs的安装、基础概念、基础配置和使用emacs的基础知识。

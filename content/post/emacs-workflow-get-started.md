@@ -3,6 +3,7 @@ title: "Emacs Workflow - 开门见山"
 date: 2020-06-14
 draft: false
 categories: ["Happy Hacking Emacs"]
+comment: false
 ---
 
 Emacs Workflow 顾名思义 “emacs工作流”。这一系列的文章主要介绍emacs中的常用的工作流，比如：文件管理、日程管理、笔记管理、听音乐、网页浏览、收发邮件、版本控制、字典查阅、快捷搜索、代数计算、telegram&#x2026; 每一种工作流都可以替代一种额外的app或系统应用。最终，我们逐渐向 "live in emacs" 的目标靠近。

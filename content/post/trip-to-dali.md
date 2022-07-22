@@ -5,6 +5,7 @@ draft: false
 categories: ["旅行简记"]
 tags: ["大理", "旅行"]
 toc: false
+comment: false
 ---
 
 <style>

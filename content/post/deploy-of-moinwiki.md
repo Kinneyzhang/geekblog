@@ -4,6 +4,7 @@ date: 2022-06-23
 draft: false
 categories: ["技术总结"]
 tags: ["moin", "wiki", "部署"]
+comment: false
 ---
 
 MoinMoin 是一个基于Python环境的wiki引擎程序。本篇主要简单记录部署流程和遇到的坑。

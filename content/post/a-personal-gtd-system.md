@@ -4,6 +4,7 @@ date: 2022-04-25
 draft: true
 categories: ["GTD"]
 tags: ["GTD","OrgMode","Emacs"]
+comment: false
 ---
 
 这篇文章将以问答的形式，剖析个人GTD系统的设计思路，以下简称 MyGTD。

@@ -12,17 +12,41 @@ toc: false
   column-count: 2;
   column-gap: 20px;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 600px) {
 .gk-container2 {
-  column-count: 2;
-  column-gap: 10px;
+  <!-- column-count: 2; -->
+  <!-- column-gap: .5em; -->
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+}
+
+.gk-img {
+  margin: 0 .2em 0 0;
+  border: 1px solid #aaa;
+  border-radius: .2em;
+  padding: .3em;
+  display: inline;
+  width: 45%;
 }}
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width: 600px) {
 .gk-container2 {
-  column-count: 0;
-  column-gap: 10px;
-  //column-rule: 1px dotted #999;
+  <!-- column-count: 0; -->
+  <!-- column-gap: 0; -->
+  padding-left: .6em;
+  padding-right: 1.2em;
+  <!-- text-align: center; -->
+}
+.gk-img {
+  margin: .5em 1em 0 .5em;
+  border: 1px solid #aaa;
+  border-radius: .2em;
+  padding: .2em;
+  <!-- display: inline; -->
+  width: 100%;
 }}
+
 .gk-img1 {
   border:1px solid #ccc; 
   padding:1.5px;
@@ -53,7 +77,7 @@ toc: false
 
 走进一间书店，买了陈春城的《夜晚的潜水艇》，这本书的文字很符合古城的气质。我喜欢这种“古中带新”的气质。
 
-<img class="gk-img" src="/image/dali-book.jpg" width="100%"/>
+<img class="gk-img1" src="/image/dali-book.jpg" width="100%"/>
 
 下午到了环海东路旁的客栈，准备呆一晚。客栈不便宜，是这几天最贵的。走到期待的海景阳台，看到期待的全景苍山洱海，楼顶有氛围满分的泳池和帐篷。全部期待的事物都有了，却没有了期待的心情。“环海东路”就是洱海东边的环海公路，在公路旁有着各种村庄、古镇和客栈。我住的地方，处在前不着村，后不着镇的位置。若是与人同行，这种偏安一隅的安静或许也是种惬意的体验。一个人，难免感到孤寂。眼前的景色越美，越是感到孤寂，只能用图片视频和好友分享，聊以慰藉。幸得三两好友。
 

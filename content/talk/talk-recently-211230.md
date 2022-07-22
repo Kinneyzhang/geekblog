@@ -7,6 +7,7 @@ tags: ["总结"]
 toc: false
 type: post
 layout: article
+comment: false
 ---
 <style>
 @media screen and (min-width: 600px) {

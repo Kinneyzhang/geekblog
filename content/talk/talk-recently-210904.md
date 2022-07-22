@@ -7,6 +7,7 @@ tags: ["总结"]
 toc: true
 type: post
 layout: article
+comment: false
 ---
 
 「谈谈最近」的目的是总结自己最近一段时间的状态和思绪，为之后的调整方向做规划。

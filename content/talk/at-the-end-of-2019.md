@@ -7,6 +7,7 @@ tags: ["年终总结"]
 toc: false
 type: post
 layout: article
+comment: false
 ---
 2019接近尾声，这一年充满了选择与变化，虽然过程曲折但还算充实。我也慢慢的朝着自己想要的状态去走，有些慢，但没偏离轨迹。
 

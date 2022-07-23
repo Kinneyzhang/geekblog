@@ -1,7 +1,7 @@
 baseURL = "https://geekinney.com/"
 languageCode = "en"
 defaultContentLanguage = "zh-cn"                             # en / zh-cn / ... (This field determines which i18n file to use)
-title = "戈楷旎"
+title = "Happy Hacking"
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true

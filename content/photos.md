@@ -19,8 +19,8 @@ comment: false
 .gk-container2 {
   <!-- padding-left: 1em; -->
   <!-- padding-right: 1em; -->
-  text-align: center;
   float: left;
+  text-align: center;
 }
 .gk-img {
   margin: 0 .4em 0 0;

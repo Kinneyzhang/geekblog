@@ -17,7 +17,7 @@ comment: false
 
 @media screen and (min-width: 600px) {
 .gk-container2 {
-  float: left;
+  text-align: center;
 }
 .gk-img {
   margin: .2em .6em .2em 0;
@@ -49,6 +49,9 @@ comment: false
 <div class="gk-container2">
 <img class="gk-img" src="/image/kafo/IMG_3020.jpg">
 <img class="gk-img" src="/image/kafo/IMG_3024.jpg">
+</div>
+
+<div class="gk-container2">
 <img class="gk-img" src="/image/kafo/IMG_3022.jpg">
 <img class="gk-img" src="/image/kafo/IMG_3026.jpg">
 </div>
@@ -58,6 +61,9 @@ comment: false
 <div class="gk-container2">
 <img class="gk-img" src="/image/kafo/IMG_3027.jpg">
 <img class="gk-img" src="/image/kafo/IMG_3030.jpg">
+</div>
+
+<div class="gk-container2">
 <img class="gk-img" src="/image/kafo/IMG_3031.jpg">
 <img class="gk-img" src="/image/kafo/IMG_3028.jpg">
 </div>

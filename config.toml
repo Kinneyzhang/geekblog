@@ -64,6 +64,12 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   weight = 45
   identifier = "video"
   url = "/videos/"
+[[menu.main]]
+  name = "摄影"
+  weight = 50
+  identifier = "photo"
+  url = "/photos/"
+
 
 [params]
   version = "4.x"           # Used to give a friendly message when you have an incompatible update

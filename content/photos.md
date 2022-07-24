@@ -28,7 +28,7 @@ comment: false
   border-radius: .2em;
   padding: .2em;
   display: inline;
-  width: 50%;
+  width: 48%;
 }}
 
 @media screen and (max-width: 600px) {

@@ -22,7 +22,7 @@ comment: false
   text-align: center;
 }
 .gk-img {
-  margin: 1em .5em 0 .5em;
+  margin: 0 .5em .5em .5em;
   border: 1px solid #ccc;
   border-radius: .2em;
   padding: .2em;

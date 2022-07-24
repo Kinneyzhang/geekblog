@@ -17,13 +17,10 @@ comment: false
 
 @media screen and (min-width: 600px) {
 .gk-container2 {
-  <!-- padding-left: 1em; -->
-  <!-- padding-right: 1em; -->
   float: left;
-  <!-- text-align: center; -->
 }
 .gk-img {
-  margin: 0 .4em 0 0;
+  margin: 0 .6em 0 0;
   border: 1px solid #ccc;
   border-radius: .2em;
   padding: .2em;

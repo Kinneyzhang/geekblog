@@ -55,7 +55,7 @@ comment: false
 </div>
 
 <div class="gk-container2">
-<img class="gk-img" src="/image/kafo/IMG_3022.jpg">
+<img class="gk-img" src="/image/kafo/IMG_3031.jpg">
 <img class="gk-img gk-img-margin" src="/image/kafo/IMG_3020.jpg">
 </div>
 
@@ -63,12 +63,12 @@ comment: false
 
 <div class="gk-container2">
 <img class="gk-img" src="/image/kafo/IMG_3027.jpg">
-<img class="gk-img" src="/image/kafo/IMG_3030.jpg">
+<img class="gk-img gk-img-margin" src="/image/kafo/IMG_3030.jpg">
 </div>
 
 <div class="gk-container2">
-<img class="gk-img" src="/image/kafo/IMG_3031.jpg">
-<img class="gk-img" src="/image/kafo/IMG_3028.jpg">
+<img class="gk-img" src="/image/kafo/IMG_3022.jpg">
+<img class="gk-img gk-img-margin" src="/image/kafo/IMG_3028.jpg">
 </div>
 
 <p>&nbsp;</p>

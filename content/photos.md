@@ -25,7 +25,7 @@ comment: false
   border: 1px solid #ccc;
   border-radius: .2em;
   padding: 2px;
-  width: 420px;
+  width: 400px;
 }}
 
 .gk-img-margin {

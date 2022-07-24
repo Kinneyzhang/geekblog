@@ -64,4 +64,4 @@ comment: false
 <img class="gk-img" src="/image/kafo/IMG_3031.jpg">
 </div>
 
-<p>dddddd</p>
+<p></p>

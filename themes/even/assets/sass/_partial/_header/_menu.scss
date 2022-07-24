@@ -14,7 +14,7 @@
     font-weight: $menu-font-weight;
 
     .menu-item {
-      display: inline-block;
+      display: inline;
 
       & + .menu-item {
         margin-left: $menu-item-margin-left;;

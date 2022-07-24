@@ -19,7 +19,8 @@ comment: false
 .gk-container2 {
   text-align: center;
   margin-bottom: .4em;
-    display: inline;
+  display: inline;
+  float: left;
 }
 .gk-img {
   border: 1px solid #ccc;

@@ -2,10 +2,10 @@
 comment: false
 ---
 <style type="text/css">
-.container {
-  margin: 0 auto;
-  width: 80%;
-}
+<!-- .container { -->
+<!--   margin: 0 auto; -->
+<!--   width: 80%; -->
+<!-- } -->
 
 @media screen and (min-width: 600px) {
 .gk-container2 {
@@ -64,4 +64,4 @@ comment: false
 <img class="gk-img" src="/image/kafo/IMG_3031.jpg">
 </div>
 
-<br><br>
+<br><br><br><br>

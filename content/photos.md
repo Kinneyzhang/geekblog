@@ -3,7 +3,7 @@ comment: false
 ---
 <style type="text/css">
 .container {
-  margin: 0 auto;
+  margin: 0 0;
   <!-- width: $g; -->
 }
 

@@ -63,3 +63,5 @@ comment: false
 <img class="gk-img" src="/image/kafo/IMG_3030.jpg">
 <img class="gk-img" src="/image/kafo/IMG_3031.jpg">
 </div>
+
+<br><br>

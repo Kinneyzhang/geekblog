@@ -37,7 +37,7 @@ comment: false
 }}
 </style>
 
-### 卡佛书店（桃子湖店）
+# 卡佛书店（桃子湖店）
 
 <div class="gk-container2">
 <img class="gk-img" src="/image/kafo/IMG_3020.jpg">
@@ -64,4 +64,4 @@ comment: false
 <img class="gk-img" src="/image/kafo/IMG_3031.jpg">
 </div>
 
-<br><br><br><br>
+<hr>

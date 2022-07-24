@@ -27,7 +27,7 @@ comment: false
   border-radius: .2em;
   padding: .2em;
   <!-- display: inline; -->
-  width: 100%;
+  width: 95%;
 }}
 </style>
 

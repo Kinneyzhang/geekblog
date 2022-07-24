@@ -17,7 +17,8 @@ comment: false
 
 @media screen and (min-width: 600px) {
 .gk-container2 {
-  text-align: center;
+  margin: 0 auto;
+  <!-- text-align: center; -->
   margin-bottom: .5em;
 }
 .gk-img {
@@ -25,7 +26,7 @@ comment: false
   border-radius: .2em;
   padding: 2px;
   display: inline;
-  width: 390px;
+  width: 395px;
 }}
 
 .gk-img-margin {

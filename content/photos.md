@@ -3,8 +3,8 @@ comment: false
 ---
 <style type="text/css">
 .container {
-  margin: 0 0;
-  <!-- width: $g; -->
+  margin: 0 auto;
+  width: 100%;
 }
 
 @media screen and (min-width: 600px) {

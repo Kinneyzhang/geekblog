@@ -7,14 +7,14 @@ comment: false
   <!-- padding-left: 1em; -->
   <!-- padding-right: 1em; -->
   text-align: center;
+  float: left;
 }
 .gk-img {
   margin: 0 .2em 0 0;
-  border: 1px solid #aaa;
+  border: 1px solid #ccc;
   border-radius: .2em;
-  padding: .3em;
   display: inline;
-  width: 45%;
+  width: 48%;
 }}
 
 @media screen and (max-width: 600px) {

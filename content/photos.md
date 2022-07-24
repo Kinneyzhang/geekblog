@@ -21,12 +21,12 @@ comment: false
   margin-bottom: .4em;
 }
 .gk-img {
-  margin: .2em .6em .2em 0;
+  margin: .4em .6em .2em 0;
   border: 1px solid #ccc;
   border-radius: .2em;
   padding: .2em;
   display: inline;
-  width: 47%;
+  width: 45%;
 }}
 
 @media screen and (max-width: 600px) {

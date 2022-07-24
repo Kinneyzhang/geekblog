@@ -21,7 +21,7 @@ comment: false
   margin-bottom: .4em;
 }
 .gk-img {
-  margin: .4em .6em .2em 0;
+  margin: 0em .6em 0em 0;
   border: 1px solid #ccc;
   border-radius: .2em;
   padding: .2em;

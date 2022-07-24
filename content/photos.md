@@ -23,7 +23,7 @@ comment: false
   float: left;
 }
 .gk-img {
-  margin: 0 .2em 0 0;
+  margin: 0 .4em 0 0;
   border: 1px solid #ccc;
   border-radius: .2em;
   padding: .2em;
@@ -57,26 +57,6 @@ comment: false
 <img class="gk-img" src="/image/kafo/IMG_3027.jpg">
 <img class="gk-img" src="/image/kafo/IMG_3028.jpg">
 <img class="gk-img" src="/image/kafo/IMG_3029.jpg">
-<img class="gk-img" src="/image/kafo/IMG_3030.jpg">
-<img class="gk-img" src="/image/kafo/IMG_3031.jpg">
-</div>
-
-<div class="gk-container2">
-<img class="gk-img" src="/image/kafo/IMG_3022.jpg">
-<img class="gk-img" src="/image/kafo/IMG_3024.jpg">
-</div>
-
-<div class="gk-container2">
-<img class="gk-img" src="/image/kafo/IMG_3026.jpg">
-<img class="gk-img" src="/image/kafo/IMG_3027.jpg">
-</div>
-
-<div class="gk-container2">
-<img class="gk-img" src="/image/kafo/IMG_3028.jpg">
-<img class="gk-img" src="/image/kafo/IMG_3029.jpg">
-</div>
-
-<div class="gk-container2">
 <img class="gk-img" src="/image/kafo/IMG_3030.jpg">
 <img class="gk-img" src="/image/kafo/IMG_3031.jpg">
 </div>

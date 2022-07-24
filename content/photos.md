@@ -26,6 +26,8 @@ comment: false
   padding: 2px;
   display: inline;
   width: 395px;
+  position: absolute;
+  left: 0;
 }}
 
 .gk-img-margin {

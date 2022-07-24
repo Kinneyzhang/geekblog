@@ -39,8 +39,9 @@ comment: false
 
 # 卡佛书店（桃子湖店）
 
-<div class="gk-container2">
 <img class="gk-img" src="/image/kafo/IMG_3020.jpg">
+
+<div class="gk-container2">
 <img class="gk-img" src="/image/kafo/IMG_3021.jpg">
 </div>
 

@@ -28,7 +28,7 @@ comment: false
 }}
 
 .gk-img-margin {
-  margin-left: 2px;
+  margin-left: 3px;
 }
 
 @media screen and (max-width: 600px) {

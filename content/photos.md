@@ -19,7 +19,7 @@ comment: false
 .gk-container2 {
   <!-- text-align: center; -->
   margin-bottom: .4em;
-  <!-- float: left; -->
+  float: left;
 }
 .gk-img {
   border: 1px solid #ccc;

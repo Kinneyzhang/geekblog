@@ -7,14 +7,14 @@
 
   .menu {
     display: inline-block;
-    position: relative;
+    // position: relative;
     padding-left: 0;
     padding-right: 2px;
     font-family: $menu-font-family;
     font-weight: $menu-font-weight;
 
     .menu-item {
-      display: inline;
+      display: inline-block;
 
       & + .menu-item {
         margin-left: $menu-item-margin-left;;

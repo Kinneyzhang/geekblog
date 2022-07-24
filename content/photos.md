@@ -38,3 +38,25 @@ comment: false
 <img class="gk-img" src="/image/kafo/IMG_3020.jpg">
 <img class="gk-img" src="/image/kafo/IMG_3021.jpg">
 </div>
+
+<div class="gk-container2">
+<img class="gk-img" src="/image/kafo/IMG_3022.jpg">
+<img class="gk-img" src="/image/kafo/IMG_3024.jpg">
+</div>
+
+<div class="gk-container2">
+<img class="gk-img" src="/image/kafo/IMG_3026.jpg">
+<img class="gk-img" src="/image/kafo/IMG_3027.jpg">
+</div>
+
+<div class="gk-container2">
+<img class="gk-img" src="/image/kafo/IMG_3028.jpg">
+<img class="gk-img" src="/image/kafo/IMG_3029.jpg">
+</div>
+
+<div class="gk-container2">
+<img class="gk-img" src="/image/kafo/IMG_3030.jpg">
+<img class="gk-img" src="/image/kafo/IMG_3031.jpg">
+</div>
+
+<img class="gk-img" src="/image/kafo/IMG_3032.jpg">

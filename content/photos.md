@@ -24,8 +24,8 @@ comment: false
   border: 1px solid #ccc;
   border-radius: .2em;
   padding: 2px;
-  display: inline;
-  width: 410px;
+  display: inline-block;
+  width: 420px;
 }}
 
 .gk-img-margin {

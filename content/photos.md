@@ -17,9 +17,8 @@ comment: false
 
 @media screen and (min-width: 600px) {
 .gk-container2 {
-  <!-- text-align: center; -->
-  margin-bottom: .4em;
-  float: left;
+  text-align: center;
+  margin-bottom: .5em;
 }
 .gk-img {
   border: 1px solid #ccc;

@@ -4,8 +4,6 @@ comment: false
 <style type="text/css">
 @media screen and (min-width: 600px) {
 .gk-container2 {
-  <!-- column-count: 2; -->
-  <!-- column-gap: .5em; -->
   <!-- padding-left: 1em; -->
   <!-- padding-right: 1em; -->
   text-align: center;
@@ -21,11 +19,9 @@ comment: false
 
 @media screen and (max-width: 600px) {
 .gk-container2 {
-  <!-- column-count: 0; -->
-  <!-- column-gap: 0; -->
   <!-- padding-left: .6em; -->
   <!-- padding-right: 1.2em; -->
-  <!-- text-align: center; -->
+  text-align: center;
 }
 .gk-img {
   margin: .5em 1em 0 .5em;

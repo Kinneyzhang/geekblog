@@ -13,6 +13,7 @@ comment: false
   margin: 0 .2em 0 0;
   border: 1px solid #ccc;
   border-radius: .2em;
+  padding: .2em;
   display: inline;
   width: 45%;
 }}

@@ -20,7 +20,7 @@ comment: false
   <!-- padding-left: 1em; -->
   <!-- padding-right: 1em; -->
   float: left;
-  text-align: center;
+  <!-- text-align: center; -->
 }
 .gk-img {
   margin: 0 .4em 0 0;
@@ -28,7 +28,7 @@ comment: false
   border-radius: .2em;
   padding: .2em;
   display: inline;
-  <!-- width: 47%; -->
+  width: 47%;
 }}
 
 @media screen and (max-width: 600px) {

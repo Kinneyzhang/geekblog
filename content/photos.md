@@ -2,6 +2,7 @@
 comment: false
 ---
 <style type="text/css">
+$global-body-width: 1000px;
 @media screen and (min-width: 600px) {
 .gk-container2 {
   <!-- padding-left: 1em; -->
@@ -58,5 +59,3 @@ comment: false
 <img class="gk-img" src="/image/kafo/IMG_3030.jpg">
 <img class="gk-img" src="/image/kafo/IMG_3031.jpg">
 </div>
-
-<img class="gk-img" src="/image/kafo/IMG_3032.jpg">

@@ -22,8 +22,8 @@ comment: false
   text-align: center;
 }
 .gk-img {
-  margin: .5em 1em 0 .5em;
-  border: 1px solid #aaa;
+  margin: 1em .5em 0 .5em;
+  border: 1px solid #ccc;
   border-radius: .2em;
   padding: .2em;
   <!-- display: inline; -->

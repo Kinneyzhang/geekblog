@@ -51,12 +51,12 @@ comment: false
 
 <div class="gk-container2">
 <img class="gk-img" src="/image/kafo/IMG_3026.jpg">
-<img class="gk-img gk-img-margin" src="/image/kafo/IMG_3024.jpg">
+<img class="gk-img gk-img-margin" src="/image/kafo/IMG_3022.jpg">
 </div>
 
 <div class="gk-container2">
 <img class="gk-img" src="/image/kafo/IMG_3031.jpg">
-<img class="gk-img gk-img-margin" src="/image/kafo/IMG_3020.jpg">
+<img class="gk-img gk-img-margin" src="/image/kafo/IMG_3028.jpg">
 </div>
 
 <img class="gk-single-img" src="/image/kafo/IMG_3029.jpg">
@@ -67,8 +67,8 @@ comment: false
 </div>
 
 <div class="gk-container2">
-<img class="gk-img" src="/image/kafo/IMG_3022.jpg">
-<img class="gk-img gk-img-margin" src="/image/kafo/IMG_3028.jpg">
+<img class="gk-img" src="/image/kafo/IMG_3024.jpg">
+<img class="gk-img gk-img-margin" src="/image/kafo/IMG_3020.jpg">
 </div>
 
 <p>&nbsp;</p>

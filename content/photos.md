@@ -7,6 +7,14 @@ comment: false
 <!--   width: 80%; -->
 <!-- } -->
 
+.gk-single-img {
+  margin: 0 .2em 0 0;
+  border: 1px solid #ccc;
+  border-radius: .2em;
+  padding: .2em;
+  width: 100%;
+}
+
 @media screen and (min-width: 600px) {
 .gk-container2 {
   <!-- padding-left: 1em; -->
@@ -39,7 +47,7 @@ comment: false
 
 # 卡佛书店（桃子湖店）
 
-<img class="gk-img" src="/image/kafo/IMG_3020.jpg">
+<img class="gk-single-img" src="/image/kafo/IMG_3020.jpg">
 
 <div class="gk-container2">
 <img class="gk-img" src="/image/kafo/IMG_3021.jpg">

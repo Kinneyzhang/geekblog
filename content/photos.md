@@ -56,12 +56,12 @@ comment: false
 <img class="gk-img" src="/image/kafo/IMG_3026.jpg">
 </div>
 
-<img class="gk-img" src="/image/kafo/IMG_3029.jpg">
+<img class="gk-single-img" src="/image/kafo/IMG_3029.jpg">
 
 <div class="gk-container2">
 <img class="gk-img" src="/image/kafo/IMG_3027.jpg">
-<img class="gk-img" src="/image/kafo/IMG_3028.jpg">
 <img class="gk-img" src="/image/kafo/IMG_3030.jpg">
+<img class="gk-img" src="/image/kafo/IMG_3028.jpg">
 <img class="gk-img" src="/image/kafo/IMG_3031.jpg">
 </div>
 

@@ -2,7 +2,11 @@
 comment: false
 ---
 <style type="text/css">
-$global-body-width: 1000px;
+.container {
+  margin: 0 auto;
+  <!-- width: $g; -->
+}
+
 @media screen and (min-width: 600px) {
 .gk-container2 {
   <!-- padding-left: 1em; -->

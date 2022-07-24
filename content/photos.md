@@ -20,7 +20,7 @@ comment: false
   float: left;
 }
 .gk-img {
-  margin: 0 .6em 0 0;
+  margin: .2em .6em .2em 0;
   border: 1px solid #ccc;
   border-radius: .2em;
   padding: .2em;

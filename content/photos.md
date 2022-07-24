@@ -19,8 +19,8 @@ comment: false
 
 @media screen and (max-width: 600px) {
 .gk-container2 {
-  <!-- padding-left: .6em; -->
-  <!-- padding-right: 1.2em; -->
+  padding-left: .6em;
+  padding-right: 1.2em;
   text-align: center;
 }
 .gk-img {

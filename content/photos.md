@@ -21,13 +21,16 @@ comment: false
   margin-bottom: .4em;
 }
 .gk-img {
-  margin: 0em .6em 0em 0;
   border: 1px solid #ccc;
   border-radius: .2em;
-  padding: .2em;
+  padding: 2px;
   display: inline;
-  width: 47%;
+  width: 420px;
 }}
+
+.gk-img-margin {
+  margin-left: 2px;
+}
 
 @media screen and (max-width: 600px) {
 .gk-container2 {
@@ -49,12 +52,12 @@ comment: false
 
 <div class="gk-container2">
 <img class="gk-img" src="/image/kafo/IMG_3020.jpg">
-<img class="gk-img" src="/image/kafo/IMG_3024.jpg">
+<img class="gk-img gk-img-margin" src="/image/kafo/IMG_3024.jpg">
 </div>
 
 <div class="gk-container2">
 <img class="gk-img" src="/image/kafo/IMG_3022.jpg">
-<img class="gk-img" src="/image/kafo/IMG_3026.jpg">
+<img class="gk-img gk-img-margin" src="/image/kafo/IMG_3026.jpg">
 </div>
 
 <img class="gk-single-img" src="/image/kafo/IMG_3029.jpg">

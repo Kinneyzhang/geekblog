@@ -40,10 +40,11 @@ comment: false
   border: 1px solid #ccc;
   border-radius: .2em;
   padding: .2em;
-  <!-- display: inline; -->
   width: 95%;
 }}
 </style>
+
+**[卡佛书店（桃子湖店）](#卡佛书店（桃子湖店）)**
 
 # 卡佛书店（桃子湖店）
 

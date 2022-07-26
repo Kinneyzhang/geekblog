@@ -35,11 +35,6 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 #   url = "/"
 
 [[menu.main]]
-  name = "记录"
-  weight = 5
-  identifier = "other"
-  url = "/moments/"
-[[menu.main]]
   name = "归档"
   weight = 10
   identifier = "archives"
@@ -60,15 +55,20 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   identifier = "about"
   url = "/about/"
 [[menu.main]]
-  name = "视频"
-  weight = 45
-  identifier = "video"
-  url = "/videos/"
-[[menu.main]]
-  name = "摄影"
+  name = "MISC"
   weight = 50
-  identifier = "photo"
-  url = "/photos/"
+  identifier = "other"
+  url = "/moments/"
+# [[menu.main]]
+#   name = "视频"
+#   weight = 60
+#   identifier = "video"
+#   url = "/videos/"
+# [[menu.main]]
+#   name = "摄影"
+#   weight = 70
+#   identifier = "photo"
+#   url = "/photos/"
 
 
 [params]

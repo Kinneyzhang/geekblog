@@ -23,7 +23,7 @@ comment: false
 }
 </style>
 
-**[随想](/moments) · [日志](/success) · [书签](/bookmarks) · [摄影](/photos) · 视频**
+**[随想](/moments)  ·  [日志](/success)  ·  [书签](/bookmarks)  ·  [摄影](/photos)  ·  视频**
 
 ---
 

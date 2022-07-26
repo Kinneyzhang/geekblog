@@ -2,7 +2,7 @@
 comment: false
 ---
 
-**[随想](/moments) · [日志](/success) · <!-- [计划](/plans) ·  -->书签**
+**[随想](/moments) · [日志](/success) · 书签 · [摄影](/photos) · [视频](/videos)**
 
 ---
 > **Bookmarks - 书签收藏**

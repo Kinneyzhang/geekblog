@@ -44,7 +44,7 @@ comment: false
 }}
 </style>
 
-**[随想](/moments) · 日志 · <!-- [计划](/plans) ·  -->[书签](/bookmarks)**
+**[随想](/moments) · 日志 · [书签](/bookmarks) · [摄影](/photos) · [视频](/videos)**
 
 ---
 > **Success - 简单记录**

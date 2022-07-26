@@ -23,6 +23,10 @@ comment: false
 }
 </style>
 
+**[随想](/moments) · [日志](/success) · [书签](/bookmarks) · [摄影](/photos) · 视频**
+
+---
+
 那些愉悦我、感动我、激励我的歌曲和MV。
 
 # RAM WIRE - 尽管我们的手中空无一物

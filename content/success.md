@@ -56,9 +56,9 @@ comment: false
 # 2022-07
 ## 2022-07-25 Mon
 1. 错单手工分析流程分析和完善。
-2. 看宝珀理想国文学奖评委对谈[视频](https://www.bilibili.com/video/BV18T411E7MU)
-3. relaxing talk.
-4. 
+2. 健身房跑步半小时 和 力量训练。
+3. 看宝珀理想国文学奖评委对谈[视频](https://www.bilibili.com/video/BV18T411E7MU)
+4. relaxing talk.
 ## 2022-07-24 Sun
 1. 湖南师大旁边的[卡佛书店](https://geekinney.com/photos/#卡佛书店（桃子湖店）)呆了一天。准备把这个城市的独立书店都逛一遍。
 2. 随便看了看《编程人生：15位软件先驱访谈录》，真是意外之喜，有许多有启发的内容啊。

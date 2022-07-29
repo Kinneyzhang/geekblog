@@ -57,7 +57,7 @@ comment: false
 ## 2022-07-29 Fri
 1. 基本开发完了错单参数自动分析的流程。
 2. 敲了一天的 Java，我发现我对编程语言的偏见在逐渐消失。并且认识到，当你缺少足够的了解和实践的时候，任何的偏见都是狭隘的，而这种狭隘的偏见会削减你深究问题的勇气。
-3. a little serious, but relaxing talk at the end.
+3. A little serious talk, but tends to be relaxing at the end.
 4. 我需要培养自己坐在床上，以一种相对随意轻松的状态也能看得进去技术书籍的习惯。
 ## 2022-07-28 Thu
 1. 认真工作且收获满满的一天。

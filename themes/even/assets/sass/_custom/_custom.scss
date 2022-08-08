@@ -67,5 +67,13 @@ li p {
 }
 
 ul ul {
-    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+}
+
+ul ul ul {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
 }

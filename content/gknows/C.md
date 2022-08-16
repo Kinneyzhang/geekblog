@@ -1,5 +1,7 @@
 ---
 title: c
+type: post
+layout: article
 comment: false
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: python
+type: post
+layout: article
 comment: false
 ---
 

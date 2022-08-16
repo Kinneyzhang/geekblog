@@ -1,5 +1,7 @@
 ---
 title: java
+type: post
+layout: article
 comment: false
 ---
 

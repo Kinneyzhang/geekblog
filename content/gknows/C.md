@@ -1,7 +1,7 @@
 ---
 title: c
 type: post
-layout: article
+layout: daily
 comment: false
 ---
 

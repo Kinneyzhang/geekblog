@@ -1,7 +1,7 @@
 ---
 title: python
 type: post
-layout: article
+layout: daily
 comment: false
 ---
 

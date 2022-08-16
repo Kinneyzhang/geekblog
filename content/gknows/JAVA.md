@@ -1,7 +1,7 @@
 ---
 title: java
 type: post
-layout: article
+layout: daily
 comment: false
 ---
 

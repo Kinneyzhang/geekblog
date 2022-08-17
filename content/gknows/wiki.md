@@ -2,6 +2,7 @@
 title: 知识体系
 type: post
 layout: daily
+toc: false
 comment: false
 ---
 

@@ -1,8 +1,9 @@
 ---
+title: 知识体系type: post
+layout: daily
 comment: false
 ---
 
-# 知识体系
  - [计算机](/gknows/计算机)
    - [数据结构和算法](/gknows/数据结构和算法)
      - [查找](/gknows/查找)
@@ -12,4 +13,4 @@ comment: false
      - [java](/gknows/java)
      - [python](/gknows/python)
      - [c](/gknows/c)
-     - [c++](/gknows/c++)
+     - [c++conf](/gknows/c++conf)

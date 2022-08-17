@@ -6,6 +6,6 @@ toc: false
 comment: false
 ---
 ---
-[wiki](/gknows/wiki) > [计算机](/gknows/计算机) > EmacsLisp
+PARENTS: [wiki.md](/gknows/wiki.md) > [计算机](/gknows/计算机) > EmacsLisp
 
 ---

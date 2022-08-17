@@ -1,5 +1,5 @@
 ---
-title: emacslisp
+title: EmacsLisp
 type: post
 layout: daily
 toc: false

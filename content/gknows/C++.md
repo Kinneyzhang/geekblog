@@ -1,5 +1,5 @@
 ---
-title: c++
+title: C++
 type: post
 layout: daily
 toc: false

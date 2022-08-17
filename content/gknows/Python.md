@@ -1,5 +1,5 @@
 ---
-title: python
+title: Python
 type: post
 layout: daily
 toc: false

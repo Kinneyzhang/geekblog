@@ -1,5 +1,5 @@
 ---
-title: java
+title: Java
 type: post
 layout: daily
 toc: false

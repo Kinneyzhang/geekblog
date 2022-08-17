@@ -1,5 +1,5 @@
 ---
-title: c
+title: emacslisp
 type: post
 layout: daily
 toc: false

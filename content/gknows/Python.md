@@ -1,8 +1,8 @@
 ---
 title: Python
-slug: 'Python'
 type: post
 layout: daily
+slug: Python
 comment: false
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: c
+title: C
 type: post
 layout: daily
 comment: false
@@ -7,7 +7,7 @@ comment: false
 
 ---
 
-PARENTS: [知识体系](/gknows/wiki) > [计算机](/gknows/计算机) > [编程语言](/gknows/编程语言) > c
+PARENTS: [知识库](/gknows/wiki) > [计算机](/gknows/计算机) > C
 
 
 

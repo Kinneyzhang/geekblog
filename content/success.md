@@ -56,7 +56,7 @@ comment: false
 # 2022-08
 ## 2022-08-16 Tue
 1. 批量添加配置shell脚本编写。
-2. 基于markdown的静态wiki系统(md-wiki)编码：初步实现了层级结构解析。
+2. 基于markdown的静态wiki系统(md-wiki)编码。
 ## 2022-08-15 Mon
 1. 信管例会，错单开发。
 2. 简单搭建个人知识库博客结构: a small but important step!

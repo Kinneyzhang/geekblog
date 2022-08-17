@@ -15,7 +15,7 @@ comment: false
    - [操作系统](/gknows/操作系统)
    - [编程语言](/gknows/编程语言)
      - [java](/gknows/java)
-     - [python](/gknows/python)
+     - [Python](/gknows/Python)
      - [c](/gknows/c)
      - [c++](/gknows/c++)
 

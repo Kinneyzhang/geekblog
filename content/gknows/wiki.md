@@ -1,5 +1,6 @@
 ---
-title: "知识体系"type: post
+title: 知识体系
+type: post
 layout: daily
 comment: false
 ---

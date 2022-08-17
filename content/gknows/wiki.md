@@ -1,5 +1,5 @@
 ---
-title: 知识体系type: post
+type: post
 layout: daily
 comment: false
 ---

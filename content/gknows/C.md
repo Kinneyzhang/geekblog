@@ -6,6 +6,6 @@ toc: false
 comment: false
 ---
 ---
-PARENTS: [wiki.md](/gknows/wiki.md) > [计算机](/gknows/计算机) > C
+PARENTS: [wiki](/gknows/wiki) > [计算机](/gknows/计算机) > C
 
 ---

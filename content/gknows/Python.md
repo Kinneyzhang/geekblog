@@ -2,7 +2,6 @@
 title: Python
 type: post
 layout: daily
-slug: Python2
 comment: false
 ---
 

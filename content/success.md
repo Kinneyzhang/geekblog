@@ -56,6 +56,7 @@ comment: false
 # 2022-08
 ## 2022-08-17 Wed
 1. md-wiki重构和编码。
+2. 看LPL季后赛。
 ## 2022-08-16 Tue
 1. 批量添加配置shell脚本编写。
 2. 基于markdown的静态wiki系统(md-wiki)编码。

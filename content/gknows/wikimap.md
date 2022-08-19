@@ -1,5 +1,5 @@
 ---
-title: sitemap
+title: wikimap
 type: post
 layout: daily
 toc: false

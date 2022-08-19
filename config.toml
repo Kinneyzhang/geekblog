@@ -63,7 +63,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   name = "知识库(Beta)"
   weight = 60
   identifier = "gknows"
-  url = "/gknows/wiki/"
+  url = "/gknows/sitemap/"
   
 # [[menu.main]]
 #   name = "视频"

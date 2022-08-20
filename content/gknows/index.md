@@ -4,8 +4,22 @@ type: post
 layout: daily
 toc: false
 comment: false
----
----
+------
+- [应用技术](/gknows/应用技术)
+  - [信息技术](/gknows/信息技术)
+    - [计算机科学](/gknows/计算机科学)
+      - [数据结构与算法](/gknows/数据结构与算法)
+      - [操作系统](/gknows/操作系统)
+      - [Python](/gknows/python)
+      - [Linux](/gknows/linux)
+- [生活消费](/gknows/生活消费)
+  - [饮食与烹饪](/gknows/饮食与烹饪)
+  - [住房与维修](/gknows/住房与维修)
+  - [出行与旅游](/gknows/出行与旅游)
+  - [体育与健身](/gknows/体育与健身)
+  - [个人成长](/gknows/个人成长)
+  - [数码](/gknows/数码)
+  - [理财](/gknows/理财)
 - [身边事物](/gknows/身边事物)
   - [时事](/gknows/时事)
     - [科技新闻](/gknows/科技新闻)
@@ -14,18 +28,3 @@ comment: false
   - [百科](/gknows/百科)
     - [地名信息](/gknows/地名信息)
     - [人物百科](/gknows/人物百科)
-- [生活消费](/gknows/生活消费)
-  - [饮食与烹饪](/gknows/饮食与烹饪)
-  - [住房与维修](/gknows/住房与维修)
-  - [数码](/gknows/数码)
-  - [理财](/gknows/理财)
-  - [个人成长](/gknows/个人成长)
-  - [出行与旅游](/gknows/出行与旅游)
-  - [体育与健身](/gknows/体育与健身)
-- [应用技术](/gknows/应用技术)
-  - [信息技术](/gknows/信息技术)
-    - [计算机科学](/gknows/计算机科学)
-      - [数据结构与算法](/gknows/数据结构与算法)
-      - [操作系统](/gknows/操作系统)
-      - [Python](/gknows/python)
-      - [Linux](/gknows/linux)

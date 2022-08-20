@@ -18,6 +18,7 @@ comment: false
       - [操作系统](/gknows/操作系统)
       - [Python](/gknows/python)
       - [Linux](/gknows/linux)
+      - [EmacsLisp](/gknows/emacslisp)
 - [生活消费](/gknows/生活消费)
   - [出行与旅游](/gknows/出行与旅游)
   - [个人成长](/gknows/个人成长)

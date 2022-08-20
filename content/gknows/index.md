@@ -1,5 +1,5 @@
 ---
-title: wikimap
+title: INDEX
 type: post
 layout: daily
 toc: false

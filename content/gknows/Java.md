@@ -6,6 +6,6 @@ toc: false
 comment: false
 ---
 ---
-<small>PARENTS: [INDEX](/gknows/wikimap) > [计算机](/gknows/计算机) > Java</small>
+<center><small>PARENTS: [INDEX](/gknows/wikimap) > [计算机](/gknows/计算机) > Java</small></center>
 
 ---

@@ -23,7 +23,7 @@ toc: true
 | [青山绿水](https://www.huhexian.com/)    | 胡和先的个人博客                                      |
 | [阿川的个人博客](https://achuan.io/)     | 执着于理想, 纯粹于当下                                |
 | [三点水](https://lotabout.me/)           | 不积小流, 无以成江海                                  |
-| [探索子](https://beyondstars.xyz/)       | 越过星空去探索                                        |
+| [探索子](https://exploro.one/)       | 越过星空去探索                                        |
 
 <hr>
 如需添加友链，请在本页面底部留言，留言格式：

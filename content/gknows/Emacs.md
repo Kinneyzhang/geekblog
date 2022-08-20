@@ -11,5 +11,5 @@ comment: false
 ---
 
 # md-wiki
-- Bug
+- BUG优化
   - [ ] 增加一个页面时，需要更新所有与之相关的page的nav

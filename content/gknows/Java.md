@@ -6,6 +6,6 @@ toc: false
 comment: false
 ---
 ---
-<center>[INDEX](/gknows/wikimap) > [计算机](/gknows/计算机) > Java</center>
+<span><center>[INDEX](/gknows/wikimap) > [计算机](/gknows/计算机) > Java</center></span>
 
 ---

@@ -16,6 +16,8 @@ comment: false
           - [散列表](/gknows/散列表)
           - [应用](/gknows/应用)
       - [操作系统](/gknows/操作系统)
+      - [数据库](/gknows/数据库)
+        - [sqlite](/gknows/sqlite)
       - [Python](/gknows/python)
       - [Linux](/gknows/linux)
       - [Emacs](/gknows/emacs)

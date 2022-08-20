@@ -55,7 +55,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   identifier = "about"
   url = "/about/"
 [[menu.main]]
-  name = "MISC"
+  name = "记录"
   weight = 50
   identifier = "other"
   url = "/moments/"

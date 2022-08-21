@@ -14,7 +14,6 @@ comment: false
           - [二叉查找树](/gknows/二叉查找树)
           - [平衡查找树](/gknows/平衡查找树)
           - [散列表](/gknows/散列表)
-          - [应用](/gknows/应用)
       - [操作系统](/gknows/操作系统)
       - [数据库](/gknows/数据库)
         - [sqlite](/gknows/sqlite)

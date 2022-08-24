@@ -9,8 +9,10 @@ comment: false
 <span><center>[INDEX](/gknows/index) > [计算机科学](/gknows/计算机科学) > Linux</center></span>
 
 ---
+# TODO
+- [ ] puppy, plink and rsync
+
 # 命令行工具
-- ssh密钥登录
+- SSH 免输入密钥登录
   - Linux: `sshpass -p <passwd>`
-  - Windows
-    - Then you need cygnative because there is an incompatibility of stdin/stdout redirecion between cygwin and native Win32 programs.
+  - Windows: Then you need cygnative because there is an incompatibility of stdin/stdout redirecion between cygwin and native Win32 programs.

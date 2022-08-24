@@ -19,7 +19,4 @@ comment: false
     - [X] 多种表配置缺失或异常情况完善
       - 回收时，查不到特定错误码的配置
       - 回收时，查不到特定错误码的特定分析方法的配置
-  - [ ] 算法学习
-  - [ ] gkroam daily page 输出到 md-wiki
-  - [ ] 看《费曼学习法》
-
+  - [X] gkroam daily page 输出到 md-wiki

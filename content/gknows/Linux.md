@@ -19,3 +19,4 @@ comment: false
   - cygnative
     - Cygnative.exe is a wrapper for cygwin programs which call native Win32 programs with stdin and/or stdout handle redirected. Without cygnative.exe it is possible that the native program can not read from the handle and receives a "invalid handle" error.
     - [download](http://diario.beerensalat.info/2009/08/18/new_cygnative_version_1_2_for_rsync_plink.html)
+    - rsync -args -e="cygnative plink" local_dir/ user@remote:/remote_dir

@@ -9,12 +9,6 @@ comment: false
 <span><center>[INDEX](/gknows/index) > [生活消费](/gknows/生活消费) > [个人成长](/gknows/个人成长) > Daily Page</center></span>
 
 ---
-# pelican
-- https://getpelican.com
-- https://docs.getpelican.com/en/latest/
-- pneumatic: https://github.com/iKevinY/pneumatic
-- pelican --print-settings
-
 # Aug 25, 2022
 - 今日待办
   - [X] 错单管理

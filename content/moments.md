@@ -9,27 +9,21 @@ comment: false
 
 # 2022-08-28 11:10
 
-I walked ten thousand miles, ten thousand miles to see you\
-And every gap of breath, I grabbed it just to find you\
-I climbed up every hill to get to you\
-I wandered ancient lands to hold just you\
-And every single step of the way, I paid\
-Every single night and day, I searched for you\
-Through sand storms and hazy dawns, I reached for you\
+I walked ten thousand miles, ten thousand miles to see you.\
+And every gap of breath, I grabbed it just to find you.\
+I climbed up every hill to get to you.\
+I wandered ancient lands to hold just you.\
+And every single step of the way, I paid.\
+Every single night and day, I searched for you.\
+Through sand storms and hazy dawns, I reached for you.\
 
-千里路迢迢，缘是相顾鹊桥
-
-瞬息间意绵绵，却已寻遍人间
-
-翻山越岭草萋萋，便折红豆寄情
-
-北冥南山风萧萧，轻燕成双归巢
-
-回首只见足迹隐隐，不觉刻骨铭心
-
-朝朝暮暮，四顾茫茫，所谓伊人，在水何方
-
-红尘沙滚滚，晨曦雾漫漫，方知伊人已相伴
+千里路迢迢，缘是相顾鹊桥\
+瞬息间意绵绵，却已寻遍人间\
+翻山越岭草萋萋，便折红豆寄情\
+北冥南山风萧萧，轻燕成双归巢\
+回首只见足迹隐隐，不觉刻骨铭心\
+朝朝暮暮，四顾茫茫，所谓伊人，在水何方\
+红尘沙滚滚，晨曦雾漫漫，方知伊人已相伴\
 
 # 2022-08-28 08:46
 **与真实世界建立联系，而不是想象中的未来**

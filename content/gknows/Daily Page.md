@@ -9,6 +9,15 @@ comment: false
 <span><center>[INDEX](/gknows/index) > [生活消费](/gknows/生活消费) > [个人成长](/gknows/个人成长) > Daily Page</center></span>
 
 ---
+# Aug 29, 2022
+- 今日待办
+  - [X] geekinney.com ssl证书部署
+  - [-] 错单参数分析优化
+    - [X] 日志优化
+    - [ ] 表配置相关的错误验证 放到参数加载的逻辑中
+    - [ ] 只存在一种返回(0/1)的方法，包含直接返回的情况。
+    - [ ] 返回结果在最后一步方法的返回实体中取，不在script表中取
+
 # Aug 27, 2022
 - 精力状态不佳，就做些自己感兴趣的事情吧，至少得做些事情
 
@@ -66,3 +75,4 @@ comment: false
       - 回收时，查不到特定错误码的配置
       - 回收时，查不到特定错误码的特定分析方法的配置
   - [X] gkroam daily page 输出到 md-wiki
+

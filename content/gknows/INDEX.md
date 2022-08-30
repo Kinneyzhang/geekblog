@@ -5,6 +5,9 @@ layout: daily
 toc: false
 comment: false
 ---
+---
+[Daily Page](/gknows/daily-page) | [费曼学习法](/gknows/费曼学习法) | [Emacs](/gknows/emacs)
+---
 - [计算机科学](/gknows/计算机科学)
   - [数据结构与算法](/gknows/数据结构与算法)
     - [查找算法](/gknows/查找算法)
@@ -23,9 +26,10 @@ comment: false
   - [出行与旅游](/gknows/出行与旅游)
   - [经验常识](/gknows/经验常识)
   - [个人成长](/gknows/个人成长)
+    - [GTD](/gknows/gtd)
     - [Daily Page](/gknows/daily-page)
+    - [习惯培养](/gknows/习惯培养)
     - [课题研究](/gknows/课题研究)
     - [博客撰写](/gknows/博客撰写)
     - [书籍阅读](/gknows/书籍阅读)
       - [费曼学习法](/gknows/费曼学习法)
-    - [习惯培养](/gknows/习惯培养)

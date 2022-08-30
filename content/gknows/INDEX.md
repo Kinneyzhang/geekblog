@@ -4,7 +4,7 @@ type: post
 layout: daily
 toc: false
 comment: false
-------
+---
 - [计算机科学](/gknows/计算机科学)
   - [数据结构与算法](/gknows/数据结构与算法)
     - [查找算法](/gknows/查找算法)

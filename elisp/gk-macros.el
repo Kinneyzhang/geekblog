@@ -1,0 +1,5 @@
+(defmacro map-with-files-in-dir (dir &rest body)
+  `(let ((files (directory-files ,dir t ".+\.md$")))
+     (dolist (file files)
+       (with-current-buffer (find-file-noselect file)
+         ,@body))))

@@ -57,6 +57,7 @@ comment: false
 ## 2022-09-01 Thu
 1. 文档写完了。
 2. 健身房跑步半小时。
+3. 瞎折腾：common-lisp, sbcl, quicklisp ...
 # 2022-08
 ## 2022-08-31 Wed
 1. 做好吃的，看《虫师》。

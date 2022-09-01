@@ -33,4 +33,9 @@
   (let ((title (or date (format-time-string "%b %d, %Y"))))
     (gkroam-to-gkwiki title "Daily Page")))
 
-(daily-page-to-mdwiki "Aug 31, 2022")
+
+;;; FIIXME
+;; 1. force to regenerate all pages, from a start date
+;; 2. generate a specific date with by choosing in calendar.
+
+(daily-page-to-mdwiki "Aug 26, 2022")

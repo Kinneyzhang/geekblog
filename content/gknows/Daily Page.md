@@ -9,6 +9,18 @@ comment: false
 <span><center>[INDEX](/gknows/index) > [生活消费](/gknows/生活消费) > [个人成长](/gknows/个人成长) > Daily Page</center></span>
 
 ---
+# Sep 01, 2022
+- 今日待办
+  - [X] 错单详细设计文档完善
+  - gkroam 前后跳转 daily page 命令
+  - convert org link to md link (daily-page-to-mdwiki)
+  - 错单完善
+    - [X] 最后一步的更新表的 update 语句放在 finally 里面。
+    - ★表配置相关的错误验证，放到参数加载的逻辑中
+    - 返回结果在最后一步方法的返回实体中取，不在script表中取  
+    - 只存在一种返回(0/1)的方法，包含直接返回的情况。
+    - 通过反射取每步方法的参数值
+
 # Aug 31, 2022
 - 今日待办
   - [ ] 错单详细设计文档完善

@@ -58,7 +58,7 @@ comment: false
 1. 文档写完了。
 2. 健身房跑步半小时。
 3. 瞎折腾：common-lisp, sbcl, quicklisp ...
-4. 接下来一个月重点培养晚上按时的习惯，记录在[习惯培养](https://geekinney.com/gknows/%E4%B9%A0%E6%83%AF%E5%9F%B9%E5%85%BB/)。
+4. 接下来一个月重点培养晚上按时睡觉的习惯，记录在[习惯培养](https://geekinney.com/gknows/%E4%B9%A0%E6%83%AF%E5%9F%B9%E5%85%BB/)。
 # 2022-08
 ## 2022-08-31 Wed
 1. 做好吃的，看《虫师》。

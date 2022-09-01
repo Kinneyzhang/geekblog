@@ -32,3 +32,5 @@
   (interactive)
   (let ((title (or date (format-time-string "%b %d, %Y"))))
     (gkroam-to-gkwiki title "Daily Page")))
+
+(daily-page-to-mdwiki "Aug 31, 2022")

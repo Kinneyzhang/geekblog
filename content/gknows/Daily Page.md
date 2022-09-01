@@ -23,15 +23,14 @@ comment: false
 
 # Aug 31, 2022
 - 今日待办
-  - [ ] 错单详细设计文档完善
-  - [ ] gkroam 前后跳转 daily page 命令
-  - [ ] convert org link to md link (daily-page-to-mdwiki)
+  - [X] 错单详细设计文档完善
+  - gkroam 前后跳转 daily page 命令
+  - convert org link to md link (daily-page-to-mdwiki)
 
 - 思考
   - 筛选及专注：筛选需要的重点内容，一段时间内集中学习，心无旁骛，形成专注力。就像打沙包，对着一个点精准突破。
   - 《代码大全2》还是值得看看的，要筛选当下对自己最关键的内容。
   - [[https://www.zhihu.com/question/23230625/answer/204959590][MATLAB 能做什么？ - 打浦桥程序员的回答 - 知乎]]
-
 
 - 想法：用代码模拟搭建木(立体图形拼接，乐高)的过程。
   - 定义一些标准的几何模型

@@ -38,4 +38,4 @@
 ;; 1. force to regenerate all pages, from a start date
 ;; 2. generate a specific date with by choosing in calendar.
 
-(daily-page-to-mdwiki "Aug 26, 2022")
+;; (daily-page-to-mdwiki "Aug 26, 2022")

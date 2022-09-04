@@ -5,4 +5,4 @@ comment: false
 
 ---
 
-**[卡佛书店(桃子湖)](/PHO/kafo)**
+**[卡佛书店(桃子湖)](/pho/kafo)**

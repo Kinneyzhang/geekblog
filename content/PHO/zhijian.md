@@ -82,6 +82,11 @@ comment: false
 </div>
 
 <div class="gk-container2">
+<img class="gk-img" src="/image/zhijian/IMG_3446.jpg">
+<img class="gk-img gk-img-margin" src="/image/zhijian/IMG_3438.jpg">
+</div>
+
+<div class="gk-container2">
 <img class="gk-img" src="/image/zhijian/IMG_3442.jpg">
 <img class="gk-img gk-img-margin" src="/image/zhijian/IMG_3458.jpg">
 </div>

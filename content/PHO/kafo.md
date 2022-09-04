@@ -48,6 +48,9 @@ comment: false
 
 ---
 
+- **[卡佛书店(桃子湖)](/pho/kafo)**
+- **[止间书店](/pho/zhijian)**
+
 # 卡佛书店（桃子湖店）
 
 <img class="gk-single-img" src="/image/kafo/IMG_3021.jpg">

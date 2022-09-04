@@ -68,13 +68,13 @@ comment: false
 </div>
 
 <div class="gk-container2">
-<img class="gk-img" src="/image/zhijian/IMG_3436.jpg">
+<img class="gk-img" src="/image/zhijian/IMG_3444.jpg">
 <img class="gk-img gk-img-margin" src="/image/zhijian/IMG_3440.jpg">
 </div>
 
 <div class="gk-container2">
 <img class="gk-img" src="/image/zhijian/IMG_3443.jpg">
-<img class="gk-img gk-img-margin" src="/image/zhijian/IMG_3444.jpg">
+<img class="gk-img gk-img-margin" src="/image/zhijian/IMG_3436.jpg">
 </div>
 
 <div class="gk-container2">

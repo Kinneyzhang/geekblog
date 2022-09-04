@@ -47,33 +47,35 @@ comment: false
 **[随想](/moments)  ·  [日志](/success)  ·  [书签](/bookmarks)  ·  摄影  ·  [视频](/videos)**
 
 ---
-
-**[卡佛书店(桃子湖)](#卡佛书店（桃子湖店）)**
-
-# 卡佛书店（桃子湖店）
-
-<img class="gk-single-img" src="/image/kafo/IMG_3021.jpg">
+# 止间书店
 
 <div class="gk-container2">
-<img class="gk-img" src="/image/kafo/IMG_3026.jpg">
-<img class="gk-img gk-img-margin" src="/image/kafo/IMG_3022.jpg">
+<img class="gk-img" src="/image/zhijian/IMG_3421.jpg">
+<img class="gk-img gk-img-margin" src="/image/zhijian/IMG_3423.jpg">
 </div>
 
 <div class="gk-container2">
-<img class="gk-img" src="/image/kafo/IMG_3031.jpg">
-<img class="gk-img gk-img-margin" src="/image/kafo/IMG_3028.jpg">
-</div>
-
-<img class="gk-single-img" src="/image/kafo/IMG_3029.jpg">
-
-<div class="gk-container2">
-<img class="gk-img" src="/image/kafo/IMG_3027.jpg">
-<img class="gk-img gk-img-margin" src="/image/kafo/IMG_3030.jpg">
+<img class="gk-img" src="/image/zhijian/IMG_3424.jpg">
+<img class="gk-img gk-img-margin" src="/image/zhijian/IMG_3429.jpg">
 </div>
 
 <div class="gk-container2">
-<img class="gk-img" src="/image/kafo/IMG_3024.jpg">
-<img class="gk-img gk-img-margin" src="/image/kafo/IMG_3020.jpg">
+<img class="gk-img" src="/image/zhijian/IMG_3433.jpg">
+<img class="gk-img gk-img-margin" src="/image/zhijian/IMG_3435.jpg">
 </div>
 
+<div class="gk-container2">
+<img class="gk-img" src="/image/zhijian/IMG_3436.jpg">
+<img class="gk-img gk-img-margin" src="/image/zhijian/IMG_3440.jpg">
+</div>
+
+<div class="gk-container2">
+<img class="gk-img" src="/image/zhijian/IMG_3443.jpg">
+<img class="gk-img gk-img-margin" src="/image/zhijian/IMG_3444.jpg">
+</div>
+
+<div class="gk-container2">
+<img class="gk-img" src="/image/zhijian/IMG_3445.jpg">
+<img class="gk-img gk-img-margin" src="/image/zhijian/IMG_3447.jpg">
+</div>
 <p>&nbsp;</p>

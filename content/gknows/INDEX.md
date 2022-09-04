@@ -23,6 +23,7 @@ comment: false
   - [Emacs](/gknows/emacs)
   - [Python](/gknows/python)
   - [Java](/gknows/java)
+  - [Git](/gknows/git)
 - [生活消费](/gknows/生活消费)
   - [出行与旅游](/gknows/出行与旅游)
   - [经验常识](/gknows/经验常识)

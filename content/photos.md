@@ -77,3 +77,36 @@ comment: false
 </div>
 
 <p>&nbsp;</p>
+
+# 止间书店
+
+<div class="gk-container2">
+<img class="gk-img" src="/image/zhijian/IMG_3421.jpg">
+<img class="gk-img gk-img-margin" src="/image/zhijian/IMG_3423.jpg">
+</div>
+
+<div class="gk-container2">
+<img class="gk-img" src="/image/zhijian/IMG_3424.jpg">
+<img class="gk-img gk-img-margin" src="/image/zhijian/IMG_3429.jpg">
+</div>
+
+<div class="gk-container2">
+<img class="gk-img" src="/image/zhijian/IMG_3433.jpg">
+<img class="gk-img gk-img-margin" src="/image/zhijian/IMG_3435.jpg">
+</div>
+
+<div class="gk-container2">
+<img class="gk-img" src="/image/zhijian/IMG_3436.jpg">
+<img class="gk-img gk-img-margin" src="/image/zhijian/IMG_3440.jpg">
+</div>
+
+<div class="gk-container2">
+<img class="gk-img" src="/image/zhijian/IMG_3443.jpg">
+<img class="gk-img gk-img-margin" src="/image/zhijian/IMG_3444.jpg">
+</div>
+
+<div class="gk-container2">
+<img class="gk-img" src="/image/zhijian/IMG_3445.jpg">
+<img class="gk-img gk-img-margin" src="/image/zhijian/IMG_3447.jpg">
+</div>
+

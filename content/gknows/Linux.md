@@ -16,5 +16,4 @@ comment: false
 
         rsync -av -e "cygnative plink -ssh -P <port> -pw <passwd>" ./public/ root@119.28.186.136:/var/www/hugoblog/
 
-        
-
+# grep, sed, awk

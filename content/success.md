@@ -59,6 +59,7 @@ comment: false
 2. 健身房跑步半小时。
 3. 今天是工作效率很高的一天。
 4. 晚上按时睡觉习惯培养进行中，虽然不是每天都在10点半前睡觉，但我已经明显的感受到了专注力带来的效果，feynman technique 诚不我欺！
+5. I love blogging, it's the source of my power.
 ## 2022-09-04 Sun
 1. 下午止间书店摄影。
 2. 晚上看比赛，虽然RNG不轻松的赢了，但是LNG好可惜。。

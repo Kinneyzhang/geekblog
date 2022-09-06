@@ -9,7 +9,6 @@ comment: false
 <span><center>[INDEX](/gknows/index) > [生活消费](/gknows/生活消费) > [个人成长](/gknows/个人成长) > GTD</center></span>
 
 ---
-
 * 自己的GTD系统设计 (presonal prefrence)
   - 不引入复杂概念，取消优先级等，慎用 schedule，deadline等概念
   - TODO 中每次不超过2个任务，给心理减负

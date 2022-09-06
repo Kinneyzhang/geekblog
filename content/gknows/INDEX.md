@@ -6,7 +6,7 @@ toc: false
 comment: false
 ---
 ---
-快捷访问> [Daily Page](/gknows/daily-page) / [费曼学习法](/gknows/费曼学习法) / [Emacs](/gknows/emacs)
+快捷访问> [习惯培养](/gknows/习惯培养) / [费曼学习法](/gknows/费曼学习法)
 
 ---
 - [计算机科学](/gknows/计算机科学)

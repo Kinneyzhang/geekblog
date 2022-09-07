@@ -18,4 +18,10 @@ comment: false
 
     rsync -av -e "cygnative plink -ssh -P <port> -pw <passwd>" ./public/ root@119.28.186.136:/var/www/hugoblog/
 
+# PuTTY
+- [Download Page](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+  - PuTTY is a free implementation of SSH and Telnet for Windows and Unix platforms.
+- [Docs Page](https://the.earth.li/~sgtatham/putty/0.77/htmldoc/)
+  - This manual documents PuTTY, and its companion utilities PSCP, PSFTP, Plink, Pageant and PuTTYgen.
+
 # grep, sed, awk

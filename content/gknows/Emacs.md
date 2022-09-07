@@ -11,4 +11,3 @@ comment: false
 ---
 # Elisp正则
 - https://www.emacswiki.org/emacs/RegularExpression
-- https://www.gnu.org/software/emacs/manual/html_node/emacs/Regexps.html

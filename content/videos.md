@@ -51,3 +51,8 @@ comment: false
 <div class="iframe-container">
   <iframe src="//player.bilibili.com/player.html?aid=3108239&bvid=BV1is41127yv&cid=4886757&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </div>
+
+# 定格动画
+<div class="iframe-container">
+<iframe src="https://player.xinpianchang.com/?aid=11560492&amp;mid=EKdRx7b9PadQb2N3" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
+</div>

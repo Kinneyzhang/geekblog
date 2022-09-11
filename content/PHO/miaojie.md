@@ -70,9 +70,9 @@ comment: false
 </div>
 
 <div>
-<img src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2486.jpg">
+<img class="gk-single-img" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2486.jpg">
 </div>
 
 <div>
-<img src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2485.jpg">
+<img class="gk-single-img" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2485.jpg">
 </div>

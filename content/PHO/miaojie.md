@@ -47,12 +47,7 @@ comment: false
 **[随想](/moments)  ·  [日志](/success)  ·  [书签](/bookmarks)  ·  [摄影](/photos)  ·  [视频](/videos)**
 
 ---
-**[庙街](/pho/miaojie)** | **[卡佛书店(桃子湖)](/pho/kafo)** | **[止间书店](/pho/zhijian)**
-
-<div class="gk-container2">
-<img class="gk-img" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2476.jpg">
-<img class="gk-img gk-img-margin" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2477.jpg">
-</div>
+**庙街城** | **[卡佛书店(桃子湖)](/pho/kafo)** | **[止间书店](/pho/zhijian)**
 
 <div class="gk-container2">
 <img class="gk-img" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2476.jpg">

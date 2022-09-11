@@ -50,6 +50,6 @@ comment: false
 **[卡佛书店(桃子湖)](/pho/kafo)** | **[止间书店](/pho/zhijian)**
 
 <div class="gk-container2">
-<img class="gk-img" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/cooking/22050902.jpg">
+<img class="gk-img" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/cooking/22050901.jpg">
 <img class="gk-img gk-img-margin" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/cooking/22050902.jpg">
 </div>

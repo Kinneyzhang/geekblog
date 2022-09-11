@@ -69,7 +69,10 @@ comment: false
 <img class="gk-img gk-img-margin" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2484.jpg">
 </div>
 
-<div class="gk-container2">
+<div>
+<img class="gk-img" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2486.jpg">
+</div>
+
+<div>
 <img class="gk-img" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2485.jpg">
-<img class="gk-img gk-img-margin" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2486.jpg">
 </div>

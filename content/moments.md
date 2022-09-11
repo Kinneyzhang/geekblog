@@ -9,11 +9,9 @@ comment: false
 
 # 2022-09-11 23:46
 
-心智的活动，除了尽力产生各种简单的认识外，主要表现在如下三个方面：1) 将若干简单认识组合成一个复合认识，由此产生出各种复杂的认识。2) 将两个认识放在一起对照，不管它们如何简单或复杂，这样做时并不将它们合二为一，由此得到有关它们的相互关系的认识。3) 将有关认识与那些在实际中和它们同在的所有其它认识隔离开，这就是抽象，所有具有普遍性的认识都是这样得到的。
+心智的活动，除了尽力产生各种简单的认识外，主要表现在如下三个方面：1) 将若干简单认识组合成一个复合认识，由此产生出各种复杂的认识。2) 将两个认识放在一起对照，不管它们如何简单或复杂，这样做时并不将它们合二为一，由此得到有关它们的相互关系的认识。3) 将有关认识与那些在实际中和它们同在的所有其它认识隔离开，这就是抽象，所有具有普遍性的认识都是这样得到的。———— 人类理解论
 
-The acts of the mind, wherein it exerts its power over its simple ideas, are chiefly these three: (1) Combining several simple ideas into one compound one; and thus all complex ideas are made. (2) The second is bringing two ideas, whether simple or complex, together, and setting them by one another, so as to take a view of them at once, without uniting them into one; by which way it gets all its ideas of relations. (3) The third is separating them from all other ideas that accompany them in their real exist- ence: this is called abstraction: and thus all its general ideas are made.
-
-———— 人类理解论: An essay concerning human understanding
+The acts of the mind, wherein it exerts its power over its simple ideas, are chiefly these three: (1) Combining several simple ideas into one compound one; and thus all complex ideas are made. (2) The second is bringing two ideas, whether simple or complex, together, and setting them by one another, so as to take a view of them at once, without uniting them into one; by which way it gets all its ideas of relations. (3) The third is separating them from all other ideas that accompany them in their real exist- ence: this is called abstraction: and thus all its general ideas are made. ———— An essay concerning human understanding
 
 # 2022-09-09 10:31
 

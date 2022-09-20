@@ -57,7 +57,8 @@ comment: false
 ## 2022-09-20 Tue
 1. 健身房跑步半小时。
 2. 涛哥过来了，信管开会。
-3. 关于 twidget 从原子结构开始架构的构思。
+3. 折腾研究 [Pixel Specification for Spaces](https://www.gnu.org/software/emacs/manual/html_node/elisp/Pixel-Specification.html)
+4. 关于 twidget 从原子结构开始架构的构思。
 ## 2022-09-19 Mon
 1. 健身房跑步半小时。
 2. 重新构思 twidget。

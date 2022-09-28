@@ -14,13 +14,18 @@ $global-headings: (
   h6: 14px
 );
 
+@font-face {
+  font-family: jinkaiFont;
+  src: url("fonts/jinkai.ttf") format("TrueType");
+}
+
 // Font family of the site.
 $global-font-family:
-    'Noto Sans SC', Serif, 'Source Sans Pro', 'Helvetica Neue', Arial;
+  jinkaiFont, 'Noto Sans SC', Serif, 'Source Sans Pro', 'Helvetica Neue', Arial;
 
 // Serif font family of the site.
 $global-serif-font-family:
-    'Noto serif SC', Serif, Microsoft Yahei, serif, Athelas, STHeiti;
+  jinkaiFont, 'Noto serif SC', Serif, Microsoft Yahei, serif, Athelas, STHeiti;
 
 $menu-font-family: 'Noto Serif SC', serif;
 // $menu-font-weight: 400;

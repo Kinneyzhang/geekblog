@@ -63,10 +63,9 @@ comment: false
   - [X] 已经存在的卡片笔记 zettelkasten emacs 插件研究
     - 基本都是基于文件的，pass
   - [X] 构思自己的卡片盒笔记插件
-- [X] 安装尝试 [[https://github.com/ginqi7/dictionary-overlay][Emacs英文辅助阅读插件]]：初阶使用完成
+- [X] 安装尝试 [Emacs英文辅助阅读插件](https://github.com/ginqi7/dictionary-overlay)：初阶使用完成
 - [X] +elisp manual 28.1 hashtable 翻译优化+ 好累
-- [X] Java Spring (Cloud) 等学习方式探究
-  - https://blog.csdn.net/lovedingd/article/details/106360841
+- [X] Java Spring (Cloud) 等学习方式探究: [文章](https://blog.csdn.net/lovedingd/article/details/106360841)
 - ★ mygtd编辑模式探究和尝试
   - 直接在只读的 daily buffer 中操作文本
   - 操作的过程中无痕自动切换到编辑模式

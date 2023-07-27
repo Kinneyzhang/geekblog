@@ -20,7 +20,7 @@ toc: true
 | [见字如面](https://hiwannz.com/)               | 抽离自我，冷眼旁观                                    |
 | [太空船博客](https://www.boatsky.com/)         | 甲刃的博客                                            |
 | [Hi, DIYgod](https://diygod.me/)               | 写代码是热爱，写到世界充满爱                          |
-| [青山绿水](https://www.huhexian.com/)          | 胡和先的个人博客                                      |
+| [青山绿水](https://zuofei.net/)          | 胡和先的个人博客                                      |
 | [阿川的个人博客](https://achuan.io/)           | 执着于理想, 纯粹于当下                                |
 | [三点水](https://lotabout.me/)                 | 不积小流, 无以成江海                                  |
 | [探索子](https://exploro.one/)                 | 越过星空去探索                                        |

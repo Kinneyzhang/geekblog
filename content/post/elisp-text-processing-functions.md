@@ -6,15 +6,7 @@ categories: ["elisp"]
 comment: false
 ---
 
-# Table of Contents
-
-1.  [搜索](#org73bc573)
-2.  [替换](#orgccd8a10)
-3.  [行操作](#org7d9dda1)
-4.  [块分割](#org60fdb4a)
-
 总结了一些自己平时用的实用的文本操作的函数。
-
 
 <a id="org73bc573"></a>
 

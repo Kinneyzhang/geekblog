@@ -6,7 +6,7 @@ categories: ["elisp"]
 comment: false
 ---
 
-总结了一些自己平时用的实用的文本操作的函数。
+总结了一些实用的文本处理的函数。
 
 <a id="org73bc573"></a>
 

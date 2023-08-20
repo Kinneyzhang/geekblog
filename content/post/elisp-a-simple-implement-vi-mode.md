@@ -9,11 +9,11 @@ comment: false
 
 偶然看到了一个命令的文档:
 
-<pre><small>(suppress-keymap MAP &optional NODIGITS)
+<pre>(suppress-keymap MAP &optional NODIGITS)
 
 Make MAP override all normally self-inserting keys to be undefined.
 Normally, as an exception, digits and minus-sign are set to make prefix args,
-but optional second arg NODIGITS non-nil treats them like other chars.</small></pre>
+but optional second arg NODIGITS non-nil treats them like other chars.</pre>
 
 一瞬间，我意识到，这个命令可以用来实现类似vi的模式编辑！准确的说是，基于输入字符按键的命令模式。于是有了下面的代码，一个极简的模式编辑的实现。一行配置：`(myvi-mode 1)` 即可开启使用。
 

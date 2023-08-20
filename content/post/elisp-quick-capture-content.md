@@ -1,6 +1,6 @@
 ---
 title: "Emacs Lisp - 不打断工作流的通用 capture 功能"
-date: 2023-08-20
+date: 2023-08-21
 draft: false
 categories: ["elisp"]
 tags: ["capture"]

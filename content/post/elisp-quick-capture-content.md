@@ -11,7 +11,9 @@ comment: false
 
 这让我开始思考，如何在保留当前编辑区域的情况下，快速记录临时的想法呢。事实上，org-capture 的思路是不错的。但是 org-capture 和 org-mode 绑定，我们需要一个更加通用的 capture 功能，支持任何格式，任意方式的记录。于是便有了 my-capture。
 
+# 代码
 
+    ;;; 实现一个通用的 capture 功能
     (defvar my-capture-return-winconf nil)
     (defvar my-capture-buffer "*My Capture*")
     (defvar my-capture-target-alist nil)
@@ -22,11 +24,9 @@ comment: false
         (define-key map (kbd "C-c C-s") #'my-capture-save)
         (define-key map (kbd "C-c C-c") #'my-capture-finalize)
         (define-key map (kbd "C-c C-k") #'my-capture-cancel)
-        map)
-      "Keymap for 'my-capture-mode'.")
+        map))
 
     (defun my-capture--parse-target (target-info)
-      "Parse target-info in `my-capture-target-alist'."
       (pcase target-info
         ((pred stringp) (cons target-info 'append))
         ((pred consp)
@@ -35,12 +35,11 @@ comment: false
           ((stringp (car target-info)) target-info)))))
 
     (defun my-capture--write ()
-      "Write capture content to capture target file."
       (let* ((target-key my-capture-target-key)
              (content (buffer-substring (point-min) (point-max)))
              (target-info-lst (cdr (assoc target-key my-capture-target-alist))))
-        (mapcar (lambda (store)
-                  (let* ((file-pos-cons (my-capture--parse-target store))
+        (mapcar (lambda (target)
+                  (let* ((file-pos-cons (my-capture--parse-target target))
                          (file (car file-pos-cons))
                          (point-or-symbol (cdr file-pos-cons))
                          point)
@@ -50,7 +49,7 @@ comment: false
                           ('prepend (setq point (point-min)))
                           ('append (setq point (point-max)))
                           (_ (setq point point-or-symbol)))
-                        (goto-char point)
+                        (goto-char (or point (point-max)))
                         (insert content)))))
                 target-info-lst)))
 
@@ -86,7 +85,7 @@ comment: false
     (defun my-capture ()
       "Pop up a side window to capture text."
       (interactive)
-      (let ((keyword (completing-read "Choose a capture key: " my-capture-target-alist nil t)))
+      (let ((keyword (completing-read "Choose a capture type: " my-capture-target-alist nil t)))
         (setq my-capture-return-winconf (current-window-configuration))
         (display-buffer-in-side-window (get-buffer-create my-capture-buffer) nil)
         (select-window (get-buffer-window my-capture-buffer))
@@ -94,7 +93,16 @@ comment: false
         (setq-local my-capture-target-key keyword)
         (my-capture-mode 1)))
 
-以下配置作为例子:
+# 配置
+
+    (setq my-capture-target-alist
+          '(("fleeting-note" (my-capture-note "Fleeting notes"))
+            ("permanent-note" (my-capture-note "Permanent notes"))
+            ("literature-note" (my-capture-note "Literature notes"))
+            ("project-note" (my-capture-note "Project notes"))
+            ("misc-note" (my-capture-note "Misc"))
+            ("todo" (my-capture-todo))
+            ("inbox" (my-capture-inbox))))
 
     (defvar my-capture-note-file "~/PARA/RESOURCE/Emacs/pkgs/capture/zknote.org")
     (defvar my-capture-todo-file "~/PARA/RESOURCE/Emacs/pkgs/capture/zktodo.org")
@@ -144,3 +152,7 @@ comment: false
             (insert "\n")
             (setq point (point-min))))
         (cons file point)))
+
+
+# demo gif
+<img class="gk-single-img" src="/image/my-capture-demo.gif">

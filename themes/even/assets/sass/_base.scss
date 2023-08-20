@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'jinkaiFont';
-  src: url("../fonts/jinkai.ttf") format("TrueType");
+  src: url('../fonts/jinkai.ttf');
 }
 
 html {
@@ -13,7 +13,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: jinkaiFont, $global-font-family;
+  font-family: 'jinkaiFont', $global-font-family;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

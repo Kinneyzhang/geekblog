@@ -1,6 +1,6 @@
 ---
 title: "Emacs Lisp - 不打断工作流的通用 capture 功能"
-date: 2023-08-20
+date: 2023-08-21
 draft: false
 categories: ["elisp"]
 tags: ["capture"]
@@ -13,7 +13,6 @@ comment: false
 
 # 代码
 
-    ;;; 实现一个通用的 capture 功能
     (defvar my-capture-return-winconf nil)
     (defvar my-capture-buffer "*My Capture*")
     (defvar my-capture-target-alist nil)

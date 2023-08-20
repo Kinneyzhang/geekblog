@@ -1,7 +1,7 @@
 ---
 title: "谈谈最近「211006」"
 date: 2021-10-06
-draft: false
+draft: true
 categories: ["最近有话说"]
 tags: ["总结"]
 toc: false

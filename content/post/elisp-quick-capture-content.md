@@ -2,8 +2,8 @@
 title: "Emacs Lisp - 不打断工作流的通用 capture 功能"
 date: 2023-08-20
 draft: false
-categories: ["elisp"]
-tags: ["capture"]
+categories: ["Happy Hacking Emacs"]
+tags: ["elisp", "capture"]
 comment: false
 ---
 

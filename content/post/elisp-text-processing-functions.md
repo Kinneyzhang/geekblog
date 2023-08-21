@@ -2,7 +2,8 @@
 title: "Emacs Lisp - 实用文本处理函数"
 date: 2023-08-19
 draft: false
-categories: ["elisp"]
+categories: ["Happy Hacking Emacs"]
+tags: ["elisp"]
 comment: false
 ---
 

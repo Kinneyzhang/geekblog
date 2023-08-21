@@ -2,8 +2,8 @@
 title: "Emacs Lisp - 一个极简的(vi)模式编辑实现"
 date: 2023-08-20
 draft: false
-categories: ["elisp"]
-tags: ["vi"]
+categories: ["Happy Hacking Emacs"]
+tags: ["elisp", "vi"]
 comment: false
 ---
 

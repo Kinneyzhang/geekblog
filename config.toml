@@ -59,6 +59,11 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   weight = 50
   identifier = "other"
   url = "/moments/"
+[[menu.main]]
+  name = "习惯"
+  weight = 60
+  identifier = "habit"
+  url = "/habits/"
 # [[menu.main]]
 #   name = "知识库"
 #   weight = 60

@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@200;300;400;500;600;700&display=swap');
 
 @font-face {
-  font-family: jinkaiFont;
-  src: url("fonts/jinkai.ttf") format("TrueType");
+  font-family: 'jinkaiFont';
+  src: url('../fonts/jinkai.ttf');
 }
 
 html {
@@ -13,7 +13,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: jinkaiFont, $global-font-family;
+  font-family: 'jinkaiFont', $global-font-family;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

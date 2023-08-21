@@ -1,12 +1,13 @@
 code, pre {
-  padding: 7px;
+  padding: 15px 18px;
+  border-radius: 4px;
   font-size: $code-font-size;
   font-family: $code-font-family;
   background: $code-background;
 }
 
 code {
-  padding: 3px 5px;
+  padding: 1px 3px;
   border-radius: 4px;
   color: $code-color;
 }

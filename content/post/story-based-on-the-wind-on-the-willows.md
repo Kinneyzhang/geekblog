@@ -1,7 +1,7 @@
 ---
 title: 柳林小传
 date: 2023-08-21
-draft: true
+draft: false
 categories: ["杂谈杂感"]
 tags: ["柳林风声", "故事创作"]
 comment: false

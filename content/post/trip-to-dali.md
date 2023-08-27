@@ -8,42 +8,6 @@ toc: false
 comment: false
 ---
 
-<style>
-.gk-container {
-  column-count: 2;
-  column-gap: 20px;
-}
-@media screen and (min-width: 600px) {
-.gk-container2 {
-  text-align: center;
-}
-
-.gk-img {
-  border: 1px solid #aaa;
-  border-radius: .2em;
-  padding: .2em;
-  display: inline;
-  width: 45%;
-}}
-
-@media screen and (max-width: 600px) {
-.gk-container2 {
-  text-align: center;
-}
-.gk-img {
-  border: 1px solid #aaa;
-  border-radius: .2em;
-  padding: .2em;
-  width: 100%;
-}}
-
-.gk-img1 {
-  border:1px solid #ccc; 
-  padding: .2em;
-  border-radius: .2em;
-}
-</style>
-
 <img class="gk-img1" src="/image/gucheng.jpg" width="100%"/>
 
 去大理是临时起意。<!--more-->

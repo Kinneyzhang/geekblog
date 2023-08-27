@@ -6,12 +6,12 @@
 @import '_common/normalize';
 
 $global-headings: (
-  h1: 26px,
-  h2: 23px,
-  h3: 20px,
-  h4: 16px,
-  h5: 14px,
-  h6: 14px
+    h1: 26px,
+    h2: 23px,
+    h3: 20px,
+    h4: 16px,
+    h5: 14px,
+    h6: 14px
 );
 
 // Font family of the site.
@@ -115,8 +115,38 @@ ul ul ul {
     color: white;
 }
 
+//////////////////////////////////////////
+.gk-container {
+    column-count: 2;
+    column-gap: 20px;
+}
+
+@media screen and (min-width: 600px) {
+    .gk-container2 {
+        text-align: center;
+    }
+
+    .gk-img {
+        border: 1px solid #aaa;
+        border-radius: .2em;
+        padding: .2em;
+        display: inline;
+        width: 45%;
+    }}
+
+@media screen and (max-width: 600px) {
+    .gk-container2 {
+        text-align: center;
+    }
+    .gk-img {
+        border: 1px solid #aaa;
+        border-radius: .2em;
+        padding: .2em;
+        width: 100%;
+    }}
+
 .gk-img1 {
-  // border:1px solid #ccc; 
-  padding: .2em;
-  border-radius: .2em;
+    border:1px solid #ccc;
+    padding: .2em;
+    border-radius: .2em;
 }

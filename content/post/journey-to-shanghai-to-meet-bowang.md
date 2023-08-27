@@ -27,4 +27,25 @@ comment: false
 感谢再见\
 难忘地\
 南京\
-见\
+见
+
+<table>
+
+<tr>
+<td><img src="/image/shanghai/botanical-garden-1.JPG" /></td>
+<td><img src="/image/shanghai/botanical-garden-2.JPG" /></td>
+<td><img src="/image/shanghai/botanical-garden-3.JPG" /></td>
+</tr>
+
+<tr>
+<td><img src="/image/shanghai/botanical-garden-4.JPG" /></td>
+<td><img src="/image/shanghai/shanghai-jiaoda.JPG" /></td>
+<td><img src="/image/shanghai/talk-mode-editing.JPG" /></td>
+</tr>
+
+<tr>
+<td><img src="/image/shanghai/bowang-and-me.JPG" /></td>
+<td><img src="/image/shanghai/bowang-and-lilin.JPG" /></td>
+<td><img src="/image/shanghai/great-pic-by-lilin.JPG" /></td>
+</tr>
+<div>

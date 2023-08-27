@@ -1,5 +1,5 @@
 ---
-title: "Emacs Lisp - autoflow.el 自动化执行工作流"
+title: "Emacs Lisp - autoflow.el 执行固定工作流"
 date: 2023-08-26
 draft: false
 categories: ["Happy Hacking Emacs"]

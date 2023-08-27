@@ -4,7 +4,7 @@ date: 2023-08-26
 draft: false
 categories: ["Happy Hacking Emacs"]
 tags: ["elisp", "workflow"]
-toc: false
+toc: true
 comment: false
 ---
 
@@ -81,4 +81,5 @@ comment: false
       (para-find-habit) ;; 2.记录习惯完成情况
       (para-find-summary)) ;; 3.写今日总结
 
+# Demo
 <img class="gk-img1" src="/image/autoflow-demo.gif"/>

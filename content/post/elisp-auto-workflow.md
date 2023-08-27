@@ -1,5 +1,5 @@
 ---
-title: "Emacs Lisp - autoflow自动化工作流"
+title: "Emacs Lisp - autoflow.el 自动化执行工作流"
 date: 2023-08-26
 draft: false
 categories: ["Happy Hacking Emacs"]
@@ -81,3 +81,4 @@ comment: false
       (para-find-habit) ;; 2.记录习惯完成情况
       (para-find-summary)) ;; 3.写今日总结
 
+<img class="gk-img1" src="/image/autoflow-demo.gif"/>

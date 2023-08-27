@@ -1,5 +1,5 @@
 ---
-title: "Emacs Lisp - 自动化工作流"
+title: "Emacs Lisp - autoflow自动化工作流"
 date: 2023-08-26
 draft: false
 categories: ["Happy Hacking Emacs"]
@@ -8,7 +8,9 @@ toc: false
 comment: false
 ---
 
-晚上睡觉前我会固定地做下面一系列的事情：check每日待办，写总结，记录习惯。这些事情都是在emacs中进行，涉及到不同的文件buffer，每天重复相同的操作都要反应一下打开什么文件、做什么，实在是无趣。本着不让大脑在琐碎事情上增加思考的原则，于是想到了实现“将一系列固定工作流自动化执行”的想法，这便有了 autoflow。
+晚上睡觉前我会固定地做下面一系列的事情：检查每日待办，写总结，记录习惯。这些事情都是在emacs中进行，存放在不同的文件中。我发现每次当我做其中一件时，都要反应一下需要打开什么文件，这就很烦。本着不让大脑在重复的事情上增加思考的原则，想到了实现“将一系列固定工作流自动化执行”的想法，这便有了`autoflow.el`。
+
+# 源码
 
     (defvar autoflow-list nil)
     (defvar autoflow-curr-nth 0)
@@ -66,4 +68,16 @@ comment: false
           (apply (autoflow--curr-func autoflow-curr-nth flow-funcs))
           (autoflow-set-header-info))))
 
-    (global-set-key (kbd "C-c n n") #'autoflow-start)
+    ;; (global-set-key (kbd "C-c n n") #'autoflow-start)
+
+# 使用
+
+使用 `define-autoflow` 宏定义一个自动流程。该宏的第一个参数是流程的名字，剩下的参数需要提供一系列的函数。`M-x autoflow-start` 命令选择实现定义好的一个流程后开始执行，每做完一件事情，继续 `M-x autoflow-start`，知道整个工作流结束。
+
+比如下面定义了一个我每晚睡前总结的工作流:
+
+    (define-autoflow "summary routine"
+      (para-daily-page-today) ;; 1.检查今日计划
+      (para-find-habit) ;; 2.记录习惯完成情况
+      (para-find-summary)) ;; 3.写今日总结
+

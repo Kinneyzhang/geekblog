@@ -82,6 +82,4 @@ comment: false
       (para-find-summary)) ;; 3.写今日总结
 
 # Demo
-<div class="video-container">
-<video src="/image/autoflow-demo.mp4" width="500px"></video>
-</div>
+<video src="/image/autoflow-demo.mp4" controls width="500"></video>

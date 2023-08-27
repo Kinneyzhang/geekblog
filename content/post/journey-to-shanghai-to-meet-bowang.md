@@ -21,7 +21,7 @@ comment: false
 
 <tr>
 <td><img src="/image/shanghai/botanical-garden-4.JPG" /></td>
-<td><img src="/image/shanghai/shanghai-jiaoda.JPG" /></td>
+<td><img src="/image/shanghai/sju-guideboard.JPG" /></td>
 <td><img src="/image/shanghai/talk-mode-editing.JPG" /></td>
 </tr>
 

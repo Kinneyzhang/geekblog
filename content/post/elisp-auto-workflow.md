@@ -72,7 +72,7 @@ comment: false
 
 # 使用
 
-使用 `define-autoflow` 宏定义一个自动流程。该宏的第一个参数是流程的名字，剩下的参数需要提供一系列的函数。`M-x autoflow-start` 命令选择实现定义好的一个流程后开始执行，每做完一件事情，继续 `M-x autoflow-start`，知道整个工作流结束。
+使用 `define-autoflow` 宏定义一个自动流程。该宏的第一个参数是流程的名字，剩下的参数需要提供一系列的函数。`M-x autoflow-start` 命令选择事先定义好的一个流程后开始执行，每做完一件事情，继续 `M-x autoflow-start`，直到整个工作流结束。
 
 比如下面定义了一个我每晚睡前总结的工作流:
 

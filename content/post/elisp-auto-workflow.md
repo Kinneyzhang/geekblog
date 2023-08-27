@@ -15,58 +15,55 @@ comment: false
     (defvar autoflow-curr-flow nil)
 
     (defmacro define-autoflow (name &rest funcs)
-      (unless (member name (mapcar #'car autoflow-list))
-        `(push (append (list ,name) ',funcs) autoflow-list)))
+      `(progn
+         (if-let ((match (assoc ,name autoflow-list)))
+             (unless (equal (cdr match) ',funcs)
+               (setcdr match ',funcs))
+           (push (append (list ,name) ',funcs) autoflow-list))
+         autoflow-list))
 
     (defun autoflow-set-header-info ()
       (let* ((name autoflow-curr-flow)
              (funcs (autoflow-flows name)))
         (setq-local header-line-format
-                    (format "Autoflow [%s] %s/%s"
-                            name (1+ autoflow-curr-nth) (length funcs)))))
+                    (format "Autoflow %s/%s [%s] "
+                            (1+ autoflow-curr-nth) (length funcs) name))))
 
     (defun autoflow-flows (name)
       (cdr (assoc name autoflow-list)))
 
+    (defun autoflow--curr-func (nth funcs)
+      "Return the current applying function as a list."
+      (if-let* ((func (nth nth funcs))
+                (_ (functionp func)))
+          (list func)
+        func))
+
+    (defun autoflow--next ()
+      (cl-incf autoflow-curr-nth)
+      (let* ((flow-name autoflow-curr-flow)
+             (flow-funcs (autoflow-flows flow-name)))
+        (if (< autoflow-curr-nth (length flow-funcs))
+            (progn
+              (setq-local header-line-format nil)
+              (apply (autoflow--curr-func autoflow-curr-nth flow-funcs))
+              (autoflow-set-header-info))
+          (message "autoflow %s over!" autoflow-curr-flow)
+          (setq autoflow-curr-flow nil)
+          (setq autoflow-curr-nth 0)
+          (setq-local header-line-format nil))))
+
+    ;;;###autoload
     (defun autoflow-start (&optional name)
       (interactive)
-      (let* ((name (completing-read "Choose a autoflow: "
-                                    autoflow-list nil t))
-             (funcs (autoflow-flows name)))
-        (setq autoflow-curr-flow name)
-        (setq autoflow-curr-nth 0)
-        (funcall (car funcs))
-        (autoflow-set-header-info)))
-
-    (defun autoflow-next ()
-      (interactive)
-      (when autoflow-curr-flow
-        (cl-incf autoflow-curr-nth)
-        (let* ((flow-name autoflow-curr-flow)
+      (if autoflow-curr-flow
+          (autoflow--next)
+        (let* ((flow-name (completing-read "Choose a autoflow: "
+                                      autoflow-list nil t))
                (flow-funcs (autoflow-flows flow-name)))
-          (if (< autoflow-curr-nth (length flow-funcs))
-              (progn
-                (funcall (nth autoflow-curr-nth flow-funcs))
-                (autoflow-set-header-info))
-            (message "autoflow %s over!" autoflow-curr-flow)
-            (setq autoflow-curr-flow nil)
-            (setq autoflow-curr-nth 0)
-            (setq-local header-line-format nil)))))
+          (setq autoflow-curr-flow flow-name)
+          (setq autoflow-curr-nth 0)
+          (apply (autoflow--curr-func autoflow-curr-nth flow-funcs))
+          (autoflow-set-header-info))))
 
-    (global-set-key (kbd "C-c f s") #'autoflow-start)
-    (global-set-key (kbd "C-c f n") #'autoflow-next)
-
-    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-    (defun autoflow-testflow1 () (message "autoflow-testflow1"))
-    (defun autoflow-testflow2 () (message "autoflow-testflow2"))
-    (defun autoflow-testflow3 () (message "autoflow-testflow3"))
-    (defun autoflow-testflow4 () (message "autoflow-testflow4"))
-
-    (define-autoflow "daily routine"
-      autoflow-testflow1
-      autoflow-testflow2
-      autoflow-testflow3
-      autoflow-testflow4)
-
-    (provide 'autoflow)
+    (global-set-key (kbd "C-c n n") #'autoflow-start)

@@ -1,7 +1,7 @@
 ---
 title: 上海行 - meet up with bo.wang
 date: 2023-07-29
-draft: true
+draft: false
 categories: ["旅行简记"]
 tags: ["上海","朋友"]
 comment: false

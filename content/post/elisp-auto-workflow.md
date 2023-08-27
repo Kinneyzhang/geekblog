@@ -82,4 +82,4 @@ comment: false
       (para-find-summary)) ;; 3.写今日总结
 
 # Demo
-<img class="gk-img1" src="/image/autoflow-demo.gif"/>
+<video src="/image/autoflow-demo.gif"></video>

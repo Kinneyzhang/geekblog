@@ -8,53 +8,6 @@ toc: false
 comment: false
 ---
 
-<style>
-.gk-container {
-  column-count: 2;
-  column-gap: 20px;
-}
-@media screen and (min-width: 600px) {
-.gk-container2 {
-  <!-- column-count: 2; -->
-  <!-- column-gap: .5em; -->
-  <!-- padding-left: 1em; -->
-  <!-- padding-right: 1em; -->
-  text-align: center;
-}
-
-.gk-img {
-  <!-- margin: 0 .2em 0 0; -->
-  border: 1px solid #aaa;
-  border-radius: .2em;
-  padding: .2em;
-  display: inline;
-  width: 45%;
-}}
-
-@media screen and (max-width: 600px) {
-.gk-container2 {
-  <!-- column-count: 0; -->
-  <!-- column-gap: 0; -->
-  <!-- padding-left: .6em; -->
-  <!-- padding-right: 1.2em; -->
-  text-align: center;
-}
-.gk-img {
-  <!-- margin: .5em 1em 0 .5em; -->
-  border: 1px solid #aaa;
-  border-radius: .2em;
-  padding: .2em;
-  <!-- display: inline; -->
-  width: 100%;
-}}
-
-.gk-img1 {
-  border:1px solid #ccc; 
-  padding: .2em;
-  border-radius: .2em;
-}
-</style>
-
 <img class="gk-img1" src="/image/gucheng.jpg" width="100%"/>
 
 去大理是临时起意。<!--more-->
@@ -68,7 +21,7 @@ comment: false
 <p>第二天，去古城吃午饭。从"洱海东门"穿过长长的拱道，看到的是与昨晚差别不大的各种店铺。只是太阳光下的房屋比霓虹光下的建筑要自然、壮观许多。抬眼，远处的苍山巍峨壮丽，似远又近；抬头，湛蓝的天空，干净明亮。古城，苍山，天空交相辉映，这是夜间所没有的景色。我一边拍着照，一边寻觅美食...</p>
 </div>
 
-下午去才村、龙龛湿地公园，湿地公园位于海西的生态长廊中。环海的长廊只允许自行车和行人进入，我租了一辆自行车，绕着洱海骑行。墨绿的浮萍，金黄的芦苇，枫红的水杉，深蓝的湖水与碧蓝的天空，还有成群的西伯利亚红嘴鸥漫天飞舞，眼前景色美好，感觉时光很慢。去湿地公园的车上，司机师傅和我说：“为什么不去网红S弯，才村那边就是一码头，没什么好玩的。”我说后面再去。我后面也没有再去。因为所谓的网红S弯，这里随处可见，随手一拍都是不输S弯的画面。好的风景从来不需要被人定义，好的风景可以赋予人以意义。回到古城已是傍晚。“再回首”是一家位于古城一隅的小吃店，我点了凉鸡米线、卤鸡皮和酸角汁，真的好吃！
+<p>下午去才村、龙龛湿地公园，湿地公园位于海西的生态长廊中。环海的长廊只允许自行车和行人进入，我租了一辆自行车，绕着洱海骑行。墨绿的浮萍，金黄的芦苇，枫红的水杉，深蓝的湖水与碧蓝的天空，还有成群的西伯利亚红嘴鸥漫天飞舞，眼前景色美好，感觉时光很慢。去湿地公园的车上，司机师傅和我说：“为什么不去网红S弯，才村那边就是一码头，没什么好玩的。”我说后面再去。我后面也没有再去。因为所谓的网红S弯，这里随处可见，随手一拍都是不输S弯的画面。好的风景从来不需要被人定义，好的风景可以赋予人以意义。回到古城已是傍晚。“再回首”是一家位于古城一隅的小吃店，我点了凉鸡米线、卤鸡皮和酸角汁，真的好吃！</p>
 
 <div class="gk-container2">
 <img class="gk-img" src="/image/erhai1.jpg" width="100%"/>

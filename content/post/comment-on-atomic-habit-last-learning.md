@@ -1,5 +1,5 @@
 ---
-title: 《掌握习惯》评注
+title: 《掌握习惯》摘录
 date: 2023-08-29
 draft: false
 categories: ["读书破万卷"]

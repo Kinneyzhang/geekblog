@@ -1,5 +1,5 @@
 ---
-title: "Emacs Hack - 习惯记录与打卡的demo"
+title: Emacs Hack - 习惯记录与打卡的demo
 date: 2020-08-04
 draft: false
 categories: ["Happy Hacking Emacs"]

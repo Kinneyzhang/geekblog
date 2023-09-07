@@ -1,5 +1,5 @@
 ---
-title: "Emacs Lisp 编程总结"
+title: Emacs Lisp 编程总结
 date: 2019-11-12
 draft: false
 categories: ["Happy Hacking Emacs"]

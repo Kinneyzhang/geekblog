@@ -1,5 +1,5 @@
 ---
-title: "Emacs Hack - 通过列表数据创建表格"
+title: Emacs Hack - 通过列表数据创建表格
 date: 2020-08-19
 draft: false
 categories: ["Happy Hacking Emacs"]

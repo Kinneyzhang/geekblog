@@ -1,5 +1,5 @@
 ---
-title: "Emacs Lisp - 实用文本处理函数"
+title: Emacs Lisp - 实用文本处理函数
 date: 2023-08-19
 draft: false
 categories: ["Happy Hacking Emacs"]

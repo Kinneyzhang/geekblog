@@ -1,5 +1,5 @@
 ---
-title: "关于焦虑"
+title: 关于焦虑
 date: 2020-03-17
 draft: false
 categories: ["杂谈杂感"]

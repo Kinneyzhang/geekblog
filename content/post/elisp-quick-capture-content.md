@@ -1,5 +1,5 @@
 ---
-title: "Emacs Lisp - 不打断工作流的通用 capture 功能"
+title: Emacs Lisp - 不打断工作流的通用 capture 功能
 date: 2023-08-20
 draft: false
 categories: ["Happy Hacking Emacs"]

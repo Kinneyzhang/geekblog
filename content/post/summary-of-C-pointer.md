@@ -1,5 +1,5 @@
 ---
-title: "深入理解C指针"
+title: 深入理解C指针
 date: 2022-06-26
 draft: false
 categories: ["技术总结"]

@@ -1,5 +1,5 @@
 ---
-title: "关于写日志"
+title: 关于写日志
 date: 2019-08-05
 draft: false
 categories: ["杂谈杂感"]

@@ -11,8 +11,8 @@ Rich-text is an emacs package to render rich text with overlays. Even after the 
 
 Github: https://github.com/Kinneyzhang/rich-text
 
-<div class="gk-container2" style="{border:1px grey solid;}">
-<video src="/image/rich-text-demo.mp4" controls width="100%" height="100%"></video>
+<div class="gk-container2">
+<video src="/image/rich-text-demo.mp4" controls width="85%" height="85%"></video>
 </div>
 
 # Configuration

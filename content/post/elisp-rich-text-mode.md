@@ -16,12 +16,11 @@ Github: https://github.com/Kinneyzhang/rich-text
 </div>
 
 # Configuration
-```emacs-lisp
-(use-package rich-text
-  :load-path "/path/to/rich-text"
-  :init (setq rich-text-selected-ignore-modes '(prog-mode))
-  :config (rich-text-mode 1))
-```
+
+    (use-package rich-text
+      :load-path "/path/to/rich-text"
+      :init (setq rich-text-selected-ignore-modes '(prog-mode))
+      :config (rich-text-mode 1))
 
 - `rich-text-selected-ignore-modes` is a list of major modes. Local keybindings will be ignored in major modes and the derived ones when a region is active.
 
@@ -55,10 +54,8 @@ There are some built-in rich-text formats:
 
 For example, the elisp below define a rich-text format named `bold-underline` which is binded to two single keystrokes "bu". When you press key <bu> on a region, text in region will be rendered by text properties `'(face (:weight bold :underline t))`
 
-```emacs-lisp
-(define-rich-text bold-underline "bu"
-  '(face (:weight bold :underline t)))
-```
+    (define-rich-text bold-underline "bu"
+      '(face (:weight bold :underline t)))
 
 ## usage of *define-rich-text-dwim*
 `(define-rich-text-dwim NAME KEY &KEY PROPS LIGHT DARK)` is an enhanced version of `define-rich-text`, which support setting specific properties for themes with light or dark background. **And when the background of theme is changed, the rich-text properties will also be changed adaptably**.
@@ -67,11 +64,9 @@ This feature is useful when you want to render different colors separately in li
 
 e.g.
 
-```emacs-lisp
-(define-rich-text-dwim highlight-1 "v1"
-  :light '(face (:background "#F7E987" :foreground "black"))
-  :dark '(face (:background "#C58940" :foreground "white")))
-```
+    (define-rich-text-dwim highlight-1 "v1"
+      :light '(face (:background "#F7E987" :foreground "black"))
+      :dark '(face (:background "#C58940" :foreground "white")))
 
 ## rich-text-plus.el
 `rich-text-plus.el` defined some other rich-text with my own preference. If you want to use them, just `(require 'rich-text-plus)` and feel free to modify them as you need.

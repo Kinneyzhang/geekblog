@@ -53,7 +53,7 @@ There are some built-in rich-text formats:
 - the type of `bold` should be one of the symbols `ultra-bold extra-bold bold semi-bold normal semi-light light extra-light ultra-light`.
 - the type of `italic` should be one of the symbols `italic oblique normal reverse-italic reverse-oblique`.
     
-## usage of *define-rich-text*
+## define-rich-text
 `(define-rich-text NAME KEY PROPS)` could be used to define a simple rich-text format. NAME is the name of rich-text format. KEY is the keybinding. PROPS is elisp text properties.
 
 For example, the elisp below define a rich-text format named `bold-underline` which is binded to two single keystrokes "bu". When you press key <bu> on a region, text in region will be rendered by text properties `'(face (:weight bold :underline t))`
@@ -61,7 +61,7 @@ For example, the elisp below define a rich-text format named `bold-underline` wh
     (define-rich-text bold-underline "bu"
       '(face (:weight bold :underline t)))
 
-## usage of *define-rich-text-dwim*
+## define-rich-text-dwim
 `(define-rich-text-dwim NAME KEY &KEY PROPS LIGHT DARK)` is an enhanced version of `define-rich-text`, which support setting specific properties for themes with light or dark background. **And when the background of theme is changed, the rich-text properties will also be changed adaptably**.
 
 This feature is useful when you want to render different colors separately in light or dark themes, since a color suitable for light themes may not for dark themes, vice versa. 

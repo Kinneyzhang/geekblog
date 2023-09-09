@@ -15,8 +15,8 @@ Github: https://github.com/Kinneyzhang/rich-text
 
 # Demo
 
-<div class="gk-container2" style="border:1px solid #aaa;">
-<video src="/image/rich-text-demo.mp4" controls width="85%" height="85%"></video>
+<div class="gk-container2">
+<video style="border:1px solid #aaa;" src="/image/rich-text-demo.mp4" controls width="85%" height="85%"></video>
 </div>
 
 # Configuration

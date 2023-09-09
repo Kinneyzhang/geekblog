@@ -1,5 +1,5 @@
 ---
-title: Emacs Lisp - rich-text 富文本渲染
+title: Emacs Lisp - rich-text 富文本渲染插件
 date: 2023-09-09
 draft: false
 categories: ["Happy Hacking Emacs"]

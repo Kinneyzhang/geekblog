@@ -10,9 +10,9 @@ comment: false
 
 去大理是临时起意。<!--more-->
 
-从南京坐飞机到昆明，随后高铁到大理。13日晚上到时，已经是8点多。古城旁客栈的老板说：大理古城晚上逛逛就行了，看看夜景，白天没什么人。我放完行李后，便徒步到古城。
-
 <img class="gk-img1" src="/image/gucheng.jpg" width="100%"/>
+
+从南京坐飞机到昆明，随后高铁到大理。13日晚上到时，已经是8点多。古城旁客栈的老板说：大理古城晚上逛逛就行了，看看夜景，白天没什么人。我放完行李后，便徒步到古城。
 
 <div class="gk-container">
 <img class="gk-img1" src="/image/kezhan1.jpg" width="100%"/>

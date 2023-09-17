@@ -39,6 +39,6 @@ comment: false
 | 11   | √    |           |
 | 12   | x    | twidget   |
 | 13   | x    | sleepless |
-| 14   |      |           |
+| 14   | x    | 模割          |
 | 15   |      |           |
 

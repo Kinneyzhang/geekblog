@@ -40,6 +40,11 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   identifier = "archives"
   url = "/post/"
 [[menu.main]]
+  name = "记录"
+  weight = 15
+  identifier = "other"
+  url = "/moments/"
+[[menu.main]]
   name = "分类"
   weight = 20
   identifier = "categories"
@@ -54,11 +59,6 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   weight = 40
   identifier = "about"
   url = "/about/"
-[[menu.main]]
-  name = "记录"
-  weight = 50
-  identifier = "other"
-  url = "/moments/"
 [[menu.main]]
   name = "习惯"
   weight = 60

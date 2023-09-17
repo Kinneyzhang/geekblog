@@ -39,12 +39,13 @@ comment: false
 
 去西峰和下山的路，轻松了许多，主要是排队。最艰难的路段都过来了，排队什么的都是小case了。
 
-<div class="gk-container2">
+<div>
 <img class="gk-img" src="/image/huashan-sunrise.jpg" width="100%"/>
-<img class="gk-img" src="/image/huashan-door.jpg" width="100%"/>
 </div>
 
-<div class="gk-container2">
+<div>
 <img class="gk-img" src="/image/huashan-tour.jpg" width="100%"/>
-<img class="gk-img" src="/image/huashan-lunjian.JPG" width="100%"/>
 </div>
+
+<!-- <img class="gk-img" src="/image/huashan-door.jpg" width="100%"/> -->
+<!-- <img class="gk-img" src="/image/huashan-lunjian.JPG" width="100%"/> -->

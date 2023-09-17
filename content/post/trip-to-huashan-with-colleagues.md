@@ -27,7 +27,7 @@ comment: false
 
 一个半小时很快过去，华山站到了。如果说飞机高铁展现的是规则和秩序，火车则是呈现人本真的、自然的状态。我更乐于观察并记录这些鲜活气。
 
-<div><img class="gk-img1" src="/image/huashan-tour.jpg" width="100%"/></div>
+<div><img class="gk-img1" src="/image/huashan-tour.jpg" width="60%"/></div>
 
 <!-- # 夜爬华山 -->
 

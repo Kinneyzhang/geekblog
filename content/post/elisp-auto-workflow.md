@@ -83,5 +83,5 @@ comment: false
 
 # Demo
 <div>
-<video src="/image/autoflow-demo.mp4" controls width="90%" height="90%"></video>
+<video style="border:1px solid #aaa;" src="/image/autoflow-demo.mp4" controls width="90%" height="90%"></video>
 </div>

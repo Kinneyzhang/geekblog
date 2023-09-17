@@ -1,5 +1,5 @@
 ---
-title: 华山行
+title: 华山行（粗写）
 date: 2023-09-16
 draft: false
 categories: ["旅行简记"]

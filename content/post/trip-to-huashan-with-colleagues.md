@@ -38,3 +38,7 @@ comment: false
 到了东峰，看到了日出。
 
 去西峰和下山的路，轻松了许多，主要是排队。最艰难的路段都过来了，排队什么的都是小case了。
+
+<div>
+<img class="gk-img1" src="/image/huashan-sunrise.jpg" width="100%"/>
+</div>

@@ -27,6 +27,8 @@ comment: false
 
 一个半小时很快过去，华山站到了。如果说飞机高铁展现的是规则和秩序，火车则是呈现人本真的、自然的状态。我更乐于观察并记录这些鲜活气。
 
+<div><img class="gk-img1" src="/image/huashan-tour.jpg" width="100%"/></div>
+
 # 夜爬华山
 
 看下车的人数，我们就可以预估到夜爬华山的人真挺多。
@@ -37,15 +39,9 @@ comment: false
 
 到了东峰，看到了日出。
 
+<div><img class="gk-img1" src="/image/huashan-sunrise.jpg" width="100%"/></div>
+
 去西峰和下山的路，轻松了许多，主要是排队。最艰难的路段都过来了，排队什么的都是小case了。
-
-<div>
-<img class="gk-img1" src="/image/huashan-sunrise.jpg" width="100%"/>
-</div>
-
-<div>
-<img class="gk-img1" src="/image/huashan-tour.jpg" width="100%"/>
-</div>
 
 <!-- <img class="gk-img" src="/image/huashan-door.jpg" width="100%"/> -->
 <!-- <img class="gk-img" src="/image/huashan-lunjian.JPG" width="100%"/> -->

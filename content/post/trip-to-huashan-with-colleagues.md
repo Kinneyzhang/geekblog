@@ -7,7 +7,7 @@ tags: ["华山"]
 comment: false
 ---
 
-# 绿皮火车
+<!-- # 绿皮火车 -->
 
 没记错的话，上一次坐绿皮火车是六七年前了。
 
@@ -29,7 +29,7 @@ comment: false
 
 <div><img class="gk-img1" src="/image/huashan-tour.jpg" width="100%"/></div>
 
-# 夜爬华山
+<!-- # 夜爬华山 -->
 
 看下车的人数，我们就可以预估到夜爬华山的人真挺多。
 

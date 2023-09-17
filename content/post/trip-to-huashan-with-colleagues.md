@@ -46,5 +46,5 @@ comment: false
 
 <div class="gk-container2">
 <img class="gk-img" src="/image/huashan-door.jpg" width="100%"/>
-<img class="gk-img" src="/image/huashan-lunjian.jpg" width="100%"/>
+<img class="gk-img" src="/image/huashan-lunjian.JPG" width="100%"/>
 </div>

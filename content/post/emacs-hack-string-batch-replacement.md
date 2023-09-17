@@ -1,5 +1,5 @@
 ---
-title: "Emacs Hack - 批量替换字符串"
+title: Emacs Hack - 批量替换字符串
 date: 2020-06-16
 draft: false
 categories: ["Happy Hacking Emacs"]

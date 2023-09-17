@@ -1,5 +1,5 @@
 ---
-title: "Emacs Hack - 分割文件相似内容"
+title: Emacs Hack - 分割文件相似内容
 date: 2020-06-28
 draft: false
 categories: ["Happy Hacking Emacs"]

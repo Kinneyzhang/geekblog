@@ -1,5 +1,5 @@
 ---
-title: "个人GTD系统的设计与实现"
+title: 个人GTD系统的设计与实现
 date: 2022-04-25
 draft: true
 categories: ["GTD"]

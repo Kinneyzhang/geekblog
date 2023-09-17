@@ -1,5 +1,5 @@
 ---
-title: "Emacs Workflow - 开门见山"
+title: Emacs Workflow - 开门见山
 date: 2020-06-14
 draft: false
 categories: ["Happy Hacking Emacs"]

@@ -1,5 +1,5 @@
 ---
-title: "关于大学计算机科学"
+title: 关于大学计算机科学
 date: 2019-08-02
 draft: false
 categories: ["杂谈杂感"]

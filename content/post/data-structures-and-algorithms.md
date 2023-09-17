@@ -1,5 +1,5 @@
 ---
-title: "笔记|数据结构与算法"
+title: 笔记|数据结构与算法
 date: 2021-12-05
 draft: true
 categories: ["数据结构与算法"]

@@ -27,7 +27,7 @@ toc: true
 | [三点水](https://lotabout.me/)                 | 不积小流, 无以成江海                                  |
 | [探索子](https://exploro.one/)                 | 越过星空去探索                                        |
 | [梁了一的个人博客](https://liangzid.github.io) | 梁了一同学写字的地方，欢迎围观~                       |
-| [遛达西](https://walkssi.com/)                 | Life should be interesting                           |
+| [遛达西](https://walkssi.com/)                 | Life should be interesting                            |
 
 <hr>
 如需添加友链，请在本页面底部留言，留言格式：

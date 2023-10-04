@@ -2,6 +2,7 @@
 comment: false
 hideHeaderAndFooter: true
 ---
+<style>.container{margin:0 auto;width:1200px;}</style>
 
 **[首页](/)** >&nbsp; **[庙街城](/pho/miaojie)** | **[卡佛书店(桃子湖)](/pho/kafo)** | **止间书店** | **[连岛](/pho/liandao)**
 

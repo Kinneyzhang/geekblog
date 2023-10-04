@@ -2,9 +2,9 @@
 comment: false
 hideHeaderAndFooter: true
 ---
+<style>.container{margin:0 auto;width:1200px;}</style>
 
 **[首页](/)** >&nbsp; **[庙街城](/pho/miaojie)** | **[卡佛书店(桃子湖)](/pho/kafo)** | **[止间书店](/pho/zhijian)** | **连岛**
-
 
 <div class="gkpho-container2">
 <img class="gkpho-img" src="/image/liandao/IMG_7375.jpg">

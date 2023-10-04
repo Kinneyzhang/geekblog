@@ -1,6 +1,12 @@
 ---
 comment: false
 ---
+<style>
+#main {
+margin: 0 auto;
+width: 1000px;
+}
+</style>
 
 **庙街城** | **[卡佛书店(桃子湖)](/pho/kafo)** | **[止间书店](/pho/zhijian)** | **[连岛](/pho/liandao)**
 

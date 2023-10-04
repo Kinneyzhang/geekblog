@@ -2,7 +2,7 @@
 comment: false
 ---
 <style>
-#main {
+.container {
 margin: 0 auto;
 width: 1000px;
 }

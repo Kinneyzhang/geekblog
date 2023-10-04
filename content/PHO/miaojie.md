@@ -4,7 +4,7 @@ comment: false
 <style>
 .container {
 margin: 0 auto;
-width: 1000px;
+width: 1200px;
 }
 </style>
 

@@ -9,7 +9,7 @@ width: 1200px;
 }
 </style>
 
-**庙街城** | **[卡佛书店(桃子湖)](/pho/kafo)** | **[止间书店](/pho/zhijian)** | **[连岛](/pho/liandao)**
+**[首页](/)** >&nbsp; **庙街城** | **[卡佛书店(桃子湖)](/pho/kafo)** | **[止间书店](/pho/zhijian)** | **[连岛](/pho/liandao)**
 
 <div class="gkpho-container2">
 <img class="gkpho-img" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2476.jpg">

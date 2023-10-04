@@ -3,7 +3,7 @@ comment: false
 hideHeaderAndFooter: true
 ---
 
-**[庙街城](/pho/miaojie)** | **[卡佛书店(桃子湖)](/pho/kafo)** | **[止间书店](/pho/zhijian)** | **连岛**
+**[首页](/)** >&nbsp; **[庙街城](/pho/miaojie)** | **[卡佛书店(桃子湖)](/pho/kafo)** | **[止间书店](/pho/zhijian)** | **连岛**
 
 
 <div class="gkpho-container2">

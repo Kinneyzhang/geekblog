@@ -1,5 +1,6 @@
 ---
 comment: false
+hideHeaderAndFooter: true
 ---
 <style>
 .container {

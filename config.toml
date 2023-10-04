@@ -80,7 +80,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   name = "摄影"
   weight = 70
   identifier = "photo"
-  url = "/photos/"
+  url = "/pho/miaojie/"
 
 
 [params]

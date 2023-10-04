@@ -4,9 +4,9 @@ hideHeaderAndFooter: true
 ---
 <style>.container{margin:0 auto;width:1280px;}</style>
 
-**[首页](/)** >&nbsp; **[庙街城](/pho/miaojie)** | **卡佛书店(桃子湖)** | **[止间书店](/pho/zhijian)** | **[连岛](/pho/liandao)**
+**[首页](/)** >&nbsp; **[庙街城](/pho/miaojie)** | **卡佛书店** | **[止间书店](/pho/zhijian)** | **[连岛](/pho/liandao)**
 
-# 卡佛书店（桃子湖店）
+# 卡佛书店（桃子湖店）·长沙
 
 <div class=".gkpho-container">
 <img class="gkpho-img" src="/image/kafo/IMG_3021.jpg">

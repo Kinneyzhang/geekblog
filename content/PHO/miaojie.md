@@ -4,7 +4,9 @@ hideHeaderAndFooter: true
 ---
 <style>.container{margin:0 auto;width:1280px;}</style>
 
-**[首页](/)** >&nbsp; **庙街城** | **[卡佛书店(桃子湖)](/pho/kafo)** | **[止间书店](/pho/zhijian)** | **[连岛](/pho/liandao)**
+**[首页](/)** >&nbsp; **庙街城** | **[卡佛书店](/pho/kafo)** | **[止间书店](/pho/zhijian)** | **[连岛](/pho/liandao)**
+
+# 庙街城·长沙
 
 <div class=".gkpho-container">
 <img class="gkpho-img" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2476.jpg">

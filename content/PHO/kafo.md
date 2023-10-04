@@ -10,25 +10,21 @@ hideHeaderAndFooter: true
 
 <img class="gkpho-single-img" src="/image/kafo/IMG_3021.jpg">
 
-<div class="gkpho-container2">
+<div class=".gkpho-container">
 <img class="gkpho-img" src="/image/kafo/IMG_3026.jpg">
 <img class="gkpho-img gkpho-img-margin" src="/image/kafo/IMG_3022.jpg">
+<img class="gkpho-img gkpho-img-margin" src="/image/kafo/IMG_3031.jpg">
 </div>
 
-<div class="gkpho-container2">
-<img class="gkpho-img" src="/image/kafo/IMG_3031.jpg">
+<div class=".gkpho-container">
+<img class="gkpho-img" src="/image/kafo/IMG_3027.jpg">
+<img class="gkpho-img gkpho-img-margin" src="/image/kafo/IMG_3030.jpg">
 <img class="gkpho-img gkpho-img-margin" src="/image/kafo/IMG_3028.jpg">
 </div>
 
-<img class="gkpho-single-img" src="/image/kafo/IMG_3029.jpg">
-
-<div class="gkpho-container2">
-<img class="gkpho-img" src="/image/kafo/IMG_3027.jpg">
-<img class="gkpho-img gkpho-img-margin" src="/image/kafo/IMG_3030.jpg">
-</div>
-
-<div class="gkpho-container2">
+<div class=".gkpho-container">
 <img class="gkpho-img" src="/image/kafo/IMG_3024.jpg">
+<img class="gkpho-img gkpho-img-margin" src="/image/kafo/IMG_3029.jpg">
 <img class="gkpho-img gkpho-img-margin" src="/image/kafo/IMG_3020.jpg">
 </div>
 

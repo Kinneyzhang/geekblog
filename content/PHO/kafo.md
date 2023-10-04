@@ -27,5 +27,3 @@ hideHeaderAndFooter: true
 <img class="gkpho-img gkpho-img-margin" src="/image/kafo/IMG_3029.jpg">
 <img class="gkpho-img gkpho-img-margin" src="/image/kafo/IMG_3020.jpg">
 </div>
-
-<p>&nbsp;</p>

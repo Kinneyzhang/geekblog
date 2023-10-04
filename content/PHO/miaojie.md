@@ -13,24 +13,17 @@ hideHeaderAndFooter: true
 </div>
 
 <div class=".gkpho-container">
-
-<img class="gkpho-img gkpho-img-margin" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2479.jpg">
-</div>
-
-<div class=".gkpho-container">
 <img class="gkpho-img" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2480.jpg">
 <img class="gkpho-img gkpho-img-margin" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2481.jpg">
+<img class="gkpho-img gkpho-img-margin" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2479.jpg">
 </div>
 
 <div class=".gkpho-container">
 <img class="gkpho-img" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2482.jpg">
 <img class="gkpho-img gkpho-img-margin" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2484.jpg">
+<img class="gkpho-img gkpho-img-margin" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2486.jpg">
 </div>
 
-<div>
-<img class="gkpho-single-img" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2486.jpg">
-</div>
-
-<div>
-<img class="gkpho-single-img" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2485.jpg">
+<div class=".gkpho-container">
+<img class="gkpho-img" src="https://pho-1258820352.cos.ap-nanjing.myqcloud.com/miaojie/IMG_2485.jpg">
 </div>

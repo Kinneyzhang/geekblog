@@ -150,3 +150,39 @@ ul ul ul {
     padding: .2em;
     border-radius: .2em;
 }
+
+.gkpho-single-img {
+  margin: 0 .2em .4em 0;
+  border: 1px solid #ccc;
+  border-radius: .2em;
+  padding: .2em;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+.gkpho-container {
+  margin-bottom: .5em;
+}
+.gkpho-img {
+  border: 1px solid #ccc;
+  border-radius: .2em;
+  padding: 2px;
+  display: inline;
+  width: 395px;
+}}
+
+.gkpho-img-margin {
+  margin-left: 3px;
+}
+
+@media screen and (max-width: 600px) {
+.gkpho-container {
+  text-align: center;
+}
+.gkpho-img {
+  margin: 0 0 .5em 0em;
+  border: 1px solid #ccc;
+  border-radius: .2em;
+  padding: .2em;
+  width: 95%;
+}}

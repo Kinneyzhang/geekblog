@@ -10,7 +10,7 @@ comment: false
 }
 .grid-item1 {
   grid-columns-start: 1;
-  grid-columns-start: 2;
+  grid-columns-start: 3;
 }
 </style>
 

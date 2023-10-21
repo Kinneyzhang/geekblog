@@ -11,6 +11,7 @@ comment: false
                        'd d d'
                        'g . .';
   grid-gap: 10px 10px;
+  grid-justify-content: center;
 }
 .grid-item3 {
   grid-area: b;

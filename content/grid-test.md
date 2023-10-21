@@ -8,8 +8,8 @@ comment: false
   grid-template-columns: 100px 100px 100px;
   grid-template-rows: 100px 100px 100px;
   grid-template-areas: 'a b c'
-                       'd e f'
-                       'g h i';
+                       'd'
+                       'g';
   grid-gap: 10px 10px;
 }
 .grid-item3 {
@@ -24,6 +24,7 @@ comment: false
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
+  grid-area: d;
 }
 </style>
 
@@ -32,7 +33,7 @@ comment: false
     <span class="grid-item2">22222</span>
     <span class="grid-item3">333333333333333333333333333333333333</span>
     <span class="grid-item4">44444</span>
-    <span class="grid-item5">55555</span>
+    <span class="grid-item5">555555555555555555555555555555555555555555555555555555555555555555555555</span>
     <span class="grid-item6">66666</span>
     <span class="grid-item7">77777</span>
 </div>

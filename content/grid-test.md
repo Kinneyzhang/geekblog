@@ -5,7 +5,7 @@ comment: false
 <style type="text/css">
 .grid-container {
   display: grid;
-  grid-template-columns: 100px 100px 100px;
+  grid-template-columns: 50px 100px 150px;
   grid-template-rows: 100px 100px 100px;
   grid-template-areas: 'a b c'
                        'd d d'
@@ -29,11 +29,11 @@ comment: false
 </style>
 
 <div class="grid-container">
-    <span class="grid-item1">11111111111111111111111111111111111111</span>
+    <span class="grid-item1">111111111111111111111</span>
     <span class="grid-item2">22222</span>
-    <span class="grid-item3">333333333333333333333333333333333333</span>
+    <span class="grid-item3">33333333333333333333333</span>
     <span class="grid-item4">44444</span>
-    <span class="grid-item5">555555555555555555555555555555555555555555555555555555555555555555555555</span>
+    <span class="grid-item5">555555555555555555555</span>
     <span class="grid-item6">66666</span>
     <span class="grid-item7">77777</span>
 </div>

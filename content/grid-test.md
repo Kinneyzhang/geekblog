@@ -8,10 +8,14 @@ comment: false
   grid-template-columns: 100px 100px 100px;
   grid-template-rows: 100px 100px 100px;
 }
+.grid-item1 {
+  grid-columns-start: 1;
+  grid-columns-start: 2;
+}
 </style>
 
 <div class="grid-container">
-    <span>1</span>
+    <span class="grid-item1">1</span>
     <span>2</span>
     <span>3</span>
     <span>4</span>

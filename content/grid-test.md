@@ -13,11 +13,11 @@ comment: false
   grid-gap: 10px 10px;
 }
 .grid-item3 {
+  grid-area: b;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
-  grid-area: c;
 }
 .grid-item5 {
   grid-column-start: 2;

@@ -14,8 +14,8 @@ comment: false
 }
 .grid-item3 {
   grid-area: b;
-  <!-- grid-column-start: 1; -->
-  <!-- grid-column-end: 2; -->
+  grid-column-start: 2;
+  grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
 }

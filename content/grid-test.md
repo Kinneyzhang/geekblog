@@ -17,6 +17,7 @@ comment: false
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
+  grid-area: c;
 }
 .grid-item5 {
   grid-column-start: 2;

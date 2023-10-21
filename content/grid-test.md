@@ -9,8 +9,8 @@ comment: false
   grid-template-rows: 100px 100px 100px;
 }
 .grid-item1 {
-  grid-columns-start: 1;
-  grid-columns-start: 3;
+  grid-column-start: 1;
+  grid-column-start: 3;
   grid-row-start: 2;
   grid-row-end: 4;
 }

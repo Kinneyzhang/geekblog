@@ -6,7 +6,7 @@ comment: false
 .grid-container {
   display: grid;
   grid-template-columns: 25% 60% 15%;
-  grid-template-rows: 100px 600px 100px;
+  grid-template-rows: 100px 400px 100px;
   grid-template-areas: 'a b c'
                        'd d d'
                        'g . .';

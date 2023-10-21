@@ -7,6 +7,7 @@ comment: false
   display: grid;
   grid-template-columns: 100px 100px 100px;
   grid-template-rows: 100px 100px 100px;
+  grid-gap: 10px 10px;
 }
 .grid-item3 {
   grid-column-start: 1;

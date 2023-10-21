@@ -14,7 +14,7 @@ comment: false
   justify-content: center;
 }
 .grid-item {
-  border: 1px solid #ccc;
+  border: 2px dash #ccc;
 }
 .grid-item3 {
   grid-area: b;

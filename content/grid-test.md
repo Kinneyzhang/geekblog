@@ -11,7 +11,7 @@ comment: false
 </style>
 
 <div class="grid-container">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
 </div>

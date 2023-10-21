@@ -14,6 +14,12 @@ comment: false
   grid-row-start: 1;
   grid-row-end: 2;
 }
+.grid-item5 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
 </style>
 
 <div class="grid-container">

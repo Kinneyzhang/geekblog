@@ -14,7 +14,7 @@ comment: false
   justify-content: center;
 }
 .grid-item {
-  border: "grey";
+  border: 1px solid "grey";
 }
 .grid-item3 {
   grid-area: b;

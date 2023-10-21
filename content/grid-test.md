@@ -13,6 +13,9 @@ comment: false
   grid-gap: 10px 10px;
   justify-content: center;
 }
+.grid-item {
+  border: "grey";
+}
 .grid-item3 {
   grid-area: b;
   grid-column-start: 2;
@@ -30,11 +33,11 @@ comment: false
 </style>
 
 <div class="grid-container">
-    <span class="grid-item1">111111111111111111111</span>
-    <span class="grid-item2">22222</span>
-    <span class="grid-item3">33333333333333333333333</span>
-    <span class="grid-item4">44444</span>
-    <span class="grid-item5">555555555555555555555</span>
-    <span class="grid-item6">66666</span>
-    <span class="grid-item7">77777</span>
+    <span class="grid-item1 grid-item">111111111111111111111</span>
+    <span class="grid-item2 grid-item">22222</span>
+    <span class="grid-item3 grid-item">33333333333333333333333</span>
+    <span class="grid-item4 grid-item">44444</span>
+    <span class="grid-item5 grid-item">555555555555555555555</span>
+    <span class="grid-item6 grid-item">66666</span>
+    <span class="grid-item7 grid-item">77777</span>
 </div>

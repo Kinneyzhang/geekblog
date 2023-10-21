@@ -33,7 +33,7 @@ comment: false
 </style>
 
 <div class="grid-container">
-    <span class="grid-item1 grid-item">111111111111111111111</span>
+    <span class="grid-item1 grid-item">11111111111111</span>
     <span class="grid-item2 grid-item">22222</span>
     <span class="grid-item3 grid-item">33333333333333333333333</span>
     <span class="grid-item4 grid-item">44444</span>

@@ -8,7 +8,7 @@ comment: false
   grid-template-columns: 100px 100px 100px;
   grid-template-rows: 100px 100px 100px;
   grid-template-areas: 'a b c'
-                       '. d .'
+                       'd d d'
                        'g . .';
   grid-gap: 10px 10px;
 }

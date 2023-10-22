@@ -89,3 +89,46 @@ Grid 布局的属性分成两类。一类定义在容器上面，称为容器属
 
 <small>注意，设为网格布局以后，容器子元素（项目）的 `float`、`display: inline-block`、`display: table-cell`、`vertical-align` 和 `column-*` 等设置都将失效。</small>
 
+# 3.2 grid-template-columns 属性，grid-template-rows 属性
+
+容器指定了网格布局以后，接着就要划分行和列。`grid-template-columns` 属性定义每一列的列宽，`grid-template-rows` 属性定义每一行的行高。
+
+    .container {
+      display: grid;
+      grid-template-columns: 100px 100px 100px;
+      grid-template-rows: 100px 100px 100px;
+    }
+
+上面代码指定了一个三行三列的网格，列宽和行高都是100px。
+
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032506.png" alt="" title=""></p>
+
+除了使用绝对单位，也可以使用百分比。
+
+    .container {
+      display: grid;
+      grid-template-columns: 33.33% 33.33% 33.33%;
+      grid-template-rows: 33.33% 33.33% 33.33%;
+    }
+
+### (1) repeat()
+
+有时候，重复写同样的值非常麻烦，尤其网格很多时。这时，可以使用 `repeat()` 函数，简化重复的值。上面的代码用 `repeat()` 改写如下。
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 33.33%);
+      grid-template-rows: repeat(3, 33.33%);
+    }
+
+`repeat()` 接受两个参数，第一个参数是重复的次数（上例是3），第二个参数是所要重复的值。
+
+`repeat()` 重复某种模式也是可以的。
+
+    grid-template-columns: repeat(2, 100px 20px 80px);
+
+上面代码定义了6列，第一列和第四列的宽度为 100px，第二列和第五列为 20px，第三列和第六列为 80px。
+
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032507.png" alt="" title=""></p>
+
+### (2) auto-fill 关键字

@@ -14,7 +14,7 @@ comment: false
 > 本文转载自 [CSS Grid 网格布局教程 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2019/03/grid-layout-tutorial.html)\
 > 遵循 "自由转载-非商用-非衍生-保持署名（创意共享3.0许可证）"
 
-# 概述'
+# 概述
 
 上图这样的布局，就是 Grid 布局的拿手好戏。
 Grid 布局与 Flex 布局有一定的相似性，都可以指定容器内部多个项目的位置。但是，它们也存在重大区别。

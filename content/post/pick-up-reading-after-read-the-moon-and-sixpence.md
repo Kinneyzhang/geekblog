@@ -2,7 +2,7 @@
 title: 重拾阅读
 date: 2019-07-21
 draft: false
-categories: ["读书破万卷"]
+categories: ["读书破万卷","杂谈杂感"]
 tags: ["读书笔记", "月亮与六便士"]
 toc: false
 comment: false

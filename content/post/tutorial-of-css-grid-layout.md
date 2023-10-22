@@ -87,5 +87,5 @@ Grid 布局的属性分成两类。一类定义在容器上面，称为容器属
 
 上图是 `display: inline-grid` 的效果。
 
-    注意，设为网格布局以后，容器子元素（项目）的 `float`、`display: inline-block`、`display: table-cell`、`vertical-align` 和 `column-*` 等设置都将失效。
+<small>注意，设为网格布局以后，容器子元素（项目）的 `float`、`display: inline-block`、`display: table-cell`、`vertical-align` 和 `column-*` 等设置都将失效。</small>
 

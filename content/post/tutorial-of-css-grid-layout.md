@@ -415,3 +415,204 @@ Grid 布局的属性分成两类。一类定义在容器上面，称为容器属
     place-content: space-around space-evenly;
 
 如果省略第二个值，浏览器就会假定第二个值等于第一个值。
+
+## 3.8 grid-auto-columns 属性，grid-auto-rows 属性
+
+有时候，一些项目的指定位置，在现有网格的外部。比如网格只有3列，但是某一个项目指定在第5行。这时，浏览器会自动生成多余的网格，以便放置项目。
+
+`grid-auto-columns` 属性和 `grid-auto-rows` 属性用来设置，浏览器自动创建的多余网格的列宽和行高。它们的写法与 `grid-template-columns` 和 `grid-template-rows` 完全相同。如果不指定这两个属性，浏览器完全根据单元格内容的大小，决定新增网格的列宽和行高。
+
+下面的例子里面，划分好的网格是3行 x 3列，但是，8号项目指定在第4行，9号项目指定在第5行。
+
+    .container {
+      display: grid;
+      grid-template-columns: 100px 100px 100px;
+      grid-template-rows: 100px 100px 100px;
+      grid-auto-rows: 50px; 
+    }
+
+上面代码指定新增的行高统一为50px（原始的行高为100px）。
+
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032525.png" alt="" title=""></p>
+
+## 3.9 grid-template 属性，grid 属性
+
+`grid-template` 属性是 `grid-template-columns`、`grid-template-rows` 和 `grid-template-areas` 这三个属性的合并简写形式。
+
+`grid` 属性是 `grid-template-rows`、`grid-template-columns`、`grid-template-areas`、`grid-auto-rows`、`grid-auto-columns`、`grid-auto-flow` 这六个属性的合并简写形式。
+
+从易读易写的角度考虑，还是建议不要合并属性，所以这里就不详细介绍这两个属性了。
+
+# 四、项目属性
+下面这些属性定义在项目上面。
+
+## 4.1 grid-column-start 属性，grid-column-end 属性，grid-row-start 属性，grid-row-end 属性
+
+项目的位置是可以指定的，具体方法就是指定项目的四个边框，分别定位在哪根网格线。
+
+    grid-column-start属性：左边框所在的垂直网格线
+    grid-column-end属性：右边框所在的垂直网格线
+    grid-row-start属性：上边框所在的水平网格线
+    grid-row-end属性：下边框所在的水平网格线
+
+    .item-1 {
+      grid-column-start: 2;
+      grid-column-end: 4;
+    }
+
+上面代码指定，1号项目的左边框是第二根垂直网格线，右边框是第四根垂直网格线。
+
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032526.png" alt="" title=""></p>
+
+上图中，只指定了1号项目的左右边框，没有指定上下边框，所以会采用默认位置，即上边框是第一根水平网格线，下边框是第二根水平网格线。
+
+除了1号项目以外，其他项目都没有指定位置，由浏览器自动布局，这时它们的位置由容器的 `grid-auto-flow` 属性决定，这个属性的默认值是 `row`，因此会"先行后列"进行排列。读者可以把这个属性的值分别改成 `column`、`row dense` 和 `column dense`，看看其他项目的位置发生了怎样的变化。
+
+下面的例子是指定四个边框位置的效果。
+
+    .item-1 {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 4;
+    }
+
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032527.png" alt="" title=""></p>
+
+这四个属性的值，除了指定为第几个网格线，还可以指定为网格线的名字。
+
+    .item-1 {
+      grid-column-start: header-start;
+      grid-column-end: header-end;
+    }
+
+上面代码中，左边框和右边框的位置，都指定为网格线的名字。
+
+这四个属性的值还可以使用 `span` 关键字，表示"跨越"，即左右边框（上下边框）之间跨越多少个网格。
+
+    .item-1 {
+      grid-column-start: span 2;
+    }
+
+上面代码表示，1号项目的左边框距离右边框跨越2个网格。
+
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032528.png" alt="" title=""></p>
+
+这与下面的代码效果完全一样。
+
+    .item-1 {
+      grid-column-end: span 2;
+    }
+
+使用这四个属性，如果产生了项目的重叠，则使用z-index属性指定项目的重叠顺序。
+
+## 4.2 grid-column 属性，grid-row 属性
+
+`grid-column` 属性是 `grid-column-start` 和 `grid-column-end` 的合并简写形式，`grid-row` 属性是 `grid-row-start` 属性和 `grid-row-end` 的合并简写形式。
+
+    .item {
+      grid-column: <start-line> / <end-line>;
+      grid-row: <start-line> / <end-line>;
+    }
+
+下面是一个例子。
+
+    .item-1 {
+      grid-column: 1 / 3;
+      grid-row: 1 / 2;
+    }
+    /* 等同于 */
+    .item-1 {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+
+上面代码中，项目 `item-1` 占据第一行，从第一根列线到第三根列线。
+这两个属性之中，也可以使用 `span` 关键字，表示跨越多少个网格。
+
+    .item-1 {
+      background: #b03532;
+      grid-column: 1 / 3;
+      grid-row: 1 / 3;
+    }
+    /* 等同于 */
+    .item-1 {
+      background: #b03532;
+      grid-column: 1 / span 2;
+      grid-row: 1 / span 2;
+    }
+
+上面代码中，项目 `item-1` 占据的区域，包括第一行 + 第二行、第一列 + 第二列。
+
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032529.png" alt="" title=""></p>
+
+斜杠以及后面的部分可以省略，默认跨越一个网格。
+
+    .item-1 {
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+上面代码中，项目item-1占据左上角第一个网格。
+
+## 4.3 grid-area 属性
+
+`grid-area` 属性指定项目放在哪一个区域。
+
+    .item-1 {
+      grid-area: e;
+    }
+
+上面代码中，1号项目位于e区域，效果如下图。
+
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032530.png" alt="" title=""></p>
+
+`grid-area` 属性还可用作 `grid-row-start`、`grid-column-start`、`grid-row-end`、`grid-column-end` 的合并简写形式，直接指定项目的位置。
+
+    .item {
+      grid-area: <row-start> / <column-start> / <row-end> / <column-end>;
+    }
+
+下面是一个例子。
+
+    .item-1 {
+      grid-area: 1 / 1 / 3 / 3;
+    }
+
+## 4.4 justify-self 属性，align-self 属性，place-self 属性
+
+`justify-self` 属性设置单元格内容的水平位置（左中右），跟 `justify-items` 属性的用法完全一致，但只作用于单个项目。
+
+`align-self` 属性设置单元格内容的垂直位置（上中下），跟 `align-items` 属性的用法完全一致，也是只作用于单个项目。
+
+    .item {
+      justify-self: start | end | center | stretch;
+      align-self: start | end | center | stretch;
+    }
+
+这两个属性都可以取下面四个值。
+
+- start：对齐单元格的起始边缘。
+- end：对齐单元格的结束边缘。
+- center：单元格内部居中。
+- stretch：拉伸，占满单元格的整个宽度（默认值）。
+
+下面是 `justify-self: start` 的例子。
+
+    .item-1  {
+      justify-self: start;
+    }
+
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032532.png" alt="" title=""></p>
+
+`place-self` 属性是 `align-self` 属性和 `justify-self` 属性的合并简写形式。
+
+    place-self: <align-self> <justify-self>;
+
+下面是一个例子。
+
+    place-self: center center;
+
+如果省略第二个值，`place-self` 属性会认为这两个值相等。

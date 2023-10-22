@@ -238,7 +238,7 @@ Grid 布局的属性分成两类。一类定义在容器上面，称为容器属
 
 如果 `grid-gap` 省略了第二个值，浏览器认为第二个值等于第一个值。
 
-<small>根据最新标准，上面三个属性名的 `grid-` 前缀已经删除，`grid-column-gap` 和 `grid-row-gap` 写成 `column-gap` 和 `row-gap`，`grid-gap` 写成 `gap`。<small>
+<small>根据最新标准，上面三个属性名的 `grid-` 前缀已经删除，`grid-column-gap` 和 `grid-row-gap` 写成 `column-gap` 和 `row-gap`，`grid-gap` 写成 `gap`。</small>
 
 ## 3.4 grid-template-areas 属性
 

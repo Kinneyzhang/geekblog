@@ -14,7 +14,7 @@ comment: false
 > 本文转载自 [CSS Grid 网格布局教程 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2019/03/grid-layout-tutorial.html)\
 > 遵循 "自由转载-非商用-非衍生-保持署名（创意共享3.0许可证）"
 
-# 概述
+# 一、概述
 
 <p><img src="https://www.wangbase.com/blogimg/asset/201903/1_bg2019032501.png" alt="" title=""></p>
 
@@ -24,7 +24,7 @@ Grid 布局与 Flex 布局有一定的相似性，都可以指定容器内部多
 
 Flex 布局是轴线布局，只能指定"项目"针对轴线的位置，可以看作是**一维布局**。Grid 布局则是将容器划分成"行"和"列"，产生单元格，然后指定"项目所在"的单元格，可以看作是**二维布局**。Grid 布局远比 Flex 布局强大。
 
-# 基本概念
+# 二、基本概念
 学习 Grid 布局之前，需要了解一些基本概念。
 
 ## 2.1 容器和项目
@@ -55,8 +55,37 @@ Flex 布局是轴线布局，只能指定"项目"针对轴线的位置，可以�
 ## 2.4 网格线
 划分网格的线，称为"网格线"（grid line）。水平网格线划分出行，垂直网格线划分出列。
 
-正常情况下，`n`行有 `n + 1` 根水平网格线，`m`列有 `m + 1`根垂直网格线，比如三行就有四根水平网格线。
+正常情况下，`n`行有 `n + 1` 根水平网格线，`m` 列有 `m + 1` 根垂直网格线，比如三行就有四根水平网格线。
 
 <p><img src="https://www.wangbase.com/blogimg/asset/201903/1_bg2019032503.png" alt="" title=""></p>
 
 上图是一个 4 x 4 的网格，共有5根水平网格线和5根垂直网格线。
+
+# 三、容器属性
+Grid 布局的属性分成两类。一类定义在容器上面，称为容器属性；另一类定义在项目上面，称为项目属性。这部分先介绍容器属性。
+
+## 3.1 display 属性
+`display: grid` 指定一个容器采用网格布局。
+
+    div {
+      display: grid;
+    }
+
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032504.png" alt="" title=""></p>
+
+上图是 `display: grid` 的效果。
+
+默认情况下，容器元素都是块级元素，但也可以设成行内元素。
+
+    div {
+      display: inline-grid;
+    }
+
+上面代码指定`div`是一个行内元素，该元素内部采用网格布局。
+
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032505.png" alt="" title=""></p>
+
+上图是 `display: inline-grid` 的效果。
+
+    注意，设为网格布局以后，容器子元素（项目）的 `float`、`display: inline-block`、`display: table-cell`、`vertical-align` 和 `column-*` 等设置都将失效。
+

@@ -41,6 +41,11 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   identifier = "other"
   url = "/moments/"
 [[menu.main]]
+  name = "知识库"
+  weight = 8
+  identifier = "gknows"
+  url = "/gknows/index/"
+[[menu.main]]
   name = "归档"
   weight = 10
   identifier = "archives"
@@ -65,11 +70,6 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 #   weight = 60
 #   identifier = "habit"
 #   url = "/habits/"
-[[menu.main]]
-  name = "知识库"
-  weight = 60
-  identifier = "gknows"
-  url = "/gknows/index/"
   
 # [[menu.main]]
 #   name = "视频"

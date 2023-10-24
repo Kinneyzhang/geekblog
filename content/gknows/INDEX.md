@@ -10,14 +10,9 @@ comment: false
 
 ---
 - [计算机科学](/gknows/计算机科学) (0)
-  - [汇编语言](/gknows/汇编语言) (0)
   - [数据结构与算法](/gknows/数据结构与算法) (20)
-  - [操作系统](/gknows/操作系统) (0)
-  - [数据库](/gknows/数据库) (0)
-    - [sqlite](/gknows/sqlite) (4)
   - [Linux](/gknows/linux) (16)
   - [Emacs](/gknows/emacs) (2)
-  - [Python](/gknows/python) (0)
   - [Java](/gknows/java) (2)
   - [Git](/gknows/git) (5)
 - [生活消费](/gknows/生活消费) (0)

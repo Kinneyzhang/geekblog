@@ -9,23 +9,23 @@ hideHeaderAndFooter: true
 # 卡佛书店（桃子湖店）·长沙
 
 <div class=".gkpho-container">
-<img class="gkpho-img" src="/image/kafo/IMG_3021.jpg">
-<img class="gkpho-img gkpho-img-margin" src="/image/kafo/IMG_3022.jpg">
-<img class="gkpho-img gkpho-img-margin" src="/image/kafo/IMG_3031.jpg">
+<img class="gkpho-img" src="http://119.28.186.136:9520/images/kafo/IMG_3021.jpg">
+<img class="gkpho-img gkpho-img-margin" src="http://119.28.186.136:9520/images/kafo/IMG_3022.jpg">
+<img class="gkpho-img gkpho-img-margin" src="http://119.28.186.136:9520/images/kafo/IMG_3031.jpg">
 </div>
 
 <div class=".gkpho-container">
-<img class="gkpho-img" src="/image/kafo/IMG_3027.jpg">
-<img class="gkpho-img gkpho-img-margin" src="/image/kafo/IMG_3030.jpg">
-<img class="gkpho-img gkpho-img-margin" src="/image/kafo/IMG_3028.jpg">
+<img class="gkpho-img" src="http://119.28.186.136:9520/images/kafo/IMG_3027.jpg">
+<img class="gkpho-img gkpho-img-margin" src="http://119.28.186.136:9520/images/kafo/IMG_3030.jpg">
+<img class="gkpho-img gkpho-img-margin" src="http://119.28.186.136:9520/images/kafo/IMG_3028.jpg">
 </div>
 
 <div class=".gkpho-container">
-<img class="gkpho-img" src="/image/kafo/IMG_3024.jpg">
-<img class="gkpho-img gkpho-img-margin" src="/image/kafo/IMG_3029.jpg">
-<img class="gkpho-img gkpho-img-margin" src="/image/kafo/IMG_3020.jpg">
+<img class="gkpho-img" src="http://119.28.186.136:9520/images/kafo/IMG_3024.jpg">
+<img class="gkpho-img gkpho-img-margin" src="http://119.28.186.136:9520/images/kafo/IMG_3029.jpg">
+<img class="gkpho-img gkpho-img-margin" src="http://119.28.186.136:9520/images/kafo/IMG_3020.jpg">
 </div>
 
 <div class=".gkpho-container">
-<img class="gkpho-img" src="/image/kafo/IMG_3026.jpg">
+<img class="gkpho-img" src="http://119.28.186.136:9520/images/kafo/IMG_3026.jpg">
 </div>

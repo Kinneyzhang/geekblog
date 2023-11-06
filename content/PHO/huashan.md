@@ -9,17 +9,17 @@ hideHeaderAndFooter: true
 # 华山·渭南
 
 <div class=".gkpho-container">
-<img class="gkpho-img" src="/image/huashan/IMG_7323.jpg">
-<img class="gkpho-img gkpho-img-margin" src="/image/huashan/IMG_7314.jpg">
-<img class="gkpho-img gkpho-img-margin" src="/image/huashan/IMG_7315.jpg">
+<img class="gkpho-img" src="http://119.28.186.136:9520/images/huashan/IMG_7323.jpg">
+<img class="gkpho-img gkpho-img-margin" src="http://119.28.186.136:9520/images/huashan/IMG_7314.jpg">
+<img class="gkpho-img gkpho-img-margin" src="http://119.28.186.136:9520/images/huashan/IMG_7315.jpg">
 </div>
 
 <div class=".gkpho-container">
-<img class="gkpho-img" src="/image/huashan/IMG_7329.jpg">
-<img class="gkpho-img gkpho-img-margin" src="/image/huashan/IMG_7325.jpg">
-<img class="gkpho-img gkpho-img-margin" src="/image/huashan/IMG_7328.jpg">
+<img class="gkpho-img" src="http://119.28.186.136:9520/images/huashan/IMG_7329.jpg">
+<img class="gkpho-img gkpho-img-margin" src="http://119.28.186.136:9520/images/huashan/IMG_7325.jpg">
+<img class="gkpho-img gkpho-img-margin" src="http://119.28.186.136:9520/images/huashan/IMG_7328.jpg">
 </div>
 
 <div class=".gkpho-container">
-<img class="gkpho-img" src="/image/huashan/IMG_7309.PNG">
+<img class="gkpho-img" src="http://119.28.186.136:9520/images/huashan/IMG_7309.PNG">
 </div>

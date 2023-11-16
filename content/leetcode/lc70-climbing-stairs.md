@@ -4,14 +4,16 @@ type: post
 layout: daily
 draft: false
 categories: ["数据结构与算法"]
-tags: ["leetcode"]
+tags: ["leetcode","动态规划"]
 comment: false
 toc: false
 ---
 
-简单动态规划练习
+经典动态规划问题
 
 # 题目
+
+[LC70-爬楼梯](https://leetcode.cn/problems/climbing-stairs/description/)
 
 假设你正在爬楼梯。需要 n 阶你才能到达楼顶。每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？
 
@@ -29,3 +31,30 @@ toc: false
 - 1 阶 + 1 阶 + 1 阶
 - 1 阶 + 2 阶
 - 2 阶 + 1 阶
+
+# 思路
+
+- 穷举分析(下面的例子很好理解)
+  - 当台阶数是1的时候，有一种跳法，f(1)=1
+  - 当只有2级台阶时，有两种跳法，第一种是直接跳两级，第二种是先跳一级，然后再跳一级。即f(2)=2;
+  - 当台阶是3级时，想跳到第3级台阶，要么是先跳到第2级，然后再跳1级台阶上去，要么是先跳到第 1级，然后一次迈 2 级台阶上去。所以f(3) = f(2) + f(1) = 3
+  - 当台阶是4级时，想跳到第3级台阶，要么是先跳到第3级，然后再跳1级台阶上去，要么是先跳到第 2级，然后一次迈 2 级台阶上去。所以f(4) = f(3) + f(2) = 5
+  - 当台阶是5级时......
+  - 当台阶是n级时，f(n) = f(n-1) + f(n-2)
+
+f(n)表示爬到第n级台阶的方案数
+
+    public int climbStairs (int n) {
+        if (n == 1) return 1;
+        if (n == 2) return 2;
+        int a = 1;
+        int b = 2;
+        int num = 0;
+        for(int i=3; i<=n; i++) {
+            num = a + b;
+            b = num;
+            a = b;
+        }
+        return num;
+    }
+

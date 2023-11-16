@@ -31,6 +31,7 @@ toc: false
         for (int i=1; i<strs.length; i++) {
             String str = strs[i];
             int minLen = Math.min(commonPrefix.length(), str.length());
+
             String tempStr = "";
             for (int j=0; j<minLen; j++) {
                 char a = commonPrefix.charAt(j);

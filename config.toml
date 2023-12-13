@@ -41,7 +41,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   identifier = "other"
   url = "/moments/"
 [[menu.main]]
-  name = "卡片笔记"
+  name = "笔记"
   weight = 8
   identifier = "zknotes"
   url = "/zknotes/"

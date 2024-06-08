@@ -1,0 +1,31 @@
+{{ define "content" -}}
+<article class="post">
+  
+  <!-- TOC -->
+  {{- partial "post/toc.html" . -}}
+
+  <!-- Outdated Info Warning -->
+  {{- partial "post/outdated-info-warning.html" . -}}
+
+  <!-- Content -->
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+
+  <!-- Copyright -->
+  {{- partial "post/copyright.html" . -}}
+
+  <!-- Reward -->
+  {{- partial "post/reward.html" . -}}
+
+  <footer class="post-footer">
+    {{ with .Params.tags -}}
+    <div class="post-tags">
+      {{ range . -}}
+      <a href="{{ "tags" | relLangURL }}/{{ . | urlize }}{{ if $.Site.Params.uglyURLs }}.html{{ else }}/{{ end }}">{{ . }}</a>
+      {{ end -}}
+    </div>
+    {{- end -}}
+  </footer>
+</article>
+{{- end }}

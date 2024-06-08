@@ -1,0 +1,197 @@
+// ==============================
+// Custom style
+// ==============================
+// You can override the variables in _variables.scss to customize the style
+
+@import '_common/normalize';
+
+$global-headings: (
+    h1: 26px,
+    h2: 23px,
+    h3: 20px,
+    h4: 16px,
+    h5: 14px,
+    h6: 14px
+);
+
+// Font family of the site.
+$global-font-family:
+    'jinkaiFont', 'Source Sans Pro', 'Noto Serif SC', 'Noto Sans SC', Serif, 'Helvetica Neue', Arial;
+
+// Serif font family of the site.
+$global-serif-font-family:
+    'jinkaiFont', 'Noto serif SC', Serif, Microsoft Yahei, serif, Athelas, STHeiti;
+
+$menu-font-family: 'jinkaiFont', 'Noto Serif SC', serif;
+// $menu-font-weight: 400;
+// $menu-link-font-size: 16px;
+
+$post-title-font-family: 'jinkaiFont', 'Noto Serif SC', serif;
+$post-title-font-weight: 400;
+
+$post-head-font-family: chancery, 'Noto Serif SC', serif;
+$post-head-font-weight: 400;
+
+$post-content-font-family: 'jinkaiFont', 'Noto Serif SC', serif;
+$post-content-font-weight: 400;
+$post-content-font-color: #000;
+
+$code-font-family: "source code pro", Menlo, "DejaVu Sans Mono",;
+
+$global-body-width: 850px;
+
+$content-blockquote-backgroud: #f8f8f8;
+
+.post-content h1{
+    border-bottom: 1.6px solid #eee;
+}
+.post-content h2{
+    border-bottom: 1.6px dashed #eee;
+}
+.post-content h3{
+    border-bottom: 1.4px dotted #eee;
+}
+.post-content h4{
+    border-bottom: 1.0px dotted #eee;
+}
+.post-content h5{
+    border-bottom: 0.8px dotted #eee;
+}
+.post-content h6{
+    border-bottom: 0.5px dotted #eee;
+}
+
+$global-font-color: #111;
+
+$post-meta-font-color: #666;
+
+li p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+// .daily-page-header {
+//     padding-bottom: .5em;
+//     border-bottom: 1px solid #e6e6e6
+// }
+
+.daily-page {
+    margin-top: .5em;
+}
+
+.daily-page ul {
+    // list-style-type: disc;
+    padding-left: 22px;
+}
+
+ul ul {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 18px;
+}
+
+ul ul ul {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 18px;
+}
+
+ul ul ul {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 18px;
+}
+
+// 进度条
+.gk-process {
+    width: 95%;
+    background-color: #ddd;
+    display: inline-block;
+}
+.gk-processbar {
+    height: 6px;
+    background-color: #2196F3;
+}
+.gk-percentage {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 10px;
+    color: white;
+}
+
+//////////////////////////////////////////
+.gk-container-grid {
+    display: flex;
+}
+
+.gk-container {
+    column-count: 2;
+    column-gap: 20px;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    .gk-container2 {
+        text-align: center;
+    }
+
+    .gk-img {
+        border: 1px solid #aaa;
+        border-radius: .2em;
+        padding: .2em;
+        display: inline;
+        width: 48%;
+    }}
+
+@media screen and (max-width: 600px) {
+    .gk-container2 {
+        text-align: center;
+    }
+    .gk-img {
+        border: 1px solid #aaa;
+        border-radius: .2em;
+        padding: .2em;
+        width: 100%;
+    }}
+
+.gk-img1 {
+    border:1px solid #ccc;
+    padding: .2em;
+    border-radius: .2em;
+}
+
+.gkpho-single-img {
+    margin: 0 .2em .4em 0;
+    border: 1px solid #ccc;
+    border-radius: .2em;
+    padding: .2em;
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    .gkpho-container {
+        margin-bottom: .5em;
+    }
+    .gkpho-img {
+        border: 1px solid #ccc;
+        border-radius: .2em;
+        padding: 2px;
+        display: inline;
+        width: 395px;
+    }}
+
+.gkpho-img-margin {
+    margin-left: 3px;
+}
+
+@media screen and (max-width: 600px) {
+    .gkpho-container {
+        text-align: center;
+    }
+    .gkpho-img {
+        margin: 0 0 .5em 0em;
+        border: 1px solid #ccc;
+        border-radius: .2em;
+        padding: .2em;
+        width: 95%;
+    }}

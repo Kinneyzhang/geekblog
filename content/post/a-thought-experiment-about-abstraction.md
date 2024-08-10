@@ -1,7 +1,7 @@
 ---
 title: "一个关于抽象的思想实验"
 date: 2024-05-29
-draft: false
+draft: true
 categories: ["计算机科学"]
 tags: ["SICP","emacs"]
 comment: false

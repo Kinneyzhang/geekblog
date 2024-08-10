@@ -1,7 +1,7 @@
 ---
 title: "总结《Pro git》"
 date: 2024-05-27
-draft: false
+draft: true
 categories: ["计算机科学"]
 tags: ["git"]
 comment: false

@@ -23,7 +23,7 @@ toc: true
 | [太空船博客](https://www.boatsky.com/)         | 甲刃的博客                                            |
 | [Hi, DIYgod](https://diygod.me/)               | 写代码是热爱，写到世界充满爱                          |
 | [青山绿水](https://zuofei.net/)                | 胡和先的个人博客                                      |
-| [阿川的个人博客](https://achuan.io/)           | 执着于理想, 纯粹于当下                                |
+| [游钓四方](https://lhasa.icu)           | 钓五湖四海，交八方朋友                                |
 | [三点水](https://lotabout.me/)                 | 不积小流, 无以成江海                                  |
 | [探索子](https://exploro.one/)                 | 越过星空去探索                                        |
 | [梁了一的个人博客](https://liangzid.github.io) | 梁了一同学写字的地方，欢迎围观~                       |

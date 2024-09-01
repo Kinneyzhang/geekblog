@@ -1,7 +1,7 @@
 ---
 title: "提出正确的问题"
 date: 2024-06-23
-draft: false
+draft: true
 categories: ["问题探究"]
 tags: ["提问"]
 comment: false

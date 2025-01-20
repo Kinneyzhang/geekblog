@@ -1,6 +1,7 @@
+content/
 public
 *.DS_Store
-*push.sh
-*rsync.sh
-*deploy.sh
-*.hugo_build.lock
+push.sh
+rsync.sh
+deploy.sh
+.hugo_build.lock

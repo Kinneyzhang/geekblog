@@ -1,7 +1,7 @@
 ---
 title: "Get A NAS"
 date: 2023-12-18
-draft: false
+draft: true
 categories: [""]
 tags: ["NAS"]
 comment: false

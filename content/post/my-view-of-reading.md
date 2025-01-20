@@ -1,6 +1,6 @@
 ---
 title: 关于阅读
-date: 2021-08-29T08:57:10+08:00
+date: 2021-08-29
 draft: false
 categories: ["杂谈杂感"]
 tags: ["杂思", "阅读"]

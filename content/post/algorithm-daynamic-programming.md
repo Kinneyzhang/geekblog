@@ -1,5 +1,5 @@
 ---
-title: "“动态规划”总结"
+title: “动态规划”总结
 date: 2023-11-09
 draft: true
 categories: ["数据结构与算法"]

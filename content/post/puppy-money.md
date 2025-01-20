@@ -1,6 +1,6 @@
 ---
 title: 《小狗钱钱》摘录
-date: 2021-08-29T10:49:38+08:00
+date: 2021-08-29
 draft: true
 categories: ["读书破万卷"]
 tags: ["读书笔记"]

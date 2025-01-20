@@ -1,6 +1,11 @@
+// @font-face {
+//   font-family: 'jinkaiFont';
+//   src: url('../fonts/jinkai.ttf');
+// }
+
 @font-face {
-  font-family: 'jinkaiFont';
-  src: url('../fonts/jinkai.ttf');
+  font-family: 'JuZhenXinFang';
+  src: url('../fonts/聚珍新仿.ttf');
 }
 
 html {
@@ -11,7 +16,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: 'jinkaiFont', $global-font-family;
+  font-family: 'JuZhenXinFang', $global-font-family;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

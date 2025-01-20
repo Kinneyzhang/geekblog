@@ -1,7 +1,7 @@
 ---
 title: Meteor 指南
 date: 2021-10-17
-draft: false
+draft: true
 categories: ["技术文档"]
 tags: ["Meteor", "翻译"]
 comment: false

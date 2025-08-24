@@ -5,7 +5,36 @@
 
 @font-face {
   font-family: 'JuZhenXinFang';
-  src: url('../fonts/聚珍新仿.ttf');
+  src: url('../fonts/方正聚珍新仿.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; /* 性能优化 */
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('../fonts/JetBrainsMono/JetBrainsMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 粗体变体 */
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('../fonts/JetBrainsMono/JetBrainsMono-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 斜体变体 */
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('../fonts/JetBrainsMono/JetBrainsMono-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
 }
 
 html {
